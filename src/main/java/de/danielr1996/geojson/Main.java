@@ -31,14 +31,16 @@ public class Main {
                 "Samnaun",
                 "Raetikon",
                 "Plessuralpen",
-                "Albulaalpen"
+                "Albulaalpen",
+                "OetztalerAlpen",
+                "Sesvenna"
         );
         FeatureCollection featureCollection = new FeatureCollection();
 
         polygons
                 .map(Generator::generate)
                 .forEach(featureCollection::add);
-            Util.writeGeoJsonObject(featureCollection,new File("src/main/res/generated/FeatureCollection.geojson"));
+        Util.writeGeoJsonObject(featureCollection, new File("src/main/res/generated/FeatureCollection.geojson"));
 
     }
 }
