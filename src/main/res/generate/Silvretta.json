@@ -1,0 +1,21 @@
+{
+  "name": "Silvretta",
+  "lines": [
+    "Inn-Ramosch-Susch",
+    "Susaca-Susch-Flüelapass",
+    "Flüela-Flüelaüpass-Davos",
+    "Davos-KlostersPlatz",
+    "Landquart-KlostersPlatz-KlostersDorf",
+    "SchlapppinerBach-KlostersDorf-SchlappinerJoch",
+    "ValzifenzerBach-SchlappinerJoch-Gargellen",
+    "Suggadinbach-Gargallen-Galgenul",
+    "Gweilbach-Galgenul-Ill",
+    "Ill-Galgenul-Partenen",
+    "Verbellabach-Partenen-Zeinisbach",
+    "Zeinisbach-Verbellabach-Zeinisjoch",
+    "Zeinisbach-Zeinisjoch-Trisana",
+    "Trisana-Zeinisbach-Ischgl",
+    "Fimbabach-Ischgl-Fimberpass",
+    "Branclabach-Fimberpass-Ramosch"
+  ]
+}
