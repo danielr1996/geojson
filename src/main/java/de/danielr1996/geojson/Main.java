@@ -35,11 +35,6 @@ public class Main {
 
         polygons
                 .map(Generator::generate)
-                .map(polygon -> {
-                    Feature feature = new Feature();
-                    feature.setGeometry(polygon);
-                    return feature;
-                })
                 .forEach(featureCollection::add);
             Util.writeGeoJsonObject(featureCollection,new File("C:/workspace/geojson/src/main/res/generated/FeatureCollection.geojson"));
 //        Util.writeGeoJsonObject(verwall,new File("C:/workspace/geojson/src/main/res/generated/Verwall.geojson"));
