@@ -3,8 +3,10 @@ package de.danielr1996.geojson.geojson;
 import org.geojson.Feature;
 import org.geojson.FeatureCollection;
 import org.geojson.LineString;
+import org.geojson.MultiPoint;
 import org.geojson.Point;
 
+import java.util.Collections;
 import java.util.stream.Stream;
 
 public class LineStrings {
@@ -34,5 +36,17 @@ public class LineStrings {
                 .distinct()
                 .forEach(newLineString::add);
         return newLineString;
+    }
+
+    public static MultiPoint toMultiPoint(LineString lineString) {
+        MultiPoint multiPoint = new MultiPoint();
+        lineString.getCoordinates().stream().forEach(multiPoint::add);
+
+        return multiPoint;
+    }
+
+    public static LineString reverse(LineString lineString){
+        Collections.reverse(lineString.getCoordinates());
+        return lineString;
     }
 }

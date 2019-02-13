@@ -8,12 +8,4 @@ public class FeatureCollections {
     public static LineString extractLineString(FeatureCollection featureCollection) {
         return (LineString) featureCollection.getFeatures().get(0).getGeometry();
     }
-
-    public static MultiPoint toMultiPoint(FeatureCollection featureCollection){
-        MultiPoint multiPoint = new MultiPoint();
-
-        extractLineString(featureCollection).getCoordinates().stream().forEach(multiPoint::add);
-
-        return multiPoint;
-    }
 }

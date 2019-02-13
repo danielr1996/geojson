@@ -1,0 +1,33 @@
+{
+  "name": "Verwall",
+  "lines": [
+    {
+      "name": "Alfenz-Bludenz-Arlberg"
+    },
+    {
+      "name": "Rosanna-Arlberg-Wiesberg"
+    },
+    {
+      "name": "Trisanna-Wiesberg-Ischgl"
+    },
+    {
+      "name": "Trisanna-Zeinisbach-Ischgl"
+    },
+    {
+      "name": "Zeinisbach-Zeinisjoch-Trisana"
+    },
+    {
+      "name": "Zeinisbach-Verbellabach-Zeinisjoch"
+    },
+    {
+      "name": "Verbellabach-Partenen-Zeinisbach",
+      "order": "reverse"
+    },
+    {
+      "name": "Ill-Galgenul-Partenen"
+    },
+    {
+      "name": "Ill-Galgenul-Bludenz"
+    }
+  ]
+}

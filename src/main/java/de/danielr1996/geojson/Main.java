@@ -7,6 +7,9 @@ import de.danielr1996.geojson.geojson.Polygons;
 import de.danielr1996.geojson.geojson.Util;
 import de.danielr1996.geojson.topojson.Definition;
 import de.danielr1996.geojson.topojson.Definitions;
+import de.danielr1996.geojson.topojson.Generator;
+import org.geojson.Feature;
+import org.geojson.FeatureCollection;
 import org.geojson.GeoJsonObject;
 import org.geojson.LineString;
 import org.geojson.MultiPoint;
@@ -18,26 +21,23 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) throws URISyntaxException, IOException {
-        Definition silvrettaDefintion = Definitions.read(new File("C:/workspace/geojson/src/main/res/generate/Silvretta.json"));
+        Stream<String> polygons = Stream.of("Silvretta", "Verwall","Samnaun");
+        FeatureCollection featureCollection = new FeatureCollection();
 
-        System.out.println(silvrettaDefintion);
-
-        MultiPoint silvrettaMultipoint =
-        silvrettaDefintion.lines.stream()
-                .map(line-> String.format("C:/workspace/geojson/src/main/res/base/rivers/%s.geojson", line))
-//                Files.list(Paths.get(ClassLoader.getSystemResource("").toURI()))
-//                .map(Path::toString)
-//                .filter(path -> path.endsWith("geojson"))
-                .map(File::new)
-                .map(Util::readFeatureCollection)
-                .map(FeatureCollections::toMultiPoint)
-                .reduce(null, MultiPoints::merge);
-        Polygon silvretta = Polygons.fromMultiPoint((MultiPoint)silvrettaMultipoint);
-//                .forEach(System.out::println);
-        Util.writeGeoJsonObject(silvretta, new File("C:/workspace/geojson/src/main/res/generated/Silvretta.geo.json"));
+        polygons
+                .map(Generator::generate)
+                .map(polygon -> {
+                    Feature feature = new Feature();
+                    feature.setGeometry(polygon);
+                    return feature;
+                })
+                .forEach(featureCollection::add);
+            Util.writeGeoJsonObject(featureCollection,new File("C:/workspace/geojson/src/main/res/generated/FeatureCollection.geojson"));
+//        Util.writeGeoJsonObject(verwall,new File("C:/workspace/geojson/src/main/res/generated/Verwall.geojson"));
 
     }
 }

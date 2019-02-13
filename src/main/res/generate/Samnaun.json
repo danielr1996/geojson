@@ -1,0 +1,22 @@
+{
+  "name": "Samnaun",
+  "lines": [
+    {
+      "name": "Sanna-Wiesberg-Landeck"
+    },
+    {
+      "name": "Inn-Landeck-Ramosch",
+      "order": "reverse"
+    },
+    {
+      "name": "Brancia-Fimberpass-Ramosch",
+      "order": "reverse"
+    },
+    {
+      "name": "Fimbabach-Ischgl-Fimberpass"
+    },
+    {
+      "name": "Trisanna-Wiesberg-Ischgl"
+    }
+  ]
+}

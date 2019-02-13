@@ -2,7 +2,7 @@ package de.danielr1996.geojson.topojson;
 
 import java.util.List;
 
-public class Definition {
+public class Line {
     public String name;
-    public List<Line> lines;
+    public String order;
 }
