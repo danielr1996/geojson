@@ -1,8 +1,5 @@
 package de.danielr1996.geojson.geojson;
 
-import com.sun.org.apache.xpath.internal.operations.Mult;
-import org.geojson.FeatureCollection;
-import org.geojson.LineString;
 import org.geojson.LngLatAlt;
 import org.geojson.MultiPoint;
 import org.geojson.Polygon;

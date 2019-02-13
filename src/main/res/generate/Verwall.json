@@ -12,10 +12,12 @@
       "name": "Alfenz-Bludenz-Arlberg"
     },
     {
-      "name": "Rosanna-Arlberg-Wiesberg"
+      "name": "Rosanna-Arlberg-Wiesberg",
+      "order":"reverse"
     },
     {
-      "name": "Trisanna-Wiesberg-Ischgl"
+      "name": "Trisanna-Wiesberg-Ischgl",
+      "order":"reverse"
     },
     {
       "name": "Trisanna-Zeinisbach-Ischgl"
@@ -24,7 +26,8 @@
       "name": "Zeinisbach-Zeinisjoch-Trisana"
     },
     {
-      "name": "Zeinisbach-Verbellabach-Zeinisjoch"
+      "name": "Zeinisbach-Verbellabach-Zeinisjoch",
+      "order": "reverse"
     },
     {
       "name": "Verbellabach-Partenen-Zeinisbach",
@@ -34,7 +37,8 @@
       "name": "Ill-Galgenul-Partenen"
     },
     {
-      "name": "Ill-Galgenul-Bludenz"
+      "name": "Ill-Galgenul-Bludenz",
+      "order":"reverse"
     }
   ]
 }

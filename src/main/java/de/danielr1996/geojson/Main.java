@@ -29,15 +29,16 @@ public class Main {
                 "Silvretta",
                 "Verwall",
                 "Samnaun",
-                "Raetikon"
+                "Raetikon",
+                "Plessuralpen",
+                "Albulaalpen"
         );
         FeatureCollection featureCollection = new FeatureCollection();
 
         polygons
                 .map(Generator::generate)
                 .forEach(featureCollection::add);
-            Util.writeGeoJsonObject(featureCollection,new File("C:/workspace/geojson/src/main/res/generated/FeatureCollection.geojson"));
-//        Util.writeGeoJsonObject(verwall,new File("C:/workspace/geojson/src/main/res/generated/Verwall.geojson"));
+            Util.writeGeoJsonObject(featureCollection,new File("src/main/res/generated/FeatureCollection.geojson"));
 
     }
 }

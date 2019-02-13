@@ -23,13 +23,15 @@
       "name": "Landquart-Rhein-Schlappinbach"
     },
     {
-      "name": "SchlapppinerBach-KlostersDorf-SchlappinerJoch"
+      "name": "SchlapppinerBach-KlostersDorf-SchlappinerJoch",
+      "order": "reverse"
     },
     {
       "name": "ValzifenzerBach-SchlappinerJoch-Gargellen"
     },
     {
-      "name": "Suggadinbach-Gargallen-Galgenul"
+      "name": "Suggadinbach-Gargallen-Galgenul",
+      "order": "reverse"
     },
     {
       "name": "Gweilbach-Galgenul-Ill"
