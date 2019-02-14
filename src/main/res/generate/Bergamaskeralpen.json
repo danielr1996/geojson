@@ -25,7 +25,8 @@
       "name": "Edolo-PassoAprica-Oglio"
     },
     {
-      "name": "Oglio-Edolo-LagoDIseo"
+      "name": "Oglio-Edolo-LagoDIseo",
+      "order": "reverse"
     },
     {
       "name": "LagoDIseo-Oglio-Oglio"
@@ -37,7 +38,8 @@
       "name": "Sonna-Adda"
     },
     {
-      "name": "Adda-Sonna-LagoDiComo"
+      "name": "Adda-Sonna-LagoDiComo",
+      "order": "reverse"
     },
     {
       "name": "LagoDiComo-Adda-Adda"

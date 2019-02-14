@@ -39,10 +39,12 @@
       "name": "Poschiavino-Berninapass-Adda"
     },
     {
-      "name": "Adda-Belviso-Poschiavino"
+      "name": "Adda-Belviso-Poschiavino",
+      "order": "reverse"
     },
     {
-      "name": "Adda-Belviso-LagoDiComo"
+      "name": "Adda-Belviso-LagoDiComo",
+      "order": "reverse"
     },
     {
       "name": "LagoDiComo-Adda-Maira"
