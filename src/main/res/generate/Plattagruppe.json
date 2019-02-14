@@ -29,10 +29,15 @@
       "name": "Maira-Orlegna-Liro"
     },
     {
-      "name": "Liro-Maira-Splügenpass"
+      "name": "Liro-Maira-Splügenpass",
+      "order": "reverse"
     },
     {
       "name": "Huescherenbach-Splügen-Hinterrhein"
+    },
+    {
+      "name": "Hinterrhein-Huescherenbach-Albula",
+      "order": "reverse"
     }
   ]
 }

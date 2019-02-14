@@ -12,14 +12,11 @@
       "name": "Maira-Liro-LagoDiComo"
     },
     {
-      "name": "Orlegna-Majola-Maira"
-    },
-    {
-      "name": "Maira-Orlegna-Liro"
-    },
-    {
-      "name": "Orlegna-Majola-Maira",
+      "name": "Maira-Orlegna-Liro",
       "order": "reverse"
+    },
+    {
+      "name": "Orlegna-Majola-Maira"
     },
     {
       "name": "Sela-StMoritzerSee-Maloja",

@@ -37,7 +37,7 @@ public class Main {
                 "Bregenzerwaldgebirge",
                 "Plattagruppe",
                 "Berninaalpen",
-                "Bergamaskegit ralpen"
+                "Bergamaskeralpen"
         );
         FeatureCollection featureCollection = new FeatureCollection();
 
