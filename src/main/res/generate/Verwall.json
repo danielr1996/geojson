@@ -9,10 +9,15 @@
   },
   "lines": [
     {
-      "name": "Alfenz-Bludenz-Arlberg"
+      "name": "Alfenz-Bludenz-Rauzbach"
+    },{
+      "name": "Rauzbach-Alfenz-Arlberg"
     },
     {
-      "name": "Rosanna-Arlberg-Wiesberg",
+      "name": "Arlenbach-Arlberg-Rosanna",
+      "order":"reverse"
+    },{
+      "name": "Rosanna-Arlenbach-Wiesberg",
       "order":"reverse"
     },
     {

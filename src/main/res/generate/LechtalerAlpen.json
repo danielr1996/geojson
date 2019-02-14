@@ -1,0 +1,54 @@
+{
+  "name": "Lechtaler Alpen",
+  "properties": {
+    "stroke": "#555555",
+    "stroke-width": 2,
+    "stroke-opacity": 1,
+    "fill": "#abccba",
+    "fill-opacity": 0.5
+  },
+  "lines": [
+    {
+      "name": "Lech-Krumbach-Reutte"
+    },
+    {
+      "name": "Lech-Krumbach-Zürsbach"
+    },
+    {
+      "name": "Zürsbach-Lech-Flexenbach"
+    },
+    {
+      "name": "Flexenbach-Zürsbach-Rauzbach"
+    },
+    {
+      "name": "Rauzbach-Alfenz-Arlberg"
+    },
+    {
+      "name": "Arlenbach-Arlberg-Rosanna",
+      "order": "reverse"
+    },
+    {
+      "name": "Rosanna-Arlenbach-Wiesberg",
+      "order": "reverse"
+    },
+    {
+      "name": "Sanna-Wiesberg-Landeck"
+    },
+    {
+      "name": "Inn-Sanna-Gurglbach"
+    },
+    {
+      "name": "Gurglbach-Inn-Fernpass"
+    },
+    {
+      "name": "Fernpass-Gurglbach-Loisach"
+    },
+    {
+      "name": "Loisach-Fernpass-Lussbach"
+    },
+    {
+      "name": "Zwischentoren-Reutte-Loisach",
+      "order": "reverse"
+    }
+  ]
+}

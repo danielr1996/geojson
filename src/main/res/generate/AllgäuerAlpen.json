@@ -1,0 +1,46 @@
+{
+  "name": "Allgäueralpen",
+  "properties": {
+    "stroke": "#555555",
+    "stroke-width": 2,
+    "stroke-opacity": 1,
+    "fill": "#fedcba",
+    "fill-opacity": 0.5
+  },
+  "lines": [
+    {
+      "name": "AllgäuerAlpen-Nordgrenze"
+    },
+    {
+      "name": "Leiblach-Bodensee-Rickenbach"
+    },
+    {
+      "name": "Bodensee-BregenzerAche-Leiblach"
+    },
+    {
+      "name": "BregenzerAche-Subersach-Bodensee",
+      "order": "reverse"
+    },
+    {
+      "name": "Subersach-StoggerSattel-BregenzerAche"
+    },
+    {
+      "name": "StoggerSattel"
+    },
+    {
+      "name": "BregenzerAche-StoggerSattel-Seebach"
+    },
+    {
+      "name": "Seebach-BregenzerAche-Hochtannbergpass"
+    },
+    {
+      "name": "Krumbach-Hochtannbergpass-Lech"
+    },
+    {
+      "name": "Lech-Krumbach-Reutte"
+    },
+    {
+      "name": "Lech-Reutte-Vils"
+    }
+  ]
+}
