@@ -1,0 +1,54 @@
+{
+  "name": "Berninaalpen",
+  "properties": {
+    "stroke": "#555555",
+    "stroke-width": 2,
+    "stroke-opacity": 1,
+    "fill": "#ff9900",
+    "fill-opacity": 0.5
+  },
+  "lines": [
+    {
+      "name": "Maira-Liro-LagoDiComo"
+    },
+    {
+      "name": "Orlegna-Majola-Maira"
+    },
+    {
+      "name": "Maira-Orlegna-Liro"
+    },
+    {
+      "name": "Orlegna-Majola-Maira",
+      "order": "reverse"
+    },
+    {
+      "name": "Sela-StMoritzerSee-Maloja",
+      "order": "reverse"
+    },
+    {
+      "name": "Inn-Samedan-StMoritzerSee"
+    },
+    {
+      "name": "Flaz-Samedan-Bernina",
+      "order": "reverse"
+    },
+    {
+      "name": "Bernina-Flaz-Berninapass"
+    },
+    {
+      "name": "Berninapass"
+    },
+    {
+      "name": "Poschiavino-Berninapass-Adda"
+    },
+    {
+      "name": "Adda-Belviso-Poschiavino"
+    },
+    {
+      "name": "Adda-Belviso-LagoDiComo"
+    },
+    {
+      "name": "LagoDiComo-Adda-Maira"
+    }
+  ]
+}
