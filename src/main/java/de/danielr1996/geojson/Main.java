@@ -26,14 +26,15 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) throws URISyntaxException, IOException {
         Stream<String> polygons = Stream.of(
-                "Silvretta",
+//                "Silvretta",
                 "Verwall",
-                "Samnaun",
+//                "Samnaun",
                 "Raetikon",
-                "Plessuralpen",
-                "Albulaalpen",
-                "OetztalerAlpen",
-                "Sesvenna"
+//                "Plessuralpen",
+//                "Albulaalpen",
+//                "OetztalerAlpen",
+//                "Sesvenna",
+                "Bregenzerwaldgebirge"
         );
         FeatureCollection featureCollection = new FeatureCollection();
 

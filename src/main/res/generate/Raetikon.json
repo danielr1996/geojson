@@ -13,7 +13,11 @@
       "order": "reverse"
     },
     {
-      "name": "Ill-Bludenz-Rhein",
+      "name": "Ill-Bludenz-Lutz",
+      "order": "reverse"
+    },
+    {
+      "name": "Ill-Lutz-Rhein",
       "order": "reverse"
     },
     {
