@@ -1,12 +1,5 @@
 {
   "name": "Verwall",
-  "properties": {
-    "stroke": "#555555",
-    "stroke-width": 2,
-    "stroke-opacity": 1,
-    "fill": "#a8029b",
-    "fill-opacity": 0.1
-  },
   "lines": [
     {
       "name": "Alfenz-Bludenz-Rauzbach"

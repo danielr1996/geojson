@@ -1,12 +1,5 @@
 {
   "name": "Lechquellengebirge",
-  "properties": {
-    "stroke": "#555555",
-    "stroke-width": 2,
-    "stroke-opacity": 1,
-    "fill": "#00ffff",
-    "fill-opacity": 0.1
-  },
   "lines": [
     {
       "name": "Lutz-Seebergbach-Ill"
@@ -26,19 +19,22 @@
       "name": "BregenzerAche-StoggerSattel-Seebach"
     },
     {
-      "name": "Seebach-BregenzerAche-Hochtannbergpass"
+      "name": "Seebach-BregenzerAche-Hochtannbergpass",
+      "order": "reverse"
     },
     {
       "name": "Krumbach-Hochtannbergpass-Lech"
     },
     {
-      "name": "Lech-Krumbach-Zürsbach"
+      "name": "Lech-Krumbach-Zürsbach",
+      "order": "reverse"
     },
     {
       "name": "Zürsbach-Lech-Flexenbach"
     },
     {
-      "name": "Flexenbach-Zürsbach-Rauzbach"
+      "name": "Flexenbach-Zürsbach-Rauzbach",
+      "order": "reverse"
     },
     {
       "name": "Alfenz-Bludenz-Rauzbach",

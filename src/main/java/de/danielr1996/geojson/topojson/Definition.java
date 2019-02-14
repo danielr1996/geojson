@@ -6,19 +6,6 @@ import java.util.List;
 
 public class Definition {
     public String name;
-    public Properties properties;
+    public Properties properties = new Properties();
     public List<Line> lines;
-}
-
-class Properties{
-    @JsonProperty("stroke")
-    String stroke;
-    @JsonProperty("stroke-width")
-    String strokeWidth;
-    @JsonProperty("stroke-opacity")
-    String strokeOpacity;
-    @JsonProperty("fill")
-    String fill;
-    @JsonProperty("fill-opacity")
-    String fillOpacity;
 }

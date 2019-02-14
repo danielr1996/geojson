@@ -14,9 +14,8 @@ import java.io.File;
 import java.io.InputStream;
 
 public class Generator {
-    public static Feature generate(String name) {
+    public static Feature generate(Definition definition) {
 //        Definition definition = Definitions.read(new File("C:/workspace/geojson/src/main/res/generate/" + name + ".json"));
-        Definition definition = Definitions.read(Generator.class.getResourceAsStream(String.format("/generate/%s.json", name)));
         MultiPoint multipoint =
                 definition.lines.stream()
                         .map(line -> {
@@ -34,11 +33,11 @@ public class Generator {
         Feature feature = new Feature();
         if (definition.properties != null) {
             feature.setProperty("name", definition.name);
-            feature.setProperty("stroke", definition.properties.stroke);
-            feature.setProperty("strokeOpacity", definition.properties.strokeOpacity);
-            feature.setProperty("strokeWidth", definition.properties.strokeWidth);
-            feature.setProperty("fill", definition.properties.fill);
-            feature.setProperty("fillOpacity", definition.properties.fillOpacity);
+            feature.setProperty("stroke", definition.properties.getStroke());
+            feature.setProperty("stroke-opacity", definition.properties.getStrokeOpacity());
+            feature.setProperty("stroke-width", definition.properties.getStrokeWidth());
+            feature.setProperty("fill", definition.properties.getFill());
+            feature.setProperty("fill-opacity", definition.properties.getFillOpacity());
         }
         feature.setGeometry(polygon);
         return feature;
