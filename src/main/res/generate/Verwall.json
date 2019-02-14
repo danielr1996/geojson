@@ -5,24 +5,26 @@
     "stroke-width": 2,
     "stroke-opacity": 1,
     "fill": "#a8029b",
-    "fill-opacity": 0.5
+    "fill-opacity": 0.1
   },
   "lines": [
     {
       "name": "Alfenz-Bludenz-Rauzbach"
-    },{
+    },
+    {
       "name": "Rauzbach-Alfenz-Arlberg"
     },
     {
       "name": "Arlenbach-Arlberg-Rosanna",
-      "order":"reverse"
-    },{
+      "order": "reverse"
+    },
+    {
       "name": "Rosanna-Arlenbach-Wiesberg",
-      "order":"reverse"
+      "order": "reverse"
     },
     {
       "name": "Trisanna-Wiesberg-Ischgl",
-      "order":"reverse"
+      "order": "reverse"
     },
     {
       "name": "Trisanna-Zeinisbach-Ischgl"
@@ -43,7 +45,7 @@
     },
     {
       "name": "Ill-Galgenul-Bludenz",
-      "order":"reverse"
+      "order": "reverse"
     }
   ]
 }

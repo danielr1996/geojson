@@ -5,7 +5,7 @@
     "stroke-width": 2,
     "stroke-opacity": 1,
     "fill": "#00ccff",
-    "fill-opacity": 0.5
+    "fill-opacity": 0.1
   },
   "lines": [
     {
@@ -26,7 +26,8 @@
       "name": "Lutz-Seebergbach-Ill"
     },
     {
-      "name": "Faschinajoch"
+      "name": "Faschinajoch",
+      "order": "reverse"
     },
     {
       "name": "Argenbach-Faschinajoch-BregenzerAche"

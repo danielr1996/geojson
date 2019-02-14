@@ -16,7 +16,8 @@ public class Main {
                 "AllgäuerAlpen",
                 "LechtalerAlpen",
                 "AmmergauerAlpen",
-                "Wettersteingebirge"
+                "Wettersteingebirge",
+                "Lechquellengebirge"
         );
         Stream<String> zentraleostalpen = Stream.of(
                 "OetztalerAlpen",
@@ -35,8 +36,8 @@ public class Main {
 
         );
         Stream<String> polygons = Stream.of(
-                noerdlicheostalpen
-//                zentraleostalpen,
+                noerdlicheostalpen,
+                zentraleostalpen
 //                suedlicheostalpen
         ).reduce(Stream::concat)
                 .orElseGet(Stream::empty);

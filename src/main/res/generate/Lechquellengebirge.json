@@ -1,0 +1,52 @@
+{
+  "name": "Lechquellengebirge",
+  "properties": {
+    "stroke": "#555555",
+    "stroke-width": 2,
+    "stroke-opacity": 1,
+    "fill": "#00ffff",
+    "fill-opacity": 0.1
+  },
+  "lines": [
+    {
+      "name": "Lutz-Seebergbach-Ill"
+    },
+    {
+      "name": "Faschinajoch",
+      "order": "reverse"
+    },
+    {
+      "name": "Argenbach-Faschinajoch-BregenzerAche"
+    },
+    {
+      "name": "BregenzerAche-Rehmerbach-Argenbach",
+      "order": "reverse"
+    },
+    {
+      "name": "BregenzerAche-StoggerSattel-Seebach"
+    },
+    {
+      "name": "Seebach-BregenzerAche-Hochtannbergpass"
+    },
+    {
+      "name": "Krumbach-Hochtannbergpass-Lech"
+    },
+    {
+      "name": "Lech-Krumbach-Zürsbach"
+    },
+    {
+      "name": "Zürsbach-Lech-Flexenbach"
+    },
+    {
+      "name": "Flexenbach-Zürsbach-Rauzbach"
+    },
+    {
+      "name": "Alfenz-Bludenz-Rauzbach",
+      "order": "reverse"
+    },
+    {
+      "name": "Ill-Bludenz-Lutz",
+      "order": "reverse"
+    }
+  ]
+}
