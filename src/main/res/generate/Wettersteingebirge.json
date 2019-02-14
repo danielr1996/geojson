@@ -1,0 +1,63 @@
+{
+  "name": "Wettersteingebirge",
+  "properties": {
+    "stroke": "#555555",
+    "stroke-width": 2,
+    "stroke-opacity": 1,
+    "fill": "#ffff00",
+    "fill-opacity": 0.5
+  },
+  "lines": [
+    {
+      "name": "Gaisbach-Verbindung-Loisach"
+    },
+    {
+      "name": "Verbindung-LeutascherAche-Gaisbach"
+    },
+    {
+      "name": "LeutascherAche-Verbindung-Verbindung"
+    },
+    {
+      "name": "Verbindung-LeutascherAche-Bodenbach"
+    },
+    {
+      "name": "Bodenbach-Gießenbach-Verbindung"
+    },
+    {
+      "name": "Drahnbach-Gießenbach-Bodenbach"
+    },
+    {
+      "name": "Gießenbach-Isar-Drahnbach"
+    },
+    {
+      "name": "Isar-LeutascherAche-Gießenbach"
+    },
+    {
+      "name": "Isar-Finzbach-LeutascherAche"
+    },
+    {
+      "name": "Finzbach-Verbindung-Isar"
+    },
+    {
+      "name": "Verbindung-Kranzbach-Finzbach"
+    },
+    {
+      "name": "Kranzbach-Verbindung-Finzbachstraße"
+    },
+    {
+      "name": "Verbindung-Krankerbach-Kranzbach"
+    },
+    {
+      "name": "Krankerbach-Partnach-Quelle"
+    },
+    {
+      "name": "Partnach-Loisach-Krankerbach"
+    },
+    {
+      "name": "Loisach-Zwischentoren-Partnach"
+    },
+    {
+      "name": "Loisach-Gaisbach-Lussbach"
+    }
+  ]
+}

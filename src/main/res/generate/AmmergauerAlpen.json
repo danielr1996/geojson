@@ -1,0 +1,30 @@
+{
+  "name": "Ammgergauer Alpen",
+  "properties": {
+    "stroke": "#555555",
+    "stroke-width": 2,
+    "stroke-opacity": 1,
+    "fill": "#654321",
+    "fill-opacity": 0.5
+  },
+  "lines": [
+    {
+      "name": "Zwischentoren-Reutte-Loisach"
+    },
+    {
+      "name": "Loisach-Zwischentoren-Partnach"
+    },{
+      "name": "Loisach-Partnach-Eschenlohe"
+    },
+    {
+      "name": "AmmergauerAlpen-Nordgrenze",
+      "order": "reverse"
+    },
+    {
+      "name": "Lech-Vils-Füssen"
+    },
+    {
+      "name": "Lech-Reutte-Vils"
+    }
+  ]
+}

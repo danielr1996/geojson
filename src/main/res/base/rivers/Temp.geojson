@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.994524955749512,
+            47.37452340989396
+          ],
+          [
+            11.088638305664062,
+            47.36278088960837
+          ],
+          [
+            11.14446848630905,
+            47.36645979141935
+          ],
+          [
+            11.170874834060669,
+            47.36011375247198
+          ],
+          [
+            11.23259514570236,
+            47.368970381059995
+          ],
+          [
+            11.238506734371185,
+            47.381270906199504
+          ],
+          [
+            11.262769997119904,
+            47.39098832610328
+          ],
+          [
+            11.258483827114105,
+            47.4312916678461
+          ]
+        ]
+      }
+    }
+  ]
+}
+
+    //Leutascher Ache bis Ostbach
+    //Verbindung Ostbach Bodenbach
+    // Bodenbach bis Drahnbach
+    // Drahnbach bis Gießenbach
+    // Gießenbach bis Isar
+    // Isar bis Leutascher Ache
