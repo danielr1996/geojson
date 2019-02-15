@@ -40,7 +40,12 @@
       "name": "Fernpass-Gurglbach-Loisach"
     },
     {
-      "name": "Loisach-Fernpass-Lussbach"
+      "name": "Loisach-Fernpass-Gaisbach",
+      "order": "reverse"
+    },
+    {
+      "name": "Loisach-Gaisbach-Lussbach",
+      "order": "reverse"
     },
     {
       "name": "Zwischentoren-Reutte-Loisach",

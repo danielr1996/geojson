@@ -22,7 +22,8 @@ public class Main {
                 "LechtalerAlpen",
                 "AmmergauerAlpen",
                 "Wettersteingebirge",
-                "Lechquellengebirge"
+                "Lechquellengebirge",
+                "BayrischeVoralpen"
         );
         Stream<String> zentraleostalpen = Stream.of(
                 "OetztalerAlpen",
@@ -42,8 +43,9 @@ public class Main {
         );
         Stream<String> polygons = Stream.of(
                 noerdlicheostalpen,
-                zentraleostalpen
-//                suedlicheostalpen
+//                zentraleostalpen
+//                suedlicheostalpen,
+                Stream.<String>empty()
         ).reduce(Stream::concat)
                 .orElseGet(Stream::empty);
         FeatureCollection featureCollection = new FeatureCollection();
