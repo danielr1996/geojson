@@ -18,6 +18,21 @@ public class LineStrings {
         return lineString;
     }
 
+    public static LineString ofFeature(Feature feature) {
+        GeoJsonObject geoJsonObject = feature.getGeometry();
+        if (!(geoJsonObject instanceof LineString)) {
+            throw new IllegalArgumentException("Feature does not contain LineString");
+        }
+
+        return (LineString) geoJsonObject;
+    }
+
+    public static LineString ofLineString(LineString lineString) {
+        LineString newLineString = new LineString();
+        newLineString.setCoordinates(lineString.getCoordinates());
+        return newLineString;
+    }
+
     public static boolean areFacing(LineString lineString1, LineString lineString2) {
         LngLatAlt head1 = LineStrings.start(lineString1);
         LngLatAlt head2 = LineStrings.start(lineString2);
@@ -39,54 +54,31 @@ public class LineStrings {
         return head1.equals(tail2) || head2.equals(tail1);
     }
 
-    // Falls die Linien in unterschiedliche Richtungen laufen (d.h. beide Heads oder Tails sind gleich) die 2te Linie umdrehen
-    public static Pair<LineString, LineString> alignDirection(LineString lineString1, LineString lineString2) {
-        if (areAverted(lineString1, lineString2)) {
-            lineString2 = LineStrings.reverse(lineString2);
-        }
-        if (areFacing(lineString1, lineString2)) {
-            lineString1 = LineStrings.reverse(lineString1);
-        }
-
-        return Pair.<LineString, LineString>builder().first(lineString1).second(lineString2).build();
-    }
-
 
     public static Feature merge(Feature baseFeature, Feature appendFeature) {
-        if (baseFeature == null || baseFeature == null) {
-            throw new IllegalArgumentException("LineString cannot be null");
-        }
-        if (baseFeature == null || baseFeature == null) {
+        if (baseFeature == null || appendFeature == null) {
             throw new IllegalArgumentException("LineString cannot be null");
         }
 
         LineString base = LineStrings.ofFeature(baseFeature);
         LineString append = LineStrings.ofFeature(appendFeature);
-        LineString newLineString = new LineString();
+        LineString newLineString;
         if (end(base).equals(start(append))) {
             newLineString = append(base, append);
-//            base = LineStrings.append(base, end(append));
         } else if (start(base).equals(end(append))) {
-            newLineString = prepend(base,append);
-//            base = LineStrings.prepend(base, start(append));
+            newLineString = prepend(base, append);
         } else if (start(base).equals(start(append))) {
             newLineString = prepend(base, reverse(append));
-//            base = LineStrings.prepend(base, end(append));
         } else if (end(base).equals(end(append))) {
             newLineString = append(base, reverse(append));
-//            base = LineStrings.append(base, start(append));
-        } else if (start(base).equals(end(append))) {
-            newLineString = prepend(base,append);
-//            base = LineStrings.prepend(base, start(append));
-        } else if (end(base).equals(start(append))) {
-            newLineString = append(base, append);
-//            base = LineStrings.append(base, end(append));
-        } else if (start(base).equals(start(append))) {
-            newLineString = prepend(base, reverse(append));
-//            base = LineStrings.prepend(base, end(append));
-        } else if (end(base).equals(end(append))) {
-            newLineString = append(base, reverse(append));
-//            base = LineStrings.append(base, start(append));
+//        } else if (start(base).equals(end(append))) {
+//            newLineString = prepend(base, append);
+       /* } else if (end(base).equals(start(append))) {
+//            newLineString = append(base, append);*/
+        /*} else if (start(base).equals(start(append))) {
+            newLineString = prepend(base, reverse(append));*/
+       /* } else if (end(base).equals(end(append))) {
+            newLineString = append(base, reverse(append));*/
         } else {
             throw new IllegalArgumentException("Not connected");
         }
@@ -141,22 +133,8 @@ public class LineStrings {
         return lineString;
     }
 
-    public static LineString ofFeature(Feature feature) {
-        GeoJsonObject geoJsonObject = feature.getGeometry();
-        if (!(geoJsonObject instanceof LineString)) {
-            throw new IllegalArgumentException("Feature does not contain LineString");
-        }
-
-        return (LineString) geoJsonObject;
-    }
 
     public static String toString(LineString lineString) {
         return lineString.getCoordinates().stream().map(Coordinates::toString).collect(Collectors.joining(" -> "));
-    }
-
-    public static LineString ofLineString(LineString lineString) {
-        LineString newLineString = new LineString();
-        newLineString.setCoordinates(lineString.getCoordinates());
-        return newLineString;
     }
 }
