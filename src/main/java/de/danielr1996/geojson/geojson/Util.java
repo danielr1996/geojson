@@ -1,5 +1,6 @@
 package de.danielr1996.geojson.geojson;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.geojson.Feature;
@@ -20,21 +21,23 @@ import java.util.stream.IntStream;
 public class Util {
     public static FeatureCollection readFeatureCollection(File file) {
         try {
-            return readFeatureCollection(new FileInputStream(file));
+            return readFeatureCollection(new FileInputStream(file), file.getName());
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.err.println("Fehler beim Einlesen der FeatureCollection");
         }
-        return null;
+        return new FeatureCollection();
     }
 
-    public static FeatureCollection readFeatureCollection(InputStream is) {
+    public static FeatureCollection readFeatureCollection(InputStream is, String name) {
         ObjectMapper om = new ObjectMapper();
         try {
-            return om.readValue(is, FeatureCollection.class);
+            FeatureCollection featureCollection = om.readValue(is, FeatureCollection.class);
+            featureCollection.getFeatures().get(0).setProperty("name",name);
+            return featureCollection;
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Fehler beim Einlesen der FeatureCollection");
         }
-        return null;
+        return new FeatureCollection();
     }
 
     public static void writeGeoJsonObject(GeoJsonObject geoJsonObject, OutputStream os) {
@@ -45,6 +48,17 @@ public class Util {
             e.printStackTrace();
         }
     }
+
+    public static String geoJsonObjectToString(GeoJsonObject geoJsonObject) {
+        ObjectMapper om = new ObjectMapper();
+        try {
+            return om.writeValueAsString(geoJsonObject);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
 
     public static void writeGeoJsonObject(GeoJsonObject geoJsonObject, File file) {
         ObjectMapper om = new ObjectMapper();

@@ -1,15 +1,24 @@
 package de.danielr1996.geojson.geojson;
 
+import org.geojson.LineString;
 import org.geojson.MultiPoint;
 
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 public class MultiPoints {
+    public static Function<LineString, MultiPoint> fromLineString = (LineString lineString) -> {
+        MultiPoint multiPoint = new MultiPoint();
+        lineString.getCoordinates().stream().forEach(multiPoint::add);
+
+        return multiPoint;
+    };
+
     public static MultiPoint merge(MultiPoint m1, MultiPoint m2) {
-        if(m1 == null && m2 != null){
+        if (m1 == null && m2 != null) {
             return m2;
         }
-        if(m2 == null && m1 != null){
+        if (m2 == null && m1 != null) {
             return m1;
         }
 
@@ -23,4 +32,11 @@ public class MultiPoints {
 
         return newMultiPoint;
     }
+
+    /*public static MultiPoint fromLineStringOld(LineString lineString) {
+        MultiPoint multiPoint = new MultiPoint();
+        lineString.getCoordinates().stream().forEach(multiPoint::add);
+
+        return multiPoint;
+    }*/
 }

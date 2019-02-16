@@ -22,8 +22,7 @@ public class Main {
                 "LechtalerAlpen",
                 "AmmergauerAlpen",
                 "Wettersteingebirge",
-                "Lechquellengebirge",
-                "BayrischeVoralpen"
+                "Lechquellengebirge"
         );
         Stream<String> zentraleostalpen = Stream.of(
                 "OetztalerAlpen",
@@ -41,16 +40,21 @@ public class Main {
                 "Bergamaskeralpen"
 
         );
-        Stream<String> polygons = Stream.of(
-                noerdlicheostalpen,
-//                zentraleostalpen
-//                suedlicheostalpen,
+
+        Stream<String> fehlerhafteGenerierung = Stream.of(
+                "BayrischeVoralpen"
+        );
+        Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
+        Stream<String> alle = Stream.of(
+                ostalpen,
+//                fehlerhafteGenerierung,
                 Stream.<String>empty()
-        ).reduce(Stream::concat)
-                .orElseGet(Stream::empty);
+        ).reduce(Stream::concat).orElseGet(Stream::empty);
+
+
         FeatureCollection featureCollection = new FeatureCollection();
 
-        Stream<Definition> definitions = polygons
+        Stream<Definition> definitions = alle
                 .map(name -> Definitions.read(Generator.class.getResourceAsStream(String.format("/generate/%s.json", name))));
 
         StreamUtils.zip(definitions, DistinctColors.distinctColors(), (Definition def, String color) -> {
@@ -62,7 +66,7 @@ public class Main {
         })
                 .map(Generator::generate)
                 .forEach(featureCollection::add);
-        Util.writeGeoJsonObject(featureCollection, new File("src/main/res/generated/FeatureCollection.geojson"));
+        Util.writeGeoJsonObject(featureCollection, new File("src/main/res/generated/FeatureCollection.geo.json"));
 
     }
 }

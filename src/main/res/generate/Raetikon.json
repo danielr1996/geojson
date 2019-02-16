@@ -1,14 +1,6 @@
 {
-  "name": "Rätikon",
+  "name": "RätikonTest",
   "lines": [
-    {
-      "name": "Ill-Galgenul-Bludenz",
-      "order": "reverse"
-    },
-    {
-      "name": "Ill-Bludenz-Lutz",
-      "order": "reverse"
-    },
     {
       "name": "Ill-Lutz-Rhein",
       "order": "reverse"
@@ -32,6 +24,14 @@
     },
     {
       "name": "Gweilbach-Galgenul-Ill"
+    },
+    {
+      "name": "Ill-Galgenul-Bludenz",
+      "order": "reverse"
+    },
+    {
+      "name": "Ill-Bludenz-Lutz",
+      "order": "reverse"
     }
   ]
 }

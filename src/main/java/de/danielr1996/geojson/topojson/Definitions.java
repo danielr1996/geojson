@@ -12,9 +12,9 @@ public class Definitions {
         try {
             return om.readValue(f, Definition.class);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Fehler beim einlesen der Definition");
         }
-        return null;
+        return new Definition();
     }
 
     public static Definition read(InputStream is){
@@ -22,8 +22,8 @@ public class Definitions {
         try {
             return om.readValue(is, Definition.class);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Fehler beim einlesen der Definition");
         }
-        return null;
+        return new Definition();
     }
 }

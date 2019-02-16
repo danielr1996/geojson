@@ -49,6 +49,12 @@
     },
     {
       "name": "Sattelbach-Quelle-Bairache"
+    },
+    {
+      "name": "Bairach-Sattelbach-BrandenbergerAche"
+    },
+    {
+      "name": "BrandenbergerAche-Bairach-Ellbach"
     }
   ]
 }

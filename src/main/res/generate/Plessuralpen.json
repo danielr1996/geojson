@@ -3,22 +3,29 @@
   "lines": [
     {
       "name": "Landquart-Rhein-Schlappinbach"
-    },{
+    },
+    {
       "name": "Landquart-KlostersPlatz-KlostersDorf",
       "order": "reverse"
-    },{
+    },
+    {
       "name": "Davos-KlostersPlatz"
-    },{
+    },
+    {
       "name": "Landwasser"
-    },{
+    },
+    {
       "name": "Albula-Landwasser-Julia",
       "order": "reverse"
-    },{
+    },
+    {
       "name": "Albula-Julia-Hinterrhein",
       "order": "reverse"
-    },{
+    },
+    {
       "name": "Hinterrhein"
-    },{
+    },
+    {
       "name": "Rhein-Albula-Landquart",
       "order": "reverse"
     }

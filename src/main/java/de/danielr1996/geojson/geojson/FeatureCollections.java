@@ -6,6 +6,9 @@ import org.geojson.MultiPoint;
 
 public class FeatureCollections {
     public static LineString extractLineString(FeatureCollection featureCollection) {
-        return (LineString) featureCollection.getFeatures().get(0).getGeometry();
+        if (!featureCollection.getFeatures().isEmpty()) {
+            return (LineString) featureCollection.getFeatures().get(0).getGeometry();
+        }
+        return new LineString();
     }
 }
