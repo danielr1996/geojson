@@ -2,29 +2,25 @@
   "name": "Sesvenna",
   "lines": [
     {
-      "name": "Inn-Susch-Zernez",
-      "order": "reverse"
+      "name": "Inn-Susch-Zernez"
     },
     {
       "name": "Spöl-Zernez-OvaSpin"
     },
     {
-      "name": "OvaDalFourm-OvaSpin-Ofenpass",
-      "order": "reverse"
+      "name": "OvaDalFourm-OvaSpin-Ofenpass"
     },
     {
       "name": "Rambach-Ofenpass-Etsch"
     },
     {
-      "name": "Etsch-Rambach-Reschensee",
-      "order": "reverse"
+      "name": "Etsch-Rambach-Reschensee"
     },
     {
       "name": "Stillerbach-Reschensee-Inn"
     },
     {
-      "name": "Inn-Stillerbach-Ramosch",
-      "order": "reverse"
+      "name": "Inn-Stillerbach-Ramosch"
     },{
       "name": "Inn-Ramosch-Susch"
     }

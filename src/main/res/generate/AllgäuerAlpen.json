@@ -11,33 +11,28 @@
       "name": "Bodensee-BregenzerAche-Leiblach"
     },
     {
-      "name": "BregenzerAche-Subersach-Bodensee",
-      "order": "reverse"
+      "name": "BregenzerAche-Subersach-Bodensee"
     },
     {
       "name": "Subersach-StoggerSattel-BregenzerAche"
     },
     {
-      "name": "StoggerSattel",
-      "order": "reverse"
+      "name": "StoggerSattel"
     },
     {
       "name": "BregenzerAche-StoggerSattel-Seebach"
     },
     {
-      "name": "Seebach-BregenzerAche-Hochtannbergpass",
-      "order": "reverse"
+      "name": "Seebach-BregenzerAche-Hochtannbergpass"
     },
     {
       "name": "Krumbach-Hochtannbergpass-Lech"
     },
     {
-      "name": "Lech-Krumbach-Reutte",
-      "order": "reverse"
+      "name": "Lech-Krumbach-Reutte"
     },
     {
-      "name": "Lech-Reutte-Vils",
-      "order": "reverse"
+      "name": "Lech-Reutte-Vils"
     }
   ]
 }

@@ -5,26 +5,22 @@
       "name": "Lech-Krumbach-Reutte"
     },
     {
-      "name": "Lech-Krumbach-Zürsbach",
-      "order": "reverse"
+      "name": "Lech-Krumbach-Zürsbach"
     },
     {
       "name": "Zürsbach-Lech-Flexenbach"
     },
     {
-      "name": "Flexenbach-Zürsbach-Rauzbach",
-      "order": "reverse"
+      "name": "Flexenbach-Zürsbach-Rauzbach"
     },
     {
       "name": "Rauzbach-Alfenz-Arlberg"
     },
     {
-      "name": "Arlenbach-Arlberg-Rosanna",
-      "order": "reverse"
+      "name": "Arlenbach-Arlberg-Rosanna"
     },
     {
-      "name": "Rosanna-Arlenbach-Wiesberg",
-      "order": "reverse"
+      "name": "Rosanna-Arlenbach-Wiesberg"
     },
     {
       "name": "Sanna-Wiesberg-Landeck"
@@ -33,23 +29,19 @@
       "name": "Inn-Sanna-Gurglbach"
     },
     {
-      "name": "Gurglbach-Inn-Fernpass",
-      "order": "reverse"
+      "name": "Gurglbach-Inn-Fernpass"
     },
     {
       "name": "Fernpass-Gurglbach-Loisach"
     },
     {
-      "name": "Loisach-Fernpass-Gaisbach",
-      "order": "reverse"
+      "name": "Loisach-Fernpass-Gaisbach"
     },
     {
-      "name": "Loisach-Gaisbach-Lussbach",
-      "order": "reverse"
+      "name": "Loisach-Gaisbach-Lussbach"
     },
     {
-      "name": "Zwischentoren-Reutte-Loisach",
-      "order": "reverse"
+      "name": "Zwischentoren-Reutte-Loisach"
     }
   ]
 }

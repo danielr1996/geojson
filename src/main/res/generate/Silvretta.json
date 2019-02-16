@@ -5,36 +5,31 @@
       "name": "Inn-Ramosch-Susch"
     },
     {
-      "name": "Susaca-Susch-Flüelapass",
-      "order": "reverse"
+      "name": "Susaca-Susch-Flüelapass"
     },
     {
       "name": "Flüela-Flüelaüpass-Davos"
     },
     {
-      "name": "Davos-KlostersPlatz",
-      "order": "reverse"
+      "name": "Davos-KlostersPlatz"
     },
     {
       "name": "Landquart-KlostersPlatz-KlostersDorf"
     },
     {
-      "name": "SchlapppinerBach-KlostersDorf-SchlappinerJoch",
-      "order": "reverse"
+      "name": "SchlapppinerBach-KlostersDorf-SchlappinerJoch"
     },
     {
       "name": "ValzifenzerBach-SchlappinerJoch-Gargellen"
     },
     {
-      "name": "Suggadinbach-Gargallen-Galgenul",
-      "order": "reverse"
+      "name": "Suggadinbach-Gargallen-Galgenul"
     },
     {
       "name": "Gweilbach-Galgenul-Ill"
     },
     {
-      "name": "Ill-Galgenul-Partenen",
-      "order": "reverse"
+      "name": "Ill-Galgenul-Partenen"
     },
     {
       "name": "Verbellabach-Partenen-Zeinisbach"
@@ -43,19 +38,16 @@
       "name": "Zeinisbach-Verbellabach-Zeinisjoch"
     },
     {
-      "name": "Zeinisbach-Zeinisjoch-Trisana",
-      "order": "reverse"
+      "name": "Zeinisbach-Zeinisjoch-Trisana"
     },
     {
-      "name": "Trisanna-Zeinisbach-Ischgl",
-      "order": "reverse"
+      "name": "Trisanna-Zeinisbach-Ischgl"
     },
     {
       "name": "Fimbabach-Ischgl-Fimberpass"
     },
     {
-      "name": "Brancia-Fimberpass-Ramosch",
-      "order": "reverse"
+      "name": "Brancia-Fimberpass-Ramosch"
     }
   ]
 }

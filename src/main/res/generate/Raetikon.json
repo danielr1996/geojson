@@ -2,8 +2,7 @@
   "name": "RätikonTest",
   "lines": [
     {
-      "name": "Ill-Lutz-Rhein",
-      "order": "reverse"
+      "name": "Ill-Lutz-Rhein"
     },
     {
       "name": "Rhein-Ill-Landquart"
@@ -12,26 +11,22 @@
       "name": "Landquart-Rhein-Schlappinbach"
     },
     {
-      "name": "SchlapppinerBach-KlostersDorf-SchlappinerJoch",
-      "order": "reverse"
+      "name": "SchlapppinerBach-KlostersDorf-SchlappinerJoch"
     },
     {
       "name": "ValzifenzerBach-SchlappinerJoch-Gargellen"
     },
     {
-      "name": "Suggadinbach-Gargallen-Galgenul",
-      "order": "reverse"
+      "name": "Suggadinbach-Gargallen-Galgenul"
     },
     {
       "name": "Gweilbach-Galgenul-Ill"
     },
     {
-      "name": "Ill-Galgenul-Bludenz",
-      "order": "reverse"
+      "name": "Ill-Galgenul-Bludenz"
     },
     {
-      "name": "Ill-Bludenz-Lutz",
-      "order": "reverse"
+      "name": "Ill-Bludenz-Lutz"
     }
   ]
 }

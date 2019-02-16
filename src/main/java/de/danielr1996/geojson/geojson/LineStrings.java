@@ -19,22 +19,22 @@ public class LineStrings {
     }
 
     public static boolean areFacing(LineString lineString1, LineString lineString2) {
-        LngLatAlt head1 = LineStrings.head(lineString1);
-        LngLatAlt head2 = LineStrings.head(lineString2);
+        LngLatAlt head1 = LineStrings.start(lineString1);
+        LngLatAlt head2 = LineStrings.start(lineString2);
         return head1.equals(head2);
     }
 
     public static boolean areAverted(LineString lineString1, LineString lineString2) {
-        LngLatAlt tail1 = LineStrings.tail(lineString1);
-        LngLatAlt tail2 = LineStrings.tail(lineString2);
+        LngLatAlt tail1 = LineStrings.end(lineString1);
+        LngLatAlt tail2 = LineStrings.end(lineString2);
         return tail1.equals(tail2);
     }
 
     public static boolean areAligned(LineString lineString1, LineString lineString2) {
-        LngLatAlt head1 = LineStrings.head(lineString1);
-        LngLatAlt head2 = LineStrings.head(lineString2);
-        LngLatAlt tail1 = LineStrings.tail(lineString1);
-        LngLatAlt tail2 = LineStrings.tail(lineString2);
+        LngLatAlt head1 = LineStrings.start(lineString1);
+        LngLatAlt head2 = LineStrings.start(lineString2);
+        LngLatAlt tail1 = LineStrings.end(lineString1);
+        LngLatAlt tail2 = LineStrings.end(lineString2);
 
         return head1.equals(tail2) || head2.equals(tail1);
     }
@@ -52,42 +52,84 @@ public class LineStrings {
     }
 
 
-    public static Feature merge(Feature feature1, Feature feature2) {
-        LineString lineString1 = (LineString) feature1.getGeometry();
-        LineString lineString2 = (LineString) feature2.getGeometry();
-
-        if (lineString1 == null || lineString2 == null) {
+    public static Feature merge(Feature baseFeature, Feature appendFeature) {
+        if (baseFeature == null || baseFeature == null) {
             throw new IllegalArgumentException("LineString cannot be null");
         }
-        LineString newLineString = new LineString();
-        Pair<LineString, LineString> aligned = alignDirection(lineString1, lineString2);
-        lineString1 = aligned.getFirst();
-        lineString2 = aligned.getSecond();
-
-        Feature feature = new Feature();
-        feature.setProperty("name",feature2.getProperty("name"));
-        if (!areAligned(lineString1, lineString2)) {
-            System.err.printf("Lines %s and %s are not aligned\n", feature1.getProperty("name"), feature2.getProperty("name"));
-            feature.setProperty("warn","notaligned");
+        if (baseFeature == null || baseFeature == null) {
+            throw new IllegalArgumentException("LineString cannot be null");
         }
-        Stream.concat(
-                lineString1.getCoordinates().stream(),
-                lineString2.getCoordinates().stream()
-        )
-//                .distinct()
-                .forEach(newLineString::add);
-        feature.setGeometry(newLineString);
-        return feature;
+
+        LineString base = LineStrings.ofFeature(baseFeature);
+        LineString append = LineStrings.ofFeature(appendFeature);
+        LineString newLineString = new LineString();
+        if (end(base).equals(start(append))) {
+            newLineString = append(base, append);
+//            base = LineStrings.append(base, end(append));
+        } else if (start(base).equals(end(append))) {
+            newLineString = prepend(base,append);
+//            base = LineStrings.prepend(base, start(append));
+        } else if (start(base).equals(start(append))) {
+            newLineString = prepend(base, reverse(append));
+//            base = LineStrings.prepend(base, end(append));
+        } else if (end(base).equals(end(append))) {
+            newLineString = append(base, reverse(append));
+//            base = LineStrings.append(base, start(append));
+        } else if (start(base).equals(end(append))) {
+            newLineString = prepend(base,append);
+//            base = LineStrings.prepend(base, start(append));
+        } else if (end(base).equals(start(append))) {
+            newLineString = append(base, append);
+//            base = LineStrings.append(base, end(append));
+        } else if (start(base).equals(start(append))) {
+            newLineString = prepend(base, reverse(append));
+//            base = LineStrings.prepend(base, end(append));
+        } else if (end(base).equals(end(append))) {
+            newLineString = append(base, reverse(append));
+//            base = LineStrings.append(base, start(append));
+        } else {
+            throw new IllegalArgumentException("Not connected");
+        }
+        return Features.ofLineString(newLineString);
     }
 
-    public static LngLatAlt head(LineString lineString) {
+    public static double distance(LngLatAlt l1, LngLatAlt l2) {
+        return Math.sqrt(Math.sqrt(l1.getLatitude() - l2.getLatitude()) + Math.sqrt(l1.getLongitude() - l2.getLongitude()));
+    }
+
+    public static LineString append(LineString base, LngLatAlt coord) {
+        base.add(coord);
+        return base;
+    }
+
+    public static LineString append(LineString base, LineString append) {
+        LineString newLineString = LineStrings.ofLineString(base);
+        if (!end(base).equals(start(append))) {
+            throw new IllegalArgumentException("Base and End are not aligned");
+        }
+
+        append.getCoordinates().stream().skip(1).forEach(newLineString::add);
+
+        return newLineString;
+    }
+
+    public static LineString prepend(LineString base, LngLatAlt coord) {
+        base.getCoordinates().add(0, coord);
+        return base;
+    }
+
+    public static LineString prepend(LineString base, LineString prepend) {
+        return append(prepend, base);
+    }
+
+    public static LngLatAlt start(LineString lineString) {
         if (!lineString.getCoordinates().isEmpty()) {
             return lineString.getCoordinates().get(0);
         }
         return new LngLatAlt();
     }
 
-    public static LngLatAlt tail(LineString lineString) {
+    public static LngLatAlt end(LineString lineString) {
         if (!lineString.getCoordinates().isEmpty()) {
             return lineString.getCoordinates().get(lineString.getCoordinates().size() - 1);
         }
@@ -99,7 +141,22 @@ public class LineStrings {
         return lineString;
     }
 
+    public static LineString ofFeature(Feature feature) {
+        GeoJsonObject geoJsonObject = feature.getGeometry();
+        if (!(geoJsonObject instanceof LineString)) {
+            throw new IllegalArgumentException("Feature does not contain LineString");
+        }
+
+        return (LineString) geoJsonObject;
+    }
+
     public static String toString(LineString lineString) {
         return lineString.getCoordinates().stream().map(Coordinates::toString).collect(Collectors.joining(" -> "));
+    }
+
+    public static LineString ofLineString(LineString lineString) {
+        LineString newLineString = new LineString();
+        newLineString.setCoordinates(lineString.getCoordinates());
+        return newLineString;
     }
 }

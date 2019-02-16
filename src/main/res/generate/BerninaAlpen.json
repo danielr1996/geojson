@@ -5,22 +5,19 @@
       "name": "Maira-Liro-LagoDiComo"
     },
     {
-      "name": "Maira-Orlegna-Liro",
-      "order": "reverse"
+      "name": "Maira-Orlegna-Liro"
     },
     {
       "name": "Orlegna-Majola-Maira"
     },
     {
-      "name": "Sela-StMoritzerSee-Maloja",
-      "order": "reverse"
+      "name": "Sela-StMoritzerSee-Maloja"
     },
     {
       "name": "Inn-Samedan-StMoritzerSee"
     },
     {
-      "name": "Flaz-Samedan-Bernina",
-      "order": "reverse"
+      "name": "Flaz-Samedan-Bernina"
     },
     {
       "name": "Bernina-Flaz-Berninapass"
@@ -32,12 +29,10 @@
       "name": "Poschiavino-Berninapass-Adda"
     },
     {
-      "name": "Adda-Belviso-Poschiavino",
-      "order": "reverse"
+      "name": "Adda-Belviso-Poschiavino"
     },
     {
-      "name": "Adda-Belviso-LagoDiComo",
-      "order": "reverse"
+      "name": "Adda-Belviso-LagoDiComo"
     },
     {
       "name": "LagoDiComo-Adda-Maira"

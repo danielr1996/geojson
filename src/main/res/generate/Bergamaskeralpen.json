@@ -5,8 +5,7 @@
       "name": "Adda-Belviso-LagoDiComo"
     },
     {
-      "name": "Belviso-Adda-Aprica",
-      "order": "reverse"
+      "name": "Belviso-Adda-Aprica"
     },
     {
       "name": "Aprica-Belviso-PassoAprica"
@@ -18,8 +17,7 @@
       "name": "Edolo-PassoAprica-Oglio"
     },
     {
-      "name": "Oglio-Edolo-LagoDIseo",
-      "order": "reverse"
+      "name": "Oglio-Edolo-LagoDIseo"
     },
     {
       "name": "LagoDIseo-Oglio-Oglio"
@@ -31,8 +29,7 @@
       "name": "Sonna-Adda"
     },
     {
-      "name": "Adda-Sonna-LagoDiComo",
-      "order": "reverse"
+      "name": "Adda-Sonna-LagoDiComo"
     },
     {
       "name": "LagoDiComo-Adda-Adda"

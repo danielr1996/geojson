@@ -2,59 +2,13 @@
   "name": "Bayrische Voralpen",
   "lines": [
     {
-      "name": "Loisach-Partnach-Eschenlohe",
-      "order": "reverse"
+      "name": "Loisach-Partnach-Eschenlohe"
     },
     {
-      "name": "Partnach-Loisach-Krankerbach",
-      "order": "reverse"
+      "name": "Partnach-Loisach-Krankerbach"
     },
     {
-      "name": "Krankerbach-Partnach-Quelle",
-      "order": "reverse"
-    },
-    {
-      "name": "Verbindung-Krankerbach-Kranzbach",
-      "order": "reverse"
-    },
-    {
-      "name": "Kranzbach-Verbindung-Finzbachstraße",
-      "order": "reverse"
-    },
-    {
-      "name": "Verbindung-Kranzbach-Finzbach",
-      "order": "reverse"
-    },
-    {
-      "name": "Finzbach-Verbindung-Isar",
-      "order": "reverse"
-    },
-    {
-      "name": "Isar-Finzbach-Walchen",
-      "order": "reverse"
-    },
-    {
-      "name": "Walchen-Isar-Ampelsbach",
-      "order": "reverse"
-    },
-    {
-      "name": "Ampelsbach-Walchen-Filzmoosbach",
-      "order": "reverse"
-    },
-    {
-      "name": "Filzmoosbach-Ampelsbach-Quelle"
-    },
-    {
-      "name": "Verbindung-Filzmoosbach-Sattelbach"
-    },
-    {
-      "name": "Sattelbach-Quelle-Bairache"
-    },
-    {
-      "name": "Bairach-Sattelbach-BrandenbergerAche"
-    },
-    {
-      "name": "BrandenbergerAche-Bairach-Ellbach"
+      "name": "Krankerbach-Partnach-Quelle"
     }
   ]
 }

@@ -8,29 +8,25 @@
       "name": "Julia-Albula-Marmorerasee"
     },
     {
-      "name": "Julia-AuaDaSett-Marmorerasee",
-      "order": "reverse"
+      "name": "Julia-AuaDaSett-Marmorerasee"
     },
     {
       "name": "AuaDaSett-Maira-Julia"
     },
     {
-      "name": "Maira-Orlegna-AuaDaSett",
-      "order": "reverse"
+      "name": "Maira-Orlegna-AuaDaSett"
     },
     {
       "name": "Maira-Orlegna-Liro"
     },
     {
-      "name": "Liro-Maira-Splügenpass",
-      "order": "reverse"
+      "name": "Liro-Maira-Splügenpass"
     },
     {
       "name": "Huescherenbach-Splügen-Hinterrhein"
     },
     {
-      "name": "Hinterrhein-Huescherenbach-Albula",
-      "order": "reverse"
+      "name": "Hinterrhein-Huescherenbach-Albula"
     }
   ]
 }

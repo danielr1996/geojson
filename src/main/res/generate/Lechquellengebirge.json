@@ -5,44 +5,37 @@
       "name": "Lutz-Seebergbach-Ill"
     },
     {
-      "name": "Faschinajoch",
-      "order": "reverse"
+      "name": "Faschinajoch"
     },
     {
       "name": "Argenbach-Faschinajoch-BregenzerAche"
     },
     {
-      "name": "BregenzerAche-Rehmerbach-Argenbach",
-      "order": "reverse"
+      "name": "BregenzerAche-Rehmerbach-Argenbach"
     },
     {
       "name": "BregenzerAche-StoggerSattel-Seebach"
     },
     {
-      "name": "Seebach-BregenzerAche-Hochtannbergpass",
-      "order": "reverse"
+      "name": "Seebach-BregenzerAche-Hochtannbergpass"
     },
     {
       "name": "Krumbach-Hochtannbergpass-Lech"
     },
     {
-      "name": "Lech-Krumbach-Zürsbach",
-      "order": "reverse"
+      "name": "Lech-Krumbach-Zürsbach"
     },
     {
       "name": "Zürsbach-Lech-Flexenbach"
     },
     {
-      "name": "Flexenbach-Zürsbach-Rauzbach",
-      "order": "reverse"
+      "name": "Flexenbach-Zürsbach-Rauzbach"
     },
     {
-      "name": "Alfenz-Bludenz-Rauzbach",
-      "order": "reverse"
+      "name": "Alfenz-Bludenz-Rauzbach"
     },
     {
-      "name": "Ill-Bludenz-Lutz",
-      "order": "reverse"
+      "name": "Ill-Bludenz-Lutz"
     }
   ]
 }

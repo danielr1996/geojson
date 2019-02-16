@@ -2,36 +2,31 @@
   "name": "Albulaalpen",
   "lines": [
     {
-      "name": "Julia-AuaDaSett-Marmorerasee",
-      "order": "reverse"
+      "name": "Julia-AuaDaSett-Marmorerasee"
     },
     {
       "name": "AuaDaSett-Maira-Julia"
     },
     {
-      "name": "Maira-Orlegna-AuaDaSett",
-      "order": "reverse"
+      "name": "Maira-Orlegna-AuaDaSett"
     },
     {
       "name": "Orlegna-Majola-Maira"
     },
     {
-      "name": "Sela-StMoritzerSee-Maloja",
-      "order": "reverse"
+      "name": "Sela-StMoritzerSee-Maloja"
     },
     {
       "name": "Inn-Samedan-StMoritzerSee"
     },
     {
-      "name": "Inn-Zernez-Samedan",
-      "order": "reverse"
+      "name": "Inn-Zernez-Samedan"
     },
     {
       "name": "Inn-Susch-Zernez"
     },
     {
-      "name": "Susaca-Susch-Flüelapass",
-      "order": "reverse"
+      "name": "Susaca-Susch-Flüelapass"
     },
     {
       "name": "Flüela-Flüelaüpass-Davos"
@@ -40,8 +35,7 @@
       "name": "Landwasser"
     },
     {
-      "name": "Albula-Landwasser-Julia",
-      "order": "reverse"
+      "name": "Albula-Landwasser-Julia"
     },
     {
       "name": "Julia-Albula-Marmorerasee"

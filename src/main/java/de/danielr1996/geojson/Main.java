@@ -41,13 +41,14 @@ public class Main {
 
         );
 
-        Stream<String> fehlerhafteGenerierung = Stream.of(
-                "BayrischeVoralpen"
+        Stream<String> doing = Stream.of(
+//                "BayrischeVoralpen",
+//                "Berninaalpen"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
                 ostalpen,
-//                fehlerhafteGenerierung,
+//                doing,
                 Stream.<String>empty()
         ).reduce(Stream::concat).orElseGet(Stream::empty);
 

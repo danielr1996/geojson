@@ -11,22 +11,19 @@
       "name": "Inn-Gurglbach-OetztalerAche"
     },
     {
-      "name": "OetztalerAche",
-      "order": "reverse"
+      "name": "OetztalerAche"
     },
     {
       "name": "Passer-Timmelsjoch-StLeonhard"
     },
     {
-      "name": "Passer-StLeonhard-Meran",
-      "order": "reverse"
+      "name": "Passer-StLeonhard-Meran"
     },
     {
       "name": "Etsch-Meran-Rambach"
     },
     {
-      "name": "Etsch-Rambach-Reschensee",
-      "order": "reverse"
+      "name": "Etsch-Rambach-Reschensee"
     },
     {
       "name": "StillerBach-Reschensee-Inn"

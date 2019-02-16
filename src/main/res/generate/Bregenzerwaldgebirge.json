@@ -2,15 +2,13 @@
   "name": "Bregenzerwaldgebirge",
   "lines": [
     {
-      "name": "Bodensee-AlterRhein-BregenzerAche",
-      "order": "reverse"
+      "name": "Bodensee-AlterRhein-BregenzerAche"
     },
     {
       "name": "AlterRhein-Rhein-Bodensee"
     },
     {
-      "name": "Rhein-Ill-AlterRhein",
-      "order": "reverse"
+      "name": "Rhein-Ill-AlterRhein"
     },
     {
       "name": "Ill-Lutz-Rhein"
@@ -19,22 +17,19 @@
       "name": "Lutz-Seebergbach-Ill"
     },
     {
-      "name": "Faschinajoch",
-      "order": "reverse"
+      "name": "Faschinajoch"
     },
     {
       "name": "Argenbach-Faschinajoch-BregenzerAche"
     },
     {
-      "name": "BregenzerAche-Rehmerbach-Argenbach",
-      "order": "reverse"
+      "name": "BregenzerAche-Rehmerbach-Argenbach"
     },
     {
       "name": "StoggerSattel"
     },
     {
-      "name": "Subersach-StoggerSattel-BregenzerAche",
-      "order": "reverse"
+      "name": "Subersach-StoggerSattel-BregenzerAche"
     },
     {
       "name": "BregenzerAche-Subersach-Bodensee"
