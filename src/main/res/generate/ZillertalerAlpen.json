@@ -1,0 +1,17 @@
+{
+  "name": "ZillertalerAlpen",
+  "lines": [
+   "Sill-Brennerpass-Inn",
+    "Brennerpass-Sill-Eisack",
+    "Eisack-Brennerpass-Rienza",
+    "Rienza-Eisack-Ahr",
+    "Ahr-Rienza-Birnlücke",
+    "Birnlücke-Ahr-KrimmlerAche",
+    "KrimmlerAche-Birnlücke-Salzach",
+    "Salzach-KrimmlerAche-B165",
+    "Gerlospass-Salzach-Gerlosbach",
+    "Gerlosbach-B165-Ziller",
+    "Ziller-Gerlosbach-Inn",
+    "Inn-Ziller-Sill"
+  ]
+}

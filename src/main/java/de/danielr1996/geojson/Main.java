@@ -47,14 +47,12 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
-                "SalzburgerSchieferAlpen",
-                "BerchtesgadenerAlpen",
-                "Dachsteingebirge"
+                "ZillertalerAlpen"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
-                ostalpen,
-//                doing,
+//                ostalpen,
+                doing,
                 Stream.<String>empty()
         ).reduce(Stream::concat).orElseGet(Stream::empty);
 
