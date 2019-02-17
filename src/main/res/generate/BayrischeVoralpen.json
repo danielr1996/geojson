@@ -9,6 +9,62 @@
     },
     {
       "name": "Krankerbach-Partnach-Quelle"
+    },
+    {
+      "name": "Verbindung-Krankerbach-Kranzbach"
+    },
+    {
+      "name": "Kranzbach-Verbindung-Finzbachstraße"
+    },{
+      "name": "Verbindung-Kranzbach-Finzbach"
+    },
+    {
+      "name": "Finzbach-Verbindung-Isar"
+    },
+    {
+      "name": "Isar-Finzbach-Walchen"
+    },
+    {
+      "name": "Walchen-Isar-Ampelsbach"
+    },
+    {
+      "name": "Ampelsbach-Walchen-Filzmoosbach"
+    },
+    {
+      "name": "Filzmoosbach-Ampelsbach-Quelle"
+    },
+    {
+      "name": "Verbindung-Filzmoosbach-Sattelbach"
+    },
+    {
+      "name": "Sattelbach-Quelle-Bairache"
+    },
+    {
+      "name": "Bairache-Sattelbach-BrandenbergerAche"
+    },
+    {
+      "name": "BrandenbergerAche-Bairache-Ellbach"
+    },
+    {
+      "name": "Ellbach-BrandenbergerAche-Verbindung"
+    },
+    {
+      "name": "Verbindung-Ellbach-Glemmbach"
+    },
+    {
+      "name": "Glemmbach-Verbindung-ThierseerAche"
+    },
+    {
+      "name": "ThierseerAche-Glemmbach-Inn"
+    },
+    {
+      "name": "Inn-ThierseerAche-Zankel"
+    },
+    {
+      "name": "BayrischeVoralpen-Nordgrenze"
+    },
+    {
+      "name": "Loisach-Eschenlohe-Bayrische-Alpen-Nordgrenze"
     }
   ]
 }

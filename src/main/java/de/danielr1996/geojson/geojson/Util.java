@@ -23,9 +23,8 @@ public class Util {
         try {
             return readFeatureCollection(new FileInputStream(file), file.getName());
         } catch (FileNotFoundException e) {
-            System.err.println("Fehler beim Einlesen der FeatureCollection");
+            throw new RuntimeException("Fehler beim Einlesen der FeatureCollection");
         }
-        return new FeatureCollection();
     }
 
     public static FeatureCollection readFeatureCollection(InputStream is, String name) {
