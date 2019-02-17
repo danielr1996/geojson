@@ -25,7 +25,9 @@ public class Main {
                 "Lechquellengebirge",
                 "BayrischeVoralpen",
                 "ChiemgauerAlpen",
-                "BerchtesgadenerAlpen"
+                "BerchtesgadenerAlpen",
+                "Dachsteingebirge",
+                "SalzburgerSchieferAlpen"
         );
         Stream<String> zentraleostalpen = Stream.of(
                 "OetztalerAlpen",
@@ -45,6 +47,8 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
+                "SalzburgerSchieferAlpen",
+                "BerchtesgadenerAlpen",
                 "Dachsteingebirge"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);

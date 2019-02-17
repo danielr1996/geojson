@@ -1,7 +1,18 @@
 {
   "name": "Dachsteingebirge",
   "lines": [
+    "Dachsteingebirge-Nordgrenze",
     "Grimming-Enns-B145",
-    "Enns-Weißenbach-Grimming"
+    "Enns-Weißenbach-Grimming",
+    "Weißenbach-Enns-Ramsaubach",
+    "Ramsaubach-Weißenbach-L711",
+    "L711-Ramsaubach-Schildlehenbach",
+    "Schildlehenbach-L711-KalteMandling",
+    "KalteMandling-Schildlehenbach-WarmeMandling",
+    "WarmeMandling-KalteMandling-Marcheggsattel",
+    "MarcheggSattel-WarmeMandling-Fritzbach",
+    "Verbindung-Fritzbach-Neubach",
+    "Neubach-Verbindung-Lammer",
+    "Lammer-Neubach-Rußbach"
   ]
 }
