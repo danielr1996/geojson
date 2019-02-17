@@ -23,7 +23,9 @@ public class Main {
                 "AmmergauerAlpen",
                 "Wettersteingebirge",
                 "Lechquellengebirge",
-                "BayrischeVoralpen"
+                "BayrischeVoralpen",
+                "ChiemgauerAlpen",
+                "BerchtesgadenerAlpen"
         );
         Stream<String> zentraleostalpen = Stream.of(
                 "OetztalerAlpen",

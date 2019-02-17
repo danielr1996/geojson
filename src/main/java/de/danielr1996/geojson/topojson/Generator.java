@@ -13,8 +13,32 @@ import java.util.stream.Stream;
 
 public class Generator {
     public static Feature generate(Definition definition) {
-        Stream<Feature> features = definition.lines.stream()
-                .map(line -> Pair.<String, InputStream>builder().first(line.name).second(Generator.class.getResourceAsStream(String.format("/base/rivers/%s.geo.json", line.name))).build())
+        if (definition.linesDeprecated != null && definition.lines != null) {
+            throw new IllegalArgumentException("Cannot use lines and linesDeprecated in one Definition");
+        }
+        if (definition.linesDeprecated == null && definition.lines == null) {
+            throw new IllegalArgumentException("No lines Found in Definition");
+        }
+        Stream<String> lineNames = Stream.empty();
+        if (definition.linesDeprecated != null) {
+            if(definition.linesDeprecated.size()<2){
+                throw new IllegalArgumentException("Definition needs more than 2 lines");
+            }
+            lineNames = definition.linesDeprecated.stream()
+                    .map(line -> line.name);
+        }
+
+        if (definition.lines != null) {
+            if(definition.lines.size()<2){
+                throw new IllegalArgumentException("Definition needs more than 2 lines");
+            }
+            lineNames = definition.lines.stream();
+        }
+
+
+
+        Stream<Feature> features = lineNames
+                .map(name -> Pair.<String, InputStream>builder().first(name).second(Generator.class.getResourceAsStream(String.format("/base/rivers/%s.geo.json", name))).build())
                 .map(pair -> Util.readFeatureCollection(pair.getSecond(), pair.getFirst()).getFeatures().get(0));
         Feature lineString = features
                 .reduce(LineStrings::merge).get();

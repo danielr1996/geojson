@@ -1,6 +1,6 @@
 {
   "name": "Bayrische Voralpen",
-  "lines": [
+  "linesDeprecated": [
     {
       "name": "Loisach-Partnach-Eschenlohe"
     },
@@ -58,7 +58,10 @@
       "name": "ThierseerAche-Glemmbach-Inn"
     },
     {
-      "name": "Inn-ThierseerAche-Zankel"
+      "name": "Inn-ThierseerAche-Jennbach"
+    },
+    {
+      "name": "Inn-Jennbach-Zankel"
     },
     {
       "name": "BayrischeVoralpen-Nordgrenze"

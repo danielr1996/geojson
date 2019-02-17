@@ -1,6 +1,6 @@
 {
   "name": "Wettersteingebirge",
-  "lines": [
+  "linesDeprecated": [
     {
       "name": "Gaisbach-Verbindung-Loisach"
     },

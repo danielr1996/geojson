@@ -1,0 +1,20 @@
+{
+  "name": "ChiemgauerAlpen",
+  "lines": [
+    "ChiemgauerAlpen-Nordgrenze",
+    "Inn-Zankel-EuzenauerBach",
+    "Inn-Jennbach-Zankel",
+    "Jennbach-Inn-Feldbach",
+    "Verbindung-Jennbach-Walchseebach",
+    "Walchseebach-Verbindung-Weißenbach",
+    "Weißenbach-Walchseebach-Großache",
+    "Großache-Walchseebach-Grießbach",
+    "Grießbach-Großache-Waldbach",
+    "Waldbach-Grießbach-Steingasserbach",
+    "Steingasserbach-Waldbach-B178",
+    "B178-Steingasserbach-Unterwasser",
+    "Unterwasser-B178-Grießelbach",
+    "Grießelbach-Unterwasser-Saalach",
+    "Saalach-Grießelbach-Staufensteg"
+  ]
+}

@@ -7,5 +7,6 @@ import java.util.List;
 public class Definition {
     public String name;
     public Properties properties = new Properties();
-    public List<Line> lines;
+    public List<Line> linesDeprecated;
+    public List<String> lines;
 }

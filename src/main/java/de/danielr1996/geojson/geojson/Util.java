@@ -34,7 +34,7 @@ public class Util {
             featureCollection.getFeatures().get(0).setProperty("name",name);
             return featureCollection;
         } catch (IOException e) {
-            System.err.println("Fehler beim Einlesen der FeatureCollection");
+            System.err.println("Fehler beim Einlesen der FeatureCollection "+name);
         }
         return new FeatureCollection();
     }

@@ -1,6 +1,6 @@
 {
   "name": "Allgäueralpen",
-  "lines": [
+  "linesDeprecated": [
     {
       "name": "AllgäuerAlpen-Nordgrenze"
     },
