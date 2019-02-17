@@ -1,0 +1,16 @@
+{
+  "name": "TuxerAlpen",
+  "lines": [
+    "Ziller-Gerlosbach-Zemmbach",
+    "Zemmbach-Ziller-Tuxerbach",
+    "Tuxerbach-Zemmbach-Sommerbergbach",
+    "Sommerbergbach-Tuxerbach-Tuxerjoch",
+    "TuxerJoch-Sommerbergbach-Kasererbach",
+    "Kasererbach-TuxerJoch-Schmirnbach",
+    "Schmirnbach-KasererBach-Valserbach",
+    "Valserbach-Schmirnbach-Sill",
+    "Sill-Valserbach-Inn",
+    "Inn-Ziller-Sill",
+    "Ziller-Gerlosbach-Inn"
+  ]
+}

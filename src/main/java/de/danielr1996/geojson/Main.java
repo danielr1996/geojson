@@ -19,15 +19,32 @@ public class Main {
         Stream<String> noerdlicheostalpen = Stream.of(
                 "Bregenzerwaldgebirge",
                 "AllgäuerAlpen",
-                "LechtalerAlpen",
-                "AmmergauerAlpen",
-                "Wettersteingebirge",
                 "Lechquellengebirge",
+                "LechtalerAlpen",
+                "Wettersteingebirge",
+                //"MiemingerKette",
+                //"Karwendel",
+                "AmmergauerAlpen",
                 "BayrischeVoralpen",
-                "ChiemgauerAlpen",
+                //"Kaisergebirge",
+                //"Loferer Steinberge",
+                //"Leoganger Steinberge",
                 "BerchtesgadenerAlpen",
-                "Dachsteingebirge",
-                "SalzburgerSchieferAlpen"
+                "ChiemgauerAlpen",
+                "SalzburgerSchieferAlpen",
+                //"Tennengebirge",
+                "Dachsteingebirge"
+                //"Totes Gebirge",
+                //"EnnstalerAlpen",
+                //"Salzkammergutberge",
+                //"OberöstereichischeVoralpen",
+                //"HochschwabGruppe",
+                //"MürzstegerAlpen",
+                //"Rax-SchneebergGruppe",
+                //"YbbstalerAlpen",
+                //"TürnitzerAlpen",
+                //"Gutensteiner Alpen",
+                //"Wienerwald",
         );
         Stream<String> zentraleostalpen = Stream.of(
                 "OetztalerAlpen",
@@ -39,7 +56,10 @@ public class Main {
                 "Albulaalpen",
                 "Plessuralpen",
                 "Plattagruppe",
-                "Berninaalpen"
+                "Berninaalpen",
+                "ZillertalerAlpen",
+                "Tuxeralpen",
+                "KitzbühelerAlpen"
         );
         Stream<String> suedlicheostalpen = Stream.of(
                 "Bergamaskeralpen"
@@ -47,12 +67,11 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
-                "ZillertalerAlpen"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
-//                ostalpen,
-                doing,
+                ostalpen,
+//                doing,
                 Stream.<String>empty()
         ).reduce(Stream::concat).orElseGet(Stream::empty);
 

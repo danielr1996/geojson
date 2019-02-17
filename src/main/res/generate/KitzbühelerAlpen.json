@@ -1,0 +1,23 @@
+{
+  "name": "Kitzbüheler Alpen",
+  "lines": [
+    "Inn-Weißache-Ziller",
+    "WeißAche-Aubach-Inn",
+    "Aubach-B178-Weißache",
+    "B178-GoingerBach-Aubach",
+    "GoingerBach-AschauerAche-B178",
+    "AschauerAche-KitzbühelerAche-Goingerbach",
+    "KitzbühelerAche-FieberbrunnerAche-AschauerAche",
+    "FieberbrunnerAche-PassGrießen-KitzbühelerAche",
+    "PassGrießen",
+    "LeogangerAche-Saalach-Schüttachgraben",
+    "Saalach-UrslauAche-Verbindung",
+    "Verbindung-Seekanal-Saalach",
+    "Seekanal-Salzach-Zellersee",
+    "Salzach-Seekanal-KrimmlerAche",
+    "Salzach-KrimmlerAche-B165",
+    "Gerlospass-Salzach-Gerlosbach",
+    "Gerlosbach-B165-Ziller",
+    "Ziller-Gerlosbach-Inn"
+  ]
+}

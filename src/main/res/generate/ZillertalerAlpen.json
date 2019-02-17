@@ -1,7 +1,15 @@
 {
   "name": "ZillertalerAlpen",
   "lines": [
-   "Sill-Brennerpass-Inn",
+    "Ziller-Gerlosbach-Zemmbach",
+    "Zemmbach-Ziller-Tuxerbach",
+    "Tuxerbach-Zemmbach-Sommerbergbach",
+    "Sommerbergbach-Tuxerbach-Tuxerjoch",
+    "TuxerJoch-Sommerbergbach-Kasererbach",
+    "Kasererbach-TuxerJoch-Schmirnbach",
+    "Schmirnbach-KasererBach-Valserbach",
+    "Valserbach-Schmirnbach-Sill",
+    "Sill-Valserbach-Brennerpass",
     "Brennerpass-Sill-Eisack",
     "Eisack-Brennerpass-Rienza",
     "Rienza-Eisack-Ahr",
@@ -10,8 +18,6 @@
     "KrimmlerAche-Birnlücke-Salzach",
     "Salzach-KrimmlerAche-B165",
     "Gerlospass-Salzach-Gerlosbach",
-    "Gerlosbach-B165-Ziller",
-    "Ziller-Gerlosbach-Inn",
-    "Inn-Ziller-Sill"
+    "Gerlosbach-B165-Ziller"
   ]
 }

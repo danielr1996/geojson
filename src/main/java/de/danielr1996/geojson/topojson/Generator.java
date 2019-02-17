@@ -17,7 +17,7 @@ public class Generator {
             throw new IllegalArgumentException("Cannot use lines and linesDeprecated in one Definition");
         }
         if (definition.linesDeprecated == null && definition.lines == null) {
-            throw new IllegalArgumentException("No lines Found in Definition");
+            throw new IllegalArgumentException("No lines Found in Definition "+definition.name);
         }
         Stream<String> lineNames = Stream.empty();
         if (definition.linesDeprecated != null) {
