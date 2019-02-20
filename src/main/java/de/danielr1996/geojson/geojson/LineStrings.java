@@ -4,6 +4,7 @@ import de.danielr1996.geojson.util.Pair;
 import org.geojson.*;
 
 import java.util.Collections;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -136,5 +137,26 @@ public class LineStrings {
 
     public static String toString(LineString lineString) {
         return lineString.getCoordinates().stream().map(Coordinates::toString).collect(Collectors.joining(" -> "));
+    }
+
+    public static boolean intersects(LineString lineString1, LineString lineString2) {
+        return true;
+    }
+
+    public static Function<Double, Function<Double, Function<Double, Double>>> lineareGleichung = m -> t -> x -> m * x + t;
+
+    public static void main(String[] args) {
+        Function<Double, Double> identity = LineStrings.lineareGleichung.apply(1.0).apply(0.0);
+        Function<Double, Double> zweiX = LineStrings.lineareGleichung.apply(2.0).apply(3.0);
+        System.out.println(zweiX.apply(1.0));
+        System.out.println(zweiX.apply(2.0));
+        System.out.println(zweiX.apply(3.0));
+    }
+
+    public static boolean contains(LngLatAlt coord) {
+        // Steigung berechnen
+
+        // y Abschnitt berechnen
+        return true;
     }
 }

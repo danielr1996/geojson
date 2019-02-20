@@ -32,11 +32,4 @@ public class MultiPoints {
 
         return newMultiPoint;
     }
-
-    /*public static MultiPoint fromLineStringOld(LineString lineString) {
-        MultiPoint multiPoint = new MultiPoint();
-        lineString.getCoordinates().stream().forEach(multiPoint::add);
-
-        return multiPoint;
-    }*/
 }

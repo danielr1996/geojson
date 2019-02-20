@@ -11,14 +11,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LineStringsTest {
 
-    @Test
-    void areAligned() {
-        LineString line1 = (LineString) Util.readFeatureCollection(new File("C:\\Users\\Daniel\\Documents\\Entwicklung\\geojson\\src\\main\\res\\base\\rivers\\Partnach-Loisach-Krankerbach.geo.json")).getFeatures().get(0).getGeometry();
-        LineString line2 = (LineString) Util.readFeatureCollection(new File("C:\\Users\\Daniel\\Documents\\Entwicklung\\geojson\\src\\main\\res\\base\\rivers\\Krankerbach-Partnach-Quelle.geo.json")).getFeatures().get(0).getGeometry();
-        boolean aligned = LineStrings.areAligned(line1, line2);
-
-        assertTrue(aligned);
-    }
+//    @Test
+//    void areAligned() {
+//        LineString line1 = (LineString) Util.readFeatureCollection(new File("C:\\Users\\Daniel\\Documents\\Entwicklung\\geojson\\src\\main\\res\\base\\rivers\\Partnach-Loisach-Krankerbach.geo.json")).getFeatures().get(0).getGeometry();
+//        LineString line2 = (LineString) Util.readFeatureCollection(new File("C:\\Users\\Daniel\\Documents\\Entwicklung\\geojson\\src\\main\\res\\base\\rivers\\Krankerbach-Partnach-Quelle.geo.json")).getFeatures().get(0).getGeometry();
+//        boolean aligned = LineStrings.areAligned(line1, line2);
+//
+//        assertTrue(aligned);
+//    }
 
     @Test
     void mergeFacing() {
