@@ -1,8 +1,10 @@
 package de.danielr1996.geojson.geojson;
 
+import de.danielr1996.geojson.linearalgebra.LineareFunktion;
 import de.danielr1996.geojson.util.Pair;
 import org.geojson.*;
 
+import java.awt.geom.Line2D;
 import java.util.Collections;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -134,29 +136,42 @@ public class LineStrings {
         return lineString;
     }
 
-
     public static String toString(LineString lineString) {
         return lineString.getCoordinates().stream().map(Coordinates::toString).collect(Collectors.joining(" -> "));
     }
 
     public static boolean intersects(LineString lineString1, LineString lineString2) {
-        return true;
+        Line2D line1 = new Line2D.Double(
+                lineString1.getCoordinates().get(0).getLongitude(),
+                lineString1.getCoordinates().get(0).getLatitude(),
+                lineString1.getCoordinates().get(1).getLongitude(),
+                lineString1.getCoordinates().get(1).getLatitude());
+        Line2D line2 = new Line2D.Double(
+                lineString2.getCoordinates().get(0).getLongitude(),
+                lineString2.getCoordinates().get(0).getLatitude(),
+                lineString2.getCoordinates().get(1).getLongitude(),
+                lineString2.getCoordinates().get(1).getLatitude());
+        return line1.intersectsLine(line2);
     }
 
     public static Function<Double, Function<Double, Function<Double, Double>>> lineareGleichung = m -> t -> x -> m * x + t;
 
-    public static void main(String[] args) {
-        Function<Double, Double> identity = LineStrings.lineareGleichung.apply(1.0).apply(0.0);
-        Function<Double, Double> zweiX = LineStrings.lineareGleichung.apply(2.0).apply(3.0);
-        System.out.println(zweiX.apply(1.0));
-        System.out.println(zweiX.apply(2.0));
-        System.out.println(zweiX.apply(3.0));
+
+    /*public static double winkel(LngLatAlt coord1, LngLatAlt coord2, LngLatAlt reference) {
+        double a = Math.abs(coord1.getLongitude() - reference.getLongitude());
+        double b = Math.abs(coord2.getLatitude() - reference.getLatitude());
+        double alpha = Math.toDegrees(Math.atan(a / b));
+        return alpha;
     }
 
-    public static boolean contains(LngLatAlt coord) {
-        // Steigung berechnen
-
-        // y Abschnitt berechnen
-        return true;
+    public static double winkel(LngLatAlt coord1, LngLatAlt coord2) {
+        LngLatAlt hilfsPunkt = new LngLatAlt();
+        hilfsPunkt.setLatitude(coord1.getLatitude());
+        hilfsPunkt.setLongitude(coord2.getLongitude());
+        return winkel(coord1, coord2, hilfsPunkt);
     }
+
+    public static LineareFunktion toLinearFunction(LineString lineString){
+
+    }*/
 }

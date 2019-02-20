@@ -1,9 +1,11 @@
 package de.danielr1996.geojson.geojson;
 
 import org.geojson.LineString;
+import org.geojson.LngLatAlt;
 import org.geojson.MultiPoint;
 
 import java.util.function.Function;
+import java.util.stream.Collector;
 import java.util.stream.Stream;
 
 public class MultiPoints {
@@ -31,5 +33,13 @@ public class MultiPoints {
                 .forEach(newMultiPoint::add);
 
         return newMultiPoint;
+    }
+
+    public static Collector<LngLatAlt, MultiPoint, MultiPoint> collector(){
+        return Collector.of(MultiPoint::new, MultiPoint::add, (left, right)->{
+            left.getCoordinates().addAll(right.getCoordinates());
+            return left;
+        });
+
     }
 }

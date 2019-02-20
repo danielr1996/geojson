@@ -126,7 +126,7 @@ class PolygonsTest {
         Polygon polygon = new Polygon();
         polygon.setExteriorRing(Arrays.asList(new LngLatAlt(0, 0), new LngLatAlt(0, 1), new LngLatAlt(1, 1), new LngLatAlt(1, 0)));
         LngLatAlt coord = new LngLatAlt(0.5, 0.5);
-        assertTrue(Polygons.contains.apply(coord).apply(polygon));
+        assertTrue(Polygons.contains.apply(polygon).test(coord));
     }
 
     @Test
@@ -134,6 +134,6 @@ class PolygonsTest {
         Polygon polygon = new Polygon();
         polygon.setExteriorRing(Arrays.asList(new LngLatAlt(0, 0), new LngLatAlt(0, 1), new LngLatAlt(1, 1), new LngLatAlt(1, 0)));
         LngLatAlt coord = new LngLatAlt(-1, -1);
-        assertFalse(Polygons.contains.apply(coord).apply(polygon));
+        assertFalse(Polygons.contains.apply(polygon).test(coord));
     }
 }

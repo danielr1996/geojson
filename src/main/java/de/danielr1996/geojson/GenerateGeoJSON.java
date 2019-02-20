@@ -67,7 +67,7 @@ public class GenerateGeoJSON {
         );
 
         Stream<String> doing = Stream.of(
-                "Wettersteingebirge"
+                "Raetikon"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(

@@ -1,5 +1,6 @@
 package de.danielr1996.geojson.geojson;
 
+import one.util.streamex.StreamEx;
 import org.geojson.LineString;
 import org.geojson.LngLatAlt;
 import org.geojson.MultiPoint;
@@ -9,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 
 public class Polygons {
@@ -53,15 +55,20 @@ public class Polygons {
             .orElse(new LngLatAlt());
 
 
-
-    public static Function<Polygon, MultiPoint> raster = polygon -> {
-        Rectangle boundingRect = Polygons.boundingRect.apply(polygon);
-        MultiPoint raster = Rectangle.raster.apply(10).apply(boundingRect);
+    public static Function<Integer, Function<Polygon, MultiPoint>> raster = steps -> polygon -> {
+        MultiPoint raster = Rectangle.raster
+                .apply(steps)
+                .compose(Polygons.boundingRect)
+                .apply(polygon)
+                .getCoordinates()
+                .stream()
+                .filter(Polygons.contains.apply(polygon))
+                .collect(MultiPoints.collector());
 
         return raster;
     };
 
-    public static Function<Polygon, Rectangle> boundingRect = polygon->{
+    public static Function<Polygon, Rectangle> boundingRect = polygon -> {
         LngLatAlt north = Polygons.findNorth.apply(polygon);
         LngLatAlt west = Polygons.findWest.apply(polygon);
         LngLatAlt south = Polygons.findSouth.apply(polygon);
@@ -71,15 +78,27 @@ public class Polygons {
         LngLatAlt southWest = new LngLatAlt(west.getLongitude(), south.getLatitude());
         LngLatAlt southEast = new LngLatAlt(east.getLongitude(), south.getLatitude());
 
-       return Rectangle.builder()
-               .southEast(southEast)
-               .southWest(southWest)
-               .northEast(northEast)
-               .northWest(northWest)
-               .build();
+        return Rectangle.builder()
+                .southEast(southEast)
+                .southWest(southWest)
+                .northEast(northEast)
+                .northWest(northWest)
+                .build();
     };
 
-    public static Function<LngLatAlt, Function<Polygon, Boolean>> contains = coord->polygon->{
-      return true;
+    public static Function<Polygon, Predicate<LngLatAlt>> contains = polygon -> coord -> {
+        LineString strahl = new LineString();
+        strahl.add(coord);
+        strahl.add(Coordinates.moveWest.apply(1000D).apply(coord));
+        long numberIntersections = StreamEx.of(polygon.getExteriorRing()).pairMap((coord1, coord2) -> {
+            LineString lineString = new LineString();
+            lineString.add(coord1);
+            lineString.add(coord2);
+            return lineString;
+        }).map(lineSegment -> LineStrings.intersects(strahl, lineSegment))
+                .filter(intersects -> intersects)
+        .count();
+
+        return numberIntersections %2 != 0;
     };
 }
