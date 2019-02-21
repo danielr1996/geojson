@@ -1,4 +1,4 @@
-package de.danielr1996.geojson.geojson;
+package de.danielr1996.geojson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import de.danielr1996.geojson.HgtReader;

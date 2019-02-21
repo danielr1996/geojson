@@ -1,11 +1,8 @@
 package de.danielr1996.geojson.geojson;
 
-import org.geojson.Feature;
 import org.geojson.LineString;
 import org.geojson.LngLatAlt;
 import org.junit.jupiter.api.Test;
-
-import java.io.File;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -37,7 +34,7 @@ class LineStringsTest {
 //        expected.add(new LngLatAlt(0, 0.5));
         expected.add(new LngLatAlt(0, 1));
 
-        LineString actual = LineStrings.ofFeature(LineStrings.merge(Features.ofLineString(base), Features.ofLineString(append)));
+        LineString actual = LineStrings.ofFeature(LineStrings.merge(Features.ofGeometry(base), Features.ofGeometry(append)));
 
         assertIterableEquals(expected.getCoordinates(), actual.getCoordinates());
     }
@@ -55,7 +52,7 @@ class LineStringsTest {
         expected.add(new LngLatAlt(0, 0));
         expected.add(new LngLatAlt(0, -1));
 
-        LineString actual = LineStrings.ofFeature(LineStrings.merge(Features.ofLineString(lineString1), Features.ofLineString(lineString2)));
+        LineString actual = LineStrings.ofFeature(LineStrings.merge(Features.ofGeometry(lineString1), Features.ofGeometry(lineString2)));
 
         assertIterableEquals(expected.getCoordinates(), actual.getCoordinates());
     }
@@ -74,7 +71,7 @@ class LineStringsTest {
         expected.add(new LngLatAlt(0, 1));
         expected.add(new LngLatAlt(1, 1));
 
-        LineString actual = LineStrings.ofFeature(LineStrings.merge(Features.ofLineString(base), Features.ofLineString(append)));
+        LineString actual = LineStrings.ofFeature(LineStrings.merge(Features.ofGeometry(base), Features.ofGeometry(append)));
 
         assertIterableEquals(expected.getCoordinates(), actual.getCoordinates());
     }
@@ -89,7 +86,7 @@ class LineStringsTest {
         lineString2.add(new LngLatAlt(1, 2));
 
         assertThrows(IllegalArgumentException.class, () ->
-                LineStrings.ofFeature(LineStrings.merge(Features.ofLineString(lineString1), Features.ofLineString(lineString2))));
+                LineStrings.ofFeature(LineStrings.merge(Features.ofGeometry(lineString1), Features.ofGeometry(lineString2))));
     }
 
     @Test

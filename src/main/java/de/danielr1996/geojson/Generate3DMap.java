@@ -1,11 +1,13 @@
 package de.danielr1996.geojson;
 
-import de.danielr1996.geojson.geojson.ElevationService;
 import de.danielr1996.geojson.geojson.Polygons;
 import de.danielr1996.geojson.geojson.Util;
-import org.geojson.*;
+import org.geojson.Feature;
+import org.geojson.FeatureCollection;
+import org.geojson.LngLatAlt;
+import org.geojson.MultiPoint;
+import org.geojson.Polygon;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;

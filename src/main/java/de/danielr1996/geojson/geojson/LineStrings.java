@@ -1,14 +1,11 @@
 package de.danielr1996.geojson.geojson;
 
-import de.danielr1996.geojson.linearalgebra.LineareFunktion;
-import de.danielr1996.geojson.util.Pair;
 import org.geojson.*;
 
 import java.awt.geom.Line2D;
 import java.util.Collections;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class LineStrings {
     public static LineString fromFeatureCollection(FeatureCollection featureCollection) {
@@ -85,7 +82,7 @@ public class LineStrings {
         } else {
             throw new IllegalArgumentException("Not connected");
         }
-        return Features.ofLineString(newLineString);
+        return Features.ofGeometry(newLineString);
     }
 
     public static double distance(LngLatAlt l1, LngLatAlt l2) {
