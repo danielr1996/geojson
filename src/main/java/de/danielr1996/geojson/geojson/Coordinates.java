@@ -42,25 +42,43 @@ public class Coordinates {
 
     public static Function<Double, Function<LngLatAlt, LngLatAlt>> moveNorth = offset -> coord -> {
         LngLatAlt newCoord = Coordinates.of(coord);
-        newCoord.setLatitude(coord.getLatitude() + offset);
+        double newLatitude = coord.getLatitude() + offset;
+        if(newLatitude>90){
+            newLatitude=90;
+        }
+        newCoord.setLatitude(newLatitude);
         return newCoord;
     };
 
     public static Function<Double, Function<LngLatAlt, LngLatAlt>> moveSouth = offset -> coord -> {
         LngLatAlt newCoord = Coordinates.of(coord);
-        newCoord.setLatitude(coord.getLatitude() - offset);
+        double newLatitude = coord.getLatitude() - offset;
+        if(newLatitude<-90){
+            newLatitude=-90;
+        }
+        newCoord.setLatitude(newLatitude);
         return newCoord;
     };
 
     public static Function<Double, Function<LngLatAlt, LngLatAlt>> moveWest = offset -> coord -> {
         LngLatAlt newCoord = Coordinates.of(coord);
-        newCoord.setLongitude(coord.getLongitude() - offset);
+        double newLatitude = coord.getLongitude() - offset;
+        if(newLatitude < -180){
+            double rest = newLatitude%180;
+            newLatitude = 180+rest;
+        }
+        newCoord.setLongitude(newLatitude);
         return newCoord;
     };
 
     public static Function<Double, Function<LngLatAlt, LngLatAlt>> moveEast = offset -> coord -> {
         LngLatAlt newCoord = Coordinates.of(coord);
-        newCoord.setLongitude(coord.getLongitude() + offset);
+        double newLatitude = coord.getLongitude() + offset;
+        if(newLatitude > 180){
+            double rest = newLatitude%180;
+            newLatitude = -180+rest;
+        }
+        newCoord.setLongitude(newLatitude);
         return newCoord;
     };
 }

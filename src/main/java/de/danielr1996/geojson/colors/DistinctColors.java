@@ -11,10 +11,4 @@ public class DistinctColors {
                 .map(HSV::toRGB)
                 .map(RGB::toHex);
     }
-
-    public static void main(String[] args) {
-        distinctColors()
-                .limit(17)
-                .forEach(System.out::println);
-    }
 }
