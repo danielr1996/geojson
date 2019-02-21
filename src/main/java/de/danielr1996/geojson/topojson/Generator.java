@@ -1,6 +1,7 @@
 package de.danielr1996.geojson.topojson;
 
 import de.danielr1996.geojson.geojson.FeatureCollections;
+import de.danielr1996.geojson.geojson.Features;
 import de.danielr1996.geojson.geojson.LineStrings;
 import de.danielr1996.geojson.geojson.Polygons;
 import de.danielr1996.geojson.geojson.Util;
@@ -40,9 +41,10 @@ public class Generator {
         Stream<Feature> features = lineNames
                 .map(name -> Pair.<String, InputStream>builder().first(name).second(Generator.class.getResourceAsStream(String.format("/base/rivers/%s.geo.json", name))).build())
                 .map(pair -> Util.readFeatureCollection(pair.getSecond(), pair.getFirst()).getFeatures().get(0));
-        Feature lineString = features
+        LineString lineString = features
+                .map(Features.extractTypedGeometry(LineString.class))
                 .reduce(LineStrings::merge).get();
-        Polygon polygon = Polygons.fromLineString.apply((LineString) lineString.getGeometry());
+        Polygon polygon = Polygons.fromLineString.apply(lineString);
         Feature feature = new Feature();
         if (definition.properties != null) {
             feature.setProperty("name", definition.name);

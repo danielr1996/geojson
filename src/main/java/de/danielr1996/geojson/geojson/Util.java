@@ -79,11 +79,4 @@ public class Util {
                 .forEach(out::add);
         return out;
     }
-
-    public static void main(String[] args) {
-        FeatureCollection featureCollection = readFeatureCollection(new File("C:\\Users\\Daniel\\Google Drive\\fahrtenbuch (3).json"));
-        LineString lineString = LineStrings.fromFeatureCollection(featureCollection);
-        writeGeoJsonObject(lineString, new File("C:\\Users\\Daniel\\Desktop\\featurecollection.json"));
-
-    }
 }
