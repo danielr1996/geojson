@@ -90,8 +90,14 @@ public class GenerateGeoJSON {
             return def;
         })
                 .map(Generator::generate)
-                .forEach(featureCollection::add);
-        Util.writeGeoJsonObject(featureCollection, new File("src/main/res/generated/FeatureCollection.geo.json"));
+//                .map(ElevationService::getElevationsForMultiPointFeature)
+                .forEach(feature -> {
+                    File f = new File("src/main/res/generated/" + feature.getProperty("name").toString().replaceAll(" ", "") + ".geo.json");
+                    File f2 = new File("src/main/res/generated/" + feature.getProperty("name").toString().replaceAll(" ", "") + "-height.geo.json");
+                    Util.writeGeoJsonObject(feature, f);
+                    Util.writeGeoJsonObject(ElevationService.getElevationsForMultiPointFeature(feature), f2);
+                });
+//        Util.writeGeoJsonObject(featureCollection, new File("src/main/res/generated/FeatureCollection.geo.json"));
 
     }
 }

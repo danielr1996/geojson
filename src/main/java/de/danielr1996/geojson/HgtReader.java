@@ -37,7 +37,7 @@ public class HgtReader {
 //        coor.setLongitude(coor1.getLatitude());
 //        coor.setLatitude(coor1.getLongitude());
         coor = coor1;
-        System.out.println(coor);
+//        System.out.println(coor);
         try {
             String file = getHgtFileName(coor);
             // given area in cache?
@@ -61,7 +61,7 @@ public class HgtReader {
             }
 
             // read elevation value
-            System.out.println(cache);
+//            System.out.println(cache);
             coor.setAltitude(readElevation(coor));
             return coor;
         } catch (FileNotFoundException e) {
@@ -136,13 +136,13 @@ public class HgtReader {
             //System.out.println("==> Read SRTM elevation data from row/col/cell " + row + "," + col + ", " + cell + " = " + ele);
             // check for data voids
             if (ele == HGT_VOID) {
-                System.err.println("Height is void");
+//                System.err.println("Height is void");
                 return Double.MIN_VALUE;
             } else {
                 return ele;
             }
         } else {
-            System.err.println("Else");
+//            System.err.println("Else");
             return Double.MIN_VALUE;
         }
     }
