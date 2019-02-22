@@ -65,13 +65,13 @@ public class HgtReader {
             coor.setAltitude(readElevation(coor));
             return coor;
         } catch (FileNotFoundException e) {
-            System.err.println("Get elevation from HGT " + coor + " failed: => " + e.getMessage());
+//            System.err.println("Get elevation from HGT " + coor + " failed: => " + e.getMessage());
             // no problem... file not there
             coor.setAltitude(Double.MIN_VALUE);
             return coor;
         } catch (Exception ioe) {
             // oops...
-            ioe.printStackTrace(System.err);
+//            ioe.printStackTrace(System.err);
             // fallback
             coor.setAltitude(Double.MIN_VALUE);
             return coor1;
@@ -114,7 +114,7 @@ public class HgtReader {
         ShortBuffer sb = cache.get(tag);
 
         if (sb == null) {
-            System.err.println("ShortBuffer is null");
+//            System.err.println("ShortBuffer is null");
         }
 
         // see http://gis.stackexchange.com/questions/43743/how-to-extract-elevation-from-hgt-file

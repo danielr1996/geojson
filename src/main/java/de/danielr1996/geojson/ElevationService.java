@@ -29,7 +29,7 @@ public class ElevationService {
     }
 
     public static Feature getElevationsForMultiPointFeature(Feature feature){
-        MultiPoint raster = Polygons.raster.apply(100).apply((Polygon)feature.getGeometry());
+        MultiPoint raster = Polygons.raster.apply(40).apply((Polygon)feature.getGeometry());
 
         feature.setGeometry(ElevationService.getElevations(raster.getCoordinates()).stream()
                 .filter(coord->coord.getAltitude()!= Double.MIN_VALUE)

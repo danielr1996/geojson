@@ -7,11 +7,15 @@ import de.danielr1996.geojson.topojson.Definition;
 import de.danielr1996.geojson.topojson.Definitions;
 import de.danielr1996.geojson.topojson.Generator;
 import de.danielr1996.geojson.topojson.Properties;
-import org.geojson.FeatureCollection;
+import org.geojson.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Comparator;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class GenerateGeoJSON {
@@ -95,7 +99,20 @@ public class GenerateGeoJSON {
                     File f = new File("src/main/res/generated/" + feature.getProperty("name").toString().replaceAll(" ", "") + ".geo.json");
                     File f2 = new File("src/main/res/generated/" + feature.getProperty("name").toString().replaceAll(" ", "") + "-height.geo.json");
                     Util.writeGeoJsonObject(feature, f);
-                    Util.writeGeoJsonObject(ElevationService.getElevationsForMultiPointFeature(feature), f2);
+                    Feature elevations = ElevationService.getElevationsForMultiPointFeature(feature);
+                    Util.writeGeoJsonObject(elevations, f2);
+
+
+                    String csv = ((MultiPoint) elevations.getGeometry()).getCoordinates().stream().filter(coord -> coord.getAltitude() != Double.MIN_VALUE)
+                            .sorted(Comparator.comparingDouble(LngLatAlt::getAltitude))
+                            .map(coord -> String.format("%s,%s,%s", coord.getLongitude(), coord.getLatitude()
+                                    , coord.getAltitude())).collect(Collectors.joining("\n"));
+                    csv = "Longitude,Latitude,Altitude\n" + csv;
+                    try {
+                        Files.write(Paths.get("src/main/res/generated/" + feature.getProperty("name").toString().replaceAll(" ", "") + "-height.csv"), csv.getBytes());
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 });
 //        Util.writeGeoJsonObject(featureCollection, new File("src/main/res/generated/FeatureCollection.geo.json"));
 
