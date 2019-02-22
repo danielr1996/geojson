@@ -9,22 +9,25 @@ import org.geojson.Polygon;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.ToDoubleFunction;
 
 
 public class Polygons {
-    public static Function<MultiPoint, Polygon> fromMultiPoint = (MultiPoint multiPoint) -> {
-        Polygon polygon = new Polygon();
-        List<LngLatAlt> points = new ArrayList<>(multiPoint.getCoordinates());
-        points.add(multiPoint.getCoordinates().get(0));
-        polygon.setExteriorRing(points);
-        return polygon;
-    };
+    public static BiFunction<ToDoubleFunction<LngLatAlt>, ToDoubleFunction<LngLatAlt>, Function<Polygon, LngLatAlt>> findFarthest =
+            (sort, max) -> polygon -> polygon
+                    .getExteriorRing()
+                    .stream()
+                    .sorted(Comparator.comparingDouble(sort))
+                    .max(Comparator.comparingDouble(max))
+                    .orElse(new LngLatAlt());
 
-    public static Function<LineString, Polygon> fromLineString = (LineString lineString) -> {
-        return fromMultiPoint.compose(MultiPoints.fromLineString).apply(lineString);
-    };
+//    public static Function<Polygon, LngLatAlt> findNorth = findFarthest.apply(LngLatAlt::getLongitude,LngLatAlt::getLatitude);
+//    public static Function<Polygon, LngLatAlt> findSouth = findFarthest.apply(LngLatAlt::getLongitude,LngLatAlt::getLatitude);
+//    public static Function<Polygon, LngLatAlt> findWest = findFarthest.apply(LngLatAlt::getLongitude,LngLatAlt::getLatitude);
+//    public static Function<Polygon, LngLatAlt> findEast = findFarthest.apply(LngLatAlt::getLongitude,LngLatAlt::getLatitude);
 
     public static Function<Polygon, LngLatAlt> findNorth = polygon -> polygon
             .getExteriorRing()
@@ -55,18 +58,15 @@ public class Polygons {
             .orElse(new LngLatAlt());
 
 
-    public static Function<Integer, Function<Polygon, MultiPoint>> raster = steps -> polygon -> {
-        MultiPoint raster = Rectangle.raster
-                .apply(steps)
-                .compose(Polygons.boundingRect)
-                .apply(polygon)
-                .getCoordinates()
-                .stream()
-                .filter(Polygons.contains.apply(polygon))
-                .collect(MultiPoints.collector());
-
-        return raster;
-    };
+    public static Function<Integer, Function<Polygon, MultiPoint>> raster = steps -> polygon ->
+            Rectangle.raster
+                    .apply(steps)
+                    .compose(Polygons.boundingRect)
+                    .apply(polygon)
+                    .getCoordinates()
+                    .stream()
+                    .filter(Polygons.contains.apply(polygon))
+                    .collect(GeoJSONCollectors.toMultiPoint());
 
     public static Function<Polygon, Rectangle> boundingRect = polygon -> {
         LngLatAlt north = Polygons.findNorth.apply(polygon);
@@ -97,8 +97,8 @@ public class Polygons {
             return lineString;
         }).map(lineSegment -> LineStrings.intersects(strahl, lineSegment))
                 .filter(intersects -> intersects)
-        .count();
+                .count();
 
-        return numberIntersections %2 != 0;
+        return numberIntersections % 2 != 0;
     };
 }

@@ -1,5 +1,6 @@
 package de.danielr1996.geojson.geojson;
 
+import org.geojson.LineString;
 import org.geojson.LngLatAlt;
 import org.geojson.Polygon;
 import org.junit.jupiter.api.Test;
@@ -119,6 +120,33 @@ class PolygonsTest {
         LngLatAlt westernmost = new LngLatAlt(3, 1);
         LngLatAlt actual = Polygons.findEast.apply(polygon);
         assertEquals(westernmost, actual);
+    }
+
+    @Test
+    void boundingRect() {
+        /*Polygon polygon = LineStrings.of(
+                new LngLatAlt(0, 0),
+                new LngLatAlt(1, 1),
+                new LngLatAlt(2, 0),
+                new LngLatAlt(-1, -1)
+        ).getCoordinates().stream().collect(GeoJSONCollectors.toPolygon());
+        Rectangle expected = Rectangle.builder()
+                .northWest(new LngLatAlt(0, 1))
+                .southWest(new LngLatAlt(0, -1))
+                .northEast(new LngLatAlt(1, 1))
+                .southEast(new LngLatAlt(-1, -1))
+                .build();
+
+        Rectangle actual = Polygons.boundingRect.apply(polygon);
+        assertEquals(expected.getNorthWest(), actual.getNorthWest());
+        assertEquals(expected.getNorthEast(), actual.getNorthEast());
+        assertEquals(expected.getSouthWest(), actual.getSouthWest());
+        assertEquals(expected.getSouthEast(), actual.getSouthEast());*/
+    }
+
+    @Test
+    void raster() {
+
     }
 
     @Test
