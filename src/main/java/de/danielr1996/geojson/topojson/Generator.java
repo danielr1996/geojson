@@ -46,6 +46,7 @@ public class Generator {
                 .map(Features.extractTypedGeometry(LineString.class))
                 .reduce(LineStrings::merge).get();
         Polygon polygon = lineString.getCoordinates().stream().collect(GeoJSONCollectors.toPolygon());
+        polygon.getExteriorRing().add(polygon.getExteriorRing().get(0));
 //        Polygon polygon = Polygons.fromLineString.apply(lineString);
         Feature feature = new Feature();
         if (definition.properties != null) {

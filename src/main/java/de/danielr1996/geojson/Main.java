@@ -26,7 +26,7 @@ public class Main {
         List<Feature> features = definitions.map(Generator::generate).collect(Collectors.toList());
 
         features.forEach(Main::writePolygon);
-       List<Feature> elevations = features
+        List<Feature> elevations = features
                 .stream()
                 .map(ElevationService::getElevationsForMultiPointFeature)
                 .collect(Collectors.toList());
@@ -35,7 +35,7 @@ public class Main {
         elevations.forEach(Main::writeHeightCsv);
 
         FeatureCollection featureCollection = features.stream().collect(GeoJSONCollectors.toFeatureCollection());
-        Util.writeGeoJsonObject(featureCollection,new File("src/main/res/generated/FeatureCollection.geo.json"));
+        Util.writeGeoJsonObject(featureCollection, new File("src/main/res/generated/FeatureCollection.geo.json"));
     }
 
     public static void writePolygon(Feature feature) {
@@ -113,6 +113,9 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
+                "TuxerAlpen",
+                "ZillertalerAlpen",
+                "KitzbühelerAlpen"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
