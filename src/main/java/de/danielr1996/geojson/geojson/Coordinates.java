@@ -11,11 +11,6 @@ public class Coordinates {
         return String.format("%f, %f", coord.getLongitude(), coord.getLatitude());
     }
 
-    public static void main(String[] args) {
-        System.out.println(singleToHexagesimalString(47.4318139));
-        System.out.println(singleToHexagesimalString(11.0312448));
-    }
-
     public static String toHexagesimalString(LngLatAlt coord){
         return String.format("%s, %s", singleToHexagesimalString(coord.getLongitude()),singleToHexagesimalString(coord.getLatitude()));
     }

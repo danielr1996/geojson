@@ -2,6 +2,7 @@ package de.danielr1996.geojson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import de.danielr1996.geojson.HgtReader;
+import de.danielr1996.geojson.geojson.Features;
 import de.danielr1996.geojson.geojson.GeoJSONCollectors;
 import de.danielr1996.geojson.geojson.Polygons;
 import de.danielr1996.geojson.geojson.Util;
@@ -30,10 +31,11 @@ public class ElevationService {
 
     public static Feature getElevationsForMultiPointFeature(Feature feature){
         MultiPoint raster = Polygons.raster.apply(40).apply((Polygon)feature.getGeometry());
+        Feature newFeature = Features.of(feature);
 
-        feature.setGeometry(ElevationService.getElevations(raster.getCoordinates()).stream()
+        newFeature.setGeometry(ElevationService.getElevations(raster.getCoordinates()).stream()
                 .filter(coord->coord.getAltitude()!= Double.MIN_VALUE)
                 .sorted(Comparator.comparingDouble(LngLatAlt::getAltitude)).collect(GeoJSONCollectors.toMultiPoint()));
-        return feature;
+        return newFeature;
     }
 }

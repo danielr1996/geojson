@@ -7,6 +7,16 @@ import org.geojson.LineString;
 import java.util.function.Function;
 
 public class Features {
+    public static Feature of(Feature feature){
+        Feature f = new Feature();
+        f.setGeometry(feature.getGeometry());
+        f.setProperties(feature.getProperties());
+        f.setId(feature.getId());
+        f.setBbox(feature.getBbox());
+        f.setCrs(feature.getCrs());
+        return f;
+    }
+
     public static Feature ofGeometry(GeoJsonObject geoJsonObject) {
         Feature feature = new Feature();
         feature.setGeometry(geoJsonObject);
