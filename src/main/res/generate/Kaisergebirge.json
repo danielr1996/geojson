@@ -1,0 +1,19 @@
+{
+  "name": "Kaisergebirge",
+  "lines": [
+    "Großache-Walchseebach-Grießbach",
+    "Weißenbach-Walchseebach-Großache",
+    "Walchseebach-Verbindung-Weißenbach",
+    "Verbindung-Jennbach-Walchseebach",
+    "Jennbach-Inn-Feldbach",
+    "Inn-ThierseerAche-Jennbach",
+    "Inn-Weißache-Kieferbach",
+    "WeißAche-Aubach-Inn",
+    "Aubach-B178-Weißache",
+    "B178-GoingerBach-Aubach",
+    "GoingerBach-AschauerAche-B178",
+    "AschauerAche-KitzbühelerAche-Goingerbach",
+    "KitzbühelerAche-FieberbrunnerAche-AschauerAche",
+    "Großache-Fieberbrunnerache-Grießbach"
+  ]
+}

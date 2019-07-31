@@ -1,0 +1,16 @@
+{
+  "name": "Loferer und Leoganger Steinberge",
+  "lines": [
+    "Großache-Fieberbrunnerache-Grießbach",
+    "Grießbach-Großache-Waldbach",
+    "Waldbach-Grießbach-Steingasserbach",
+    "Steingasserbach-Waldbach-B178",
+    "B178-Steingasserbach-Unterwasser",
+    "Unterwasser-B178-Grießelbach",
+    "Grießelbach-Unterwasser-Saalach",
+    "Saalach-Grießelbach-UrslauAche",
+    "LeogangerAche-Saalach-Schüttachgraben",
+    "PassGrießen",
+    "FieberbrunnerAche-PassGrießen-KitzbühelerAche"
+  ]
+}
