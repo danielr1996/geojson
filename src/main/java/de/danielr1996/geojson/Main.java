@@ -71,8 +71,9 @@ public class Main {
                 "Lechquellengebirge",
                 "LechtalerAlpen",
                 "Wettersteingebirge",
-                //"MiemingerKette",
-                //"Karwendel",
+                "MiemingerKette",
+                "Karwendel",
+                "BrandenbergerAlpen",
                 "AmmergauerAlpen",
                 "BayrischeVoralpen",
                 "Kaisergebirge",
@@ -83,10 +84,10 @@ public class Main {
                 "Tennengebirge",
                 "Dachsteingebirge",
                 "TotesGebirge",
-                //"EnnstalerAlpen",
+                "EnnstalerAlpen",
                 "Salzkammergutberge",
                 "OberoesterreichischeVoralpen",
-                //"HochschwabGruppe",
+                "HochschwabGruppe",
                 "MürzstegerAlpen",
                 "RaxSchneeberggruppe",
                 "YbbstalerAlpen",
@@ -107,7 +108,8 @@ public class Main {
                 "Berninaalpen",
                 "ZillertalerAlpen",
                 "Tuxeralpen",
-                "KitzbühelerAlpen"
+                "KitzbühelerAlpen",
+                "Stubaieralpen"
         );
         Stream<String> suedlicheostalpen = Stream.of(
                 "Bergamaskeralpen"
@@ -115,11 +117,19 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
-                "KitzbühelerAlpen",
-                "ChiemgauerAlpen",
-                "Kaisergebirge",
-                "LofererUndLeogangerSteinberge",
-                "BerchtesgadenerAlpen"
+                "MürzstegerAlpen",
+                "GutensteinerAlpen",
+                "RaxSchneeberggruppe",
+                "TuernitzerAlpen",
+                "HochschwabGruppe",
+                "EnnstalerAlpen",
+                "OberoesterreichischeVoralpen",
+                "Salzkammergutberge",
+                "Dachsteingebirge",
+                "YbbstalerAlpen",
+                "TotesGebirge",
+                "Wienerwald"
+
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(

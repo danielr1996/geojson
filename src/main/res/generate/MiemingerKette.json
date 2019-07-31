@@ -1,0 +1,16 @@
+{
+  "name": "Mieminger Kette",
+  "lines": [
+    "Inn-OetztalerAche-Schlossbach",
+    "Inn-Gurglbach-OetztalerAche",
+    "Gurglbach-Inn-Fernpass",
+    "Fernpass-Gurglbach-Loisach",
+    "Loisach-Fernpass-Gaisbach",
+    "Gaisbach-Verbindung-Loisach",
+    "Verbindung-LeutascherAche-Gaisbach",
+    "LeutascherAche-Verbindung-Verbindung",
+    "Verbindung-LeutascherAche-Bodenbach",
+    "Bodenbach-Gießenbach-Verbindung",
+    "MiemingerKette-Ostgrenze"
+  ]
+}

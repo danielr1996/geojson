@@ -1,0 +1,20 @@
+{
+  "name": "Brandenberger Alpen",
+  "lines": [
+    "Inn-Jenbach-Ziller",
+    "Inn-Weißache-Ziller",
+    "Inn-Weißache-Kieferbach",
+    "ThierseerAche-Glemmbach-Inn",
+    "Glemmbach-Verbindung-ThierseerAche",
+    "Verbindung-Ellbach-Glemmbach",
+    "Ellbach-BrandenbergerAche-Verbindung",
+    "BrandenbergerAche-Bairache-Ellbach",
+    "Bairache-Sattelbach-BrandenbergerAche",
+    "Sattelbach-Quelle-Bairache",
+    "Verbindung-Filzmoosbach-Sattelbach",
+    "Filzmoosbach-Ampelsbach-Quelle",
+    "Ampelsbach-Walchen-Filzmoosbach",
+    "Ache-Walchen-Achensee",
+    "Karwendel-Ostgrenze"
+  ]
+}

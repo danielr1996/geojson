@@ -1,73 +1,28 @@
 {
   "name": "Bayrische Voralpen",
-  "linesDeprecated": [
-    {
-      "name": "Loisach-Partnach-Eschenlohe"
-    },
-    {
-      "name": "Partnach-Loisach-Krankerbach"
-    },
-    {
-      "name": "Krankerbach-Partnach-Quelle"
-    },
-    {
-      "name": "Verbindung-Krankerbach-Kranzbach"
-    },
-    {
-      "name": "Kranzbach-Verbindung-Finzbachstraße"
-    },{
-      "name": "Verbindung-Kranzbach-Finzbach"
-    },
-    {
-      "name": "Finzbach-Verbindung-Isar"
-    },
-    {
-      "name": "Isar-Finzbach-Walchen"
-    },
-    {
-      "name": "Walchen-Isar-Ampelsbach"
-    },
-    {
-      "name": "Ampelsbach-Walchen-Filzmoosbach"
-    },
-    {
-      "name": "Filzmoosbach-Ampelsbach-Quelle"
-    },
-    {
-      "name": "Verbindung-Filzmoosbach-Sattelbach"
-    },
-    {
-      "name": "Sattelbach-Quelle-Bairache"
-    },
-    {
-      "name": "Bairache-Sattelbach-BrandenbergerAche"
-    },
-    {
-      "name": "BrandenbergerAche-Bairache-Ellbach"
-    },
-    {
-      "name": "Ellbach-BrandenbergerAche-Verbindung"
-    },
-    {
-      "name": "Verbindung-Ellbach-Glemmbach"
-    },
-    {
-      "name": "Glemmbach-Verbindung-ThierseerAche"
-    },
-    {
-      "name": "ThierseerAche-Glemmbach-Inn"
-    },
-    {
-      "name": "Inn-ThierseerAche-Jennbach"
-    },
-    {
-      "name": "Inn-Jennbach-Zankel"
-    },
-    {
-      "name": "BayrischeVoralpen-Nordgrenze"
-    },
-    {
-      "name": "Loisach-Eschenlohe-Bayrische-Alpen-Nordgrenze"
-    }
+  "lines": [
+      "Loisach-Partnach-Eschenlohe",
+      "Partnach-Loisach-Krankerbach",
+      "Krankerbach-Partnach-Quelle",
+      "Verbindung-Krankerbach-Kranzbach",
+      "Kranzbach-Verbindung-Finzbachstraße",
+      "Verbindung-Kranzbach-Finzbach",
+      "Finzbach-Verbindung-Isar",
+      "Isar-Finzbach-Walchen",
+      "Walchen-Isar-Ampelsbach",
+      "Ampelsbach-Walchen-Filzmoosbach",
+      "Filzmoosbach-Ampelsbach-Quelle",
+      "Verbindung-Filzmoosbach-Sattelbach",
+      "Sattelbach-Quelle-Bairache",
+      "Bairache-Sattelbach-BrandenbergerAche",
+      "BrandenbergerAche-Bairache-Ellbach",
+      "Ellbach-BrandenbergerAche-Verbindung",
+      "Verbindung-Ellbach-Glemmbach",
+      "Glemmbach-Verbindung-ThierseerAche",
+      "ThierseerAche-Glemmbach-Inn",
+      "Inn-ThierseerAche-Jennbach",
+      "Inn-Jennbach-Zankel",
+      "BayrischeVoralpen-Nordgrenze",
+      "Loisach-Eschenlohe-Bayrische-Alpen-Nordgrenze"
   ]
 }

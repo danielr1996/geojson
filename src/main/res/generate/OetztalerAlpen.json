@@ -1,35 +1,15 @@
 {
   "name": "Ötztaler Alpen",
-  "linesDeprecated": [
-    {
-      "name": "Inn-Landeck-Schalkbach"
-    },
-    {
-      "name": "Inn-Sanna-Gurglbach"
-    },
-    {
-      "name": "Inn-Gurglbach-OetztalerAche"
-    },
-    {
-      "name": "OetztalerAche"
-    },
-    {
-      "name": "Passer-Timmelsjoch-StLeonhard"
-    },
-    {
-      "name": "Passer-StLeonhard-Meran"
-    },
-    {
-      "name": "Etsch-Meran-Rambach"
-    },
-    {
-      "name": "Etsch-Rambach-Reschensee"
-    },
-    {
-      "name": "StillerBach-Reschensee-Inn"
-    },
-    {
-      "name": "Inn-Schalkbach-Stillerbach"
-    }
+  "lines": [
+      "Inn-Landeck-Schalkbach",
+      "Inn-Sanna-Gurglbach",
+      "Inn-Gurglbach-OetztalerAche",
+      "OetztalerAche",
+      "Passer-Timmelsjoch-StLeonhard",
+      "Passer-StLeonhard-Meran",
+      "Etsch-Meran-Rambach",
+      "Etsch-Rambach-Reschensee",
+      "StillerBach-Reschensee-Inn",
+      "Inn-Schalkbach-Stillerbach"
   ]
 }

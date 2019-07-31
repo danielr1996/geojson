@@ -1,56 +1,22 @@
 {
   "name": "Wettersteingebirge",
-  "linesDeprecated": [
-    {
-      "name": "Gaisbach-Verbindung-Loisach"
-    },
-    {
-      "name": "Verbindung-LeutascherAche-Gaisbach"
-    },
-    {
-      "name": "LeutascherAche-Verbindung-Verbindung"
-    },
-    {
-      "name": "Verbindung-LeutascherAche-Bodenbach"
-    },
-    {
-      "name": "Bodenbach-Gießenbach-Verbindung"
-    },
-    {
-      "name": "Drahnbach-Gießenbach-Bodenbach"
-    },
-    {
-      "name": "Gießenbach-Isar-Drahnbach"
-    },
-    {
-      "name": "Isar-LeutascherAche-Gießenbach"
-    },
-    {
-      "name": "Isar-Finzbach-LeutascherAche"
-    },
-    {
-      "name": "Finzbach-Verbindung-Isar"
-    },
-    {
-      "name": "Verbindung-Kranzbach-Finzbach"
-    },
-    {
-      "name": "Kranzbach-Verbindung-Finzbachstraße"
-    },
-    {
-      "name": "Verbindung-Krankerbach-Kranzbach"
-    },
-    {
-      "name": "Krankerbach-Partnach-Quelle"
-    },
-    {
-      "name": "Partnach-Loisach-Krankerbach"
-    },
-    {
-      "name": "Loisach-Zwischentoren-Partnach"
-    },
-    {
-      "name": "Loisach-Gaisbach-Lussbach"
-    }
+  "lines": [
+      "Gaisbach-Verbindung-Loisach",
+      "Verbindung-LeutascherAche-Gaisbach",
+      "LeutascherAche-Verbindung-Verbindung",
+      "Verbindung-LeutascherAche-Bodenbach",
+      "Bodenbach-Gießenbach-Verbindung",
+      "Drahnbach-Gießenbach-Bodenbach",
+      "Gießenbach-Isar-Drahnbach",
+      "Isar-LeutascherAche-Gießenbach",
+      "Isar-Finzbach-LeutascherAche",
+      "Finzbach-Verbindung-Isar",
+      "Verbindung-Kranzbach-Finzbach",
+      "Kranzbach-Verbindung-Finzbachstraße",
+      "Verbindung-Krankerbach-Kranzbach",
+      "Krankerbach-Partnach-Quelle",
+      "Partnach-Loisach-Krankerbach",
+      "Loisach-Zwischentoren-Partnach",
+      "Loisach-Gaisbach-Lussbach"
   ]
 }
