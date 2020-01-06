@@ -106,7 +106,8 @@ public class Main {
                 "ZillertalerAlpen",
                 "Tuxeralpen",
                 "KitzbühelerAlpen",
-                "Stubaieralpen"
+                "Stubaieralpen",
+                "RandgebirgeOestlichDerMur"
         );
         Stream<String> westlicheostalpen = Stream.of(
                 "Plessuralpen",
@@ -121,17 +122,18 @@ public class Main {
                 "VizentinerAlpen",
                 "GardaseeBerge",
                 "SuedlicheKarnischeAlpen",
-                "JulischeAlpen"
+                "JulischeAlpen",
+                "SteinerAlpen",
+                "KarawankenUndBacherGebirge"
 
         );
 
         Stream<String> doing = Stream.of(
-//                "Bergamaskeralpen",
-//                "VizentinerAlpen",
-//                "GardaseeBerge",
-                "Dolomiten",
-                "SuedlicheKarnischeAlpen",
-                "JulischeAlpen"
+//                "EnnstalerAlpen",
+//                "KarawankenUndBacherGebirge",
+                "HochschwabGruppe",
+                "RaxSchneeberggruppe",
+                "RandgebirgeOestlichDerMur"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(

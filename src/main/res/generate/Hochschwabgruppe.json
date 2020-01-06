@@ -1,10 +1,12 @@
 {
   "name": "Hochschwabgruppe",
   "lines": [
-    "Ybbstaleralpen-Nordgrenze",
-    "Ybbstaleralpen-Westgrenze",
     "Ybbstaleralpen-Suedgrenze",
-    "Enns-Lausabach-Salza",
-    "WaidhofenbachGaflenzbach-Ybbs-Enns"
+    "Enns-Salza-Erzbach",
+    "Erzbach",
+    "SteirischerSeeberg",
+    "Mürz-Mürzzuschlag-Kapellen",
+    "Mürz-Mürzzuschlag-Mur",
+    "Mur-Mürz-Erzbach"
   ]
 }
