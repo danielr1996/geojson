@@ -131,11 +131,11 @@ public class Main {
 //                "Sobretta-Gravia-Gruppe",//48b
 //                "Nonsberggruppe",//48c
 //                "Adamello-Presanella-Alpen",//49
-                "GardaseeBerge.json", // 50
+                "Gardasee-Berge", // 50
 //                "Brenta-Gruppe", // 51
-                "Dolomiten.json", // 52
-//                "Fleimstaler-Alpen", // 53
-                "VizentinerAlpen.json", // 54
+                "Dolomiten", // 52
+                "Fleimstaler-Alpen", // 53
+                "Vizentiner-Alpen", // 54
 //                "Gailtaler-Alpen", // 56
 //                "Karnischer-Hauptkamm", // 57
                 "SuedlicheKarnischeAlpen.json", //57b
@@ -155,9 +155,10 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
-                "Livigno-Alpen",
-//                "Bernina-Alpen"
-                "Sesvenna" //29
+                "Fleimstaler-Alpen", // 53
+                "Dolomiten", // 53
+                "Gardasee-Berge", // 50
+                "Vizentiner-Alpen" // 54
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(

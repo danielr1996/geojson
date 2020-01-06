@@ -1,0 +1,15 @@
+properties:
+  name: Dolomiten
+  ave: 52
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Rienza-Eisack-Ahr
+  - Rienza-Ahr-Drau
+  - Kreuzbergpass-Drau-Piave
+  - Piave-Kreuzbergpass-Pederobba
+  - Dolomiten-Suedgrenze
+  - Brenta-Cismon
+  - Cismon-Brenta
+  - Travignolo-Cismon-Avisio
+  - Eggentalerbach
+  - Eisack-Rienza-Eggentalerbach

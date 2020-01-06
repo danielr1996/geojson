@@ -1,0 +1,10 @@
+properties:
+  name: Gardasee Berge
+  ave: 50
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Etsch-Pergine
+  - GardaseeBerge-Suedgrenze
+  - Iseosee-Idrosee
+  - Gardaseeberge-Nordgrenze
+  - Gardaseeberge-Nordgrenze2

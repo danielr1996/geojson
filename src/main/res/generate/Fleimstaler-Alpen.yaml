@@ -1,0 +1,13 @@
+properties:
+  name: Fleimstaler Alpen
+  ave: 52
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Eggentalerbach
+  - Travignolo-Cismon-Avisio
+  - Cismon-Brenta
+  - Brenta
+  - Pergine
+  - Gardaseeberge-Nordgrenze2
+  - Etsch-Gardasee-Eisack
+  - Eisack-Etsch-Eggentalerbach
