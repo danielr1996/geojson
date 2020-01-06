@@ -1,38 +1,16 @@
 {
   "name": "Bergamasker Alpen",
-  "linesDeprecated": [
-    {
-      "name": "Adda-Belviso-LagoDiComo"
-    },
-    {
-      "name": "Belviso-Adda-Aprica"
-    },
-    {
-      "name": "Aprica-Belviso-PassoAprica"
-    },
-    {
-      "name": "PassoAprica"
-    },
-    {
-      "name": "Edolo-PassoAprica-Oglio"
-    },
-    {
-      "name": "Oglio-Edolo-LagoDIseo"
-    },
-    {
-      "name": "LagoDIseo-Oglio-Oglio"
-    },
-    {
-      "name": "BergamaskerAlpen-Südgrenze"
-    },
-    {
-      "name": "Sonna-Adda"
-    },
-    {
-      "name": "Adda-Sonna-LagoDiComo"
-    },
-    {
-      "name": "LagoDiComo-Adda-Adda"
-    }
+  "lines": [
+    "Adda-Belviso-LagoDiComo",
+    "Belviso-Adda-Aprica",
+    "Aprica-Belviso-PassoAprica",
+    "PassoAprica",
+    "Edolo-PassoAprica-Oglio",
+    "Oglio-Edolo-LagoDIseo",
+    "LagoDIseo-Oglio-Oglio",
+    "BergamaskerAlpen-Südgrenze",
+    "Sonna-Adda",
+    "Adda-Sonna-LagoDiComo",
+    "LagoDiComo-Adda-Adda"
   ]
 }
