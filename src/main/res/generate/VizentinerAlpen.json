@@ -1,5 +1,8 @@
 {
-  "name": "Vizentiner Alpen",
+  "properties": {
+    "name": "Vizentiner Alpen",
+    "ave": "54"
+  },
   "lines": [
     "Brenta-Cismon",
     "VizentinerAlpen-Suedgrenze",

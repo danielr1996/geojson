@@ -1,5 +1,8 @@
 {
-  "name": "Ötztaler Alpen",
+  "properties": {
+    "name": "Ötztaler Alpen",
+    "ave": "30"
+  },
   "lines": [
       "Inn-Landeck-Schalkbach",
       "Inn-Sanna-Gurglbach",

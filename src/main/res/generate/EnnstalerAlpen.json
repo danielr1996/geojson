@@ -1,5 +1,8 @@
 {
-  "name": "Ennstaler Alpen",
+  "properties": {
+    "name": "Ennstaler Alpen",
+    "ave": "16"
+  },
   "lines": [
     "PhyrnbachTeichl-Enns-Dambach",
     "Oberoestereischevoralpen-Suedgrenze",

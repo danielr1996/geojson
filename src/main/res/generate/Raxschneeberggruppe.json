@@ -1,5 +1,8 @@
 {
-  "name": "Rax Schneeberg Gruppe",
+  "properties": {
+    "name": "Rax Schneeberg Gruppe",
+    "ave": "20"
+  },
   "lines": [
     "Altenberg-Naßwald",
     "Mürz-Mürzzuschlag-Kapellen",

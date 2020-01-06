@@ -1,5 +1,8 @@
 {
-  "name": "Dolomiten",
+  "properties": {
+    "name": "Dolomiten",
+    "ave": "52"
+  },
   "lines": [
     "Rienza-Eisack-Ahr",
     "Rienza-Ahr-Drau",

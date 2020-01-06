@@ -1,5 +1,8 @@
 {
-  "name": "GutensteinerAlpen",
+  "properties": {
+    "name": "GutensteinerAlpen",
+    "ave": "23"
+  },
   "lines": [
     "Tuernitzeralpen-Mittelgrenze",
     "Schwarza",

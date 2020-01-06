@@ -1,5 +1,8 @@
 {
-  "name": "Mieminger Kette",
+  "properties":{
+    "name": "Mieminger Kette",
+    "ave": 4
+  },
   "lines": [
     "Inn-OetztalerAche-Schlossbach",
     "Inn-Gurglbach-OetztalerAche",

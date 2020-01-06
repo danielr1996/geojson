@@ -1,5 +1,8 @@
 {
-  "name": "SalzburgerSchieferAlpen",
+  "properties": {
+    "name": "SalzburgerSchieferAlpen",
+    "ave": "12"
+  },
   "lines": [
     "UrslauAche-Saalach-Urslaubach",
     "Verbindung-UrslauAche-Salzach",

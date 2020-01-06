@@ -1,22 +1,25 @@
 {
-  "name": "Wettersteingebirge",
+  "properties": {
+    "name": "Wettersteingebirge",
+    "ave": "4"
+  },
   "lines": [
-      "Gaisbach-Verbindung-Loisach",
-      "Verbindung-LeutascherAche-Gaisbach",
-      "LeutascherAche-Verbindung-Verbindung",
-      "Verbindung-LeutascherAche-Bodenbach",
-      "Bodenbach-Gießenbach-Verbindung",
-      "Drahnbach-Gießenbach-Bodenbach",
-      "Gießenbach-Isar-Drahnbach",
-      "Isar-LeutascherAche-Gießenbach",
-      "Isar-Finzbach-LeutascherAche",
-      "Finzbach-Verbindung-Isar",
-      "Verbindung-Kranzbach-Finzbach",
-      "Kranzbach-Verbindung-Finzbachstraße",
-      "Verbindung-Krankerbach-Kranzbach",
-      "Krankerbach-Partnach-Quelle",
-      "Partnach-Loisach-Krankerbach",
-      "Loisach-Zwischentoren-Partnach",
-      "Loisach-Gaisbach-Lussbach"
+    "Gaisbach-Verbindung-Loisach",
+    "Verbindung-LeutascherAche-Gaisbach",
+    "LeutascherAche-Verbindung-Verbindung",
+    "Verbindung-LeutascherAche-Bodenbach",
+    "Bodenbach-Gießenbach-Verbindung",
+    "Drahnbach-Gießenbach-Bodenbach",
+    "Gießenbach-Isar-Drahnbach",
+    "Isar-LeutascherAche-Gießenbach",
+    "Isar-Finzbach-LeutascherAche",
+    "Finzbach-Verbindung-Isar",
+    "Verbindung-Kranzbach-Finzbach",
+    "Kranzbach-Verbindung-Finzbachstraße",
+    "Verbindung-Krankerbach-Kranzbach",
+    "Krankerbach-Partnach-Quelle",
+    "Partnach-Loisach-Krankerbach",
+    "Loisach-Zwischentoren-Partnach",
+    "Loisach-Gaisbach-Lussbach"
   ]
 }

@@ -1,5 +1,8 @@
 {
-  "name": "Ybbstaler Alpen",
+  "properties": {
+    "name": "Ybbstaler Alpen",
+    "ave": "21"
+  },
   "lines": [
     "Ybbstaleralpen-Nordgrenze",
     "Ybbstaleralpen-Westgrenze",

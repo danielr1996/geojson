@@ -1,5 +1,8 @@
 {
-  "name": "Randgebirge östlich der Mur",
+  "properties": {
+    "name": "Randgebirge östlich der Mur",
+    "ave": "47"
+  },
   "lines": [
     "Ternitz-Mürzzuschlag",
     "Mürz-Mürzzuschlag-Mur",

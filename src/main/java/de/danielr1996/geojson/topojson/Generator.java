@@ -15,20 +15,10 @@ import java.util.stream.Stream;
 
 public class Generator {
     public static Feature generate(Definition definition) {
-        if (definition.linesDeprecated != null && definition.lines != null) {
-            throw new IllegalArgumentException("Cannot use lines and linesDeprecated in one Definition");
-        }
-        if (definition.linesDeprecated == null && definition.lines == null) {
-            throw new IllegalArgumentException("No lines Found in Definition "+definition.name);
+        if (definition.lines == null) {
+            throw new IllegalArgumentException("No lines Found in Definition "+definition);
         }
         Stream<String> lineNames = Stream.empty();
-        if (definition.linesDeprecated != null) {
-            if(definition.linesDeprecated.size()<2){
-                throw new IllegalArgumentException("Definition needs more than 2 lines");
-            }
-            lineNames = definition.linesDeprecated.stream()
-                    .map(line -> line.name);
-        }
 
         if (definition.lines != null) {
             if(definition.lines.size()<2){
@@ -49,14 +39,16 @@ public class Generator {
         polygon.getExteriorRing().add(polygon.getExteriorRing().get(0));
 //        Polygon polygon = Polygons.fromLineString.apply(lineString);
         Feature feature = new Feature();
-        if (definition.properties != null) {
-            feature.setProperty("name", definition.name);
-            feature.setProperty("stroke", definition.properties.getStroke());
-            feature.setProperty("stroke-opacity", definition.properties.getStrokeOpacity());
-            feature.setProperty("stroke-width", definition.properties.getStrokeWidth());
-            feature.setProperty("fill", definition.properties.getFill());
-            feature.setProperty("fill-opacity", definition.properties.getFillOpacity());
-        }
+//        System.out.println(definition.additionalProperties);
+        feature.setProperties(definition.properties);
+//        if (definition.properties != null) {
+//            feature.setProperty("name", definition.name);
+//            feature.setProperty("stroke", definition.properties.getStroke());
+//            feature.setProperty("stroke-opacity", definition.properties.getStrokeOpacity());
+//            feature.setProperty("stroke-width", definition.properties.getStrokeWidth());
+//            feature.setProperty("fill", definition.properties.getFill());
+//            feature.setProperty("fill-opacity", definition.properties.getFillOpacity());
+//        }
         feature.setGeometry(polygon);
         return feature;
     }

@@ -1,5 +1,8 @@
 {
-  "name": "Tennengebirge",
+  "properties": {
+    "name": "Tennengebirge",
+    "ave": "13"
+  },
   "lines": [
     "Lammer-Rußbach-Salzach",
     "Salzach-B99-Lammer",

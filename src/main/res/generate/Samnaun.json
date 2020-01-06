@@ -1,26 +1,15 @@
 {
-  "name": "Samnaun",
-  "linesDeprecated": [
-    {
-      "name": "Sanna-Wiesberg-Landeck"
-    },
-    {
-      "name": "Inn-Landeck-Schalkbach"
-    },
-    {
-      "name": "Inn-Schalkbach-Stillerbach"
-    },
-    {
-      "name": "Inn-Stillerbach-Ramosch"
-    },
-    {
-      "name": "Brancia-Fimberpass-Ramosch"
-    },
-    {
-      "name": "Fimbabach-Ischgl-Fimberpass"
-    },
-    {
-      "name": "Trisanna-Wiesberg-Ischgl"
-    }
+  "properties": {
+    "name": "Samnaun",
+    "ave": "27"
+  },
+  "lines": [
+    "Sanna-Wiesberg-Landeck",
+    "Inn-Landeck-Schalkbach",
+    "Inn-Schalkbach-Stillerbach",
+    "Inn-Stillerbach-Ramosch",
+    "Brancia-Fimberpass-Ramosch",
+    "Fimbabach-Ischgl-Fimberpass",
+    "Trisanna-Wiesberg-Ischgl"
   ]
 }

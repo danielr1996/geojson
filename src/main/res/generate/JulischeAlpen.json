@@ -1,5 +1,8 @@
 {
-  "name": "Julische Alpen",
+  "properties": {
+    "name": "Julische Alpen",
+    "ave": 58
+  },
   "lines": [
     "Tagliamento",
     "JulischeAlpen-Suedgrenze",

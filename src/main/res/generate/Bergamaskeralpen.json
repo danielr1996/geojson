@@ -1,5 +1,8 @@
 {
-  "name": "Bergamasker Alpen",
+  "properties": {
+    "name": "Bergamasker Alpen",
+    "ave": "68"
+  },
   "lines": [
     "Adda-Belviso-LagoDiComo",
     "Belviso-Adda-Aprica",

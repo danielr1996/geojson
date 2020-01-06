@@ -1,5 +1,8 @@
 {
-  "name": "Türnitzer Alpen",
+  "properties": {
+    "name": "Türnitzer Alpen",
+    "ave": "22"
+  },
   "lines": [
     "Ybbstaleralpen-Westgrenze",
     "Tuernitzeralpen-Nordgrenze",

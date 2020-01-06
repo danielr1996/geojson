@@ -1,5 +1,8 @@
 {
-  "name": "Oberösterreichische Voralpen",
+  "properties": {
+    "name": "Oberösterreichische Voralpen",
+    "ave": "17b"
+  },
   "lines": [
     "Teichl-Dambach-Steyr",
     "Oberoestereischevoralpen-Suedgrenze",

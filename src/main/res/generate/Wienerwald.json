@@ -1,5 +1,8 @@
 {
-  "name": "Wienerwald",
+  "properties": {
+    "name": "Wienerwald",
+    "ave": "24"
+  },
   "lines": [
     "Traisen-Spratzern-Traisen",
     "Wienerwald-Grenze",

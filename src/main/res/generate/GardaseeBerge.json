@@ -1,5 +1,8 @@
 {
-  "name": "Gardasee Berge",
+  "properties": {
+    "name": "Gardasee Berge",
+    "ave": "50"
+  },
   "lines": [
     "Etsch-Pergine",
     "GardaseeBerge-Suedgrenze",

@@ -1,5 +1,8 @@
 {
-  "name": "Brandenberger Alpen",
+  "properties": {
+    "name": "Brandenberger Alpen",
+    "ave": "6"
+  },
   "lines": [
     "Inn-Jenbach-Ziller",
     "Inn-Weißache-Ziller",

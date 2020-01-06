@@ -1,47 +1,22 @@
 {
-  "name": "Lechtaler Alpen",
-  "linesDeprecated": [
-    {
-      "name": "Lech-Krumbach-Reutte"
-    },
-    {
-      "name": "Lech-Krumbach-Zürsbach"
-    },
-    {
-      "name": "Zürsbach-Lech-Flexenbach"
-    },
-    {
-      "name": "Flexenbach-Zürsbach-Rauzbach"
-    },
-    {
-      "name": "Rauzbach-Alfenz-Arlberg"
-    },
-    {
-      "name": "Arlenbach-Arlberg-Rosanna"
-    },
-    {
-      "name": "Rosanna-Arlenbach-Wiesberg"
-    },
-    {
-      "name": "Sanna-Wiesberg-Landeck"
-    },
-    {
-      "name": "Inn-Sanna-Gurglbach"
-    },
-    {
-      "name": "Gurglbach-Inn-Fernpass"
-    },
-    {
-      "name": "Fernpass-Gurglbach-Loisach"
-    },
-    {
-      "name": "Loisach-Fernpass-Gaisbach"
-    },
-    {
-      "name": "Loisach-Gaisbach-Lussbach"
-    },
-    {
-      "name": "Zwischentoren-Reutte-Loisach"
-    }
+  "properties": {
+    "name": "Lechtaler Alpen",
+    "ave": "3b"
+  },
+  "lines": [
+      "Lech-Krumbach-Reutte",    
+      "Lech-Krumbach-Zürsbach",    
+      "Zürsbach-Lech-Flexenbach",    
+      "Flexenbach-Zürsbach-Rauzbach",    
+      "Rauzbach-Alfenz-Arlberg",    
+      "Arlenbach-Arlberg-Rosanna",    
+      "Rosanna-Arlenbach-Wiesberg",    
+      "Sanna-Wiesberg-Landeck",    
+      "Inn-Sanna-Gurglbach",    
+      "Gurglbach-Inn-Fernpass",    
+      "Fernpass-Gurglbach-Loisach",    
+      "Loisach-Fernpass-Gaisbach",    
+      "Loisach-Gaisbach-Lussbach",    
+      "Zwischentoren-Reutte-Loisach"
   ]
 }

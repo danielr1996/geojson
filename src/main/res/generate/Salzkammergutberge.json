@@ -1,5 +1,8 @@
 {
-  "name": "Salzkammergutberge",
+  "properties": {
+    "name": "Salzkammergutberge",
+    "ave":"17a"
+  },
   "lines": [
     "Dachsteingebirge-Nordgrenze-West",
     "Traun",

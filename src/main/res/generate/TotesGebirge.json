@@ -1,5 +1,8 @@
 {
-  "name": "Totes Gebirge",
+  "properties": {
+    "name": "Totes Gebirge",
+    "ave": "15"
+  },
   "lines": [
     "Dachsteingebirge-Nordgrenze-Ost",
     "Grimming-Enns-B145",

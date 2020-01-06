@@ -1,5 +1,8 @@
 {
-  "name": "Karawanken & Bachergebirge",
+  "properties": {
+    "name": "Karawanken & Bachergebirge",
+    "ave": "59"
+  },
   "lines": [
     "SteinerAlpen-Nordgrenze",
     "Sava-Slizza",

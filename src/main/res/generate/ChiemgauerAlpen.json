@@ -1,5 +1,8 @@
 {
-  "name": "ChiemgauerAlpen",
+  "properties": {
+    "name": "Chiemgauer Alpen",
+    "ave": "11"
+  },
   "lines": [
     "ChiemgauerAlpen-Nordgrenze",
     "Inn-Zankel-EuzenauerBach",

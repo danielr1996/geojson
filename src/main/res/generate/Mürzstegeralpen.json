@@ -1,5 +1,8 @@
 {
-  "name": "Mürzsteger Alpen",
+  "properties": {
+    "name": "Mürzsteger Alpen",
+    "ave": "19"
+  },
   "lines": [
     "Altenberg-Naßwald",
     "Schwarza",

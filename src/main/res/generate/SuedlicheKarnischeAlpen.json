@@ -1,5 +1,8 @@
 {
-  "name": "Südliche Karnische Alpen",
+  "properties": {
+    "name": "Südliche Karnische Alpen",
+    "ave": "57b"
+  },
   "lines": [
     "Piave-Kreuzbergpass-Pederobba",
     "Piave-Fella",

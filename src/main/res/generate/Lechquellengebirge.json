@@ -1,41 +1,20 @@
 {
-  "name": "Lechquellengebirge",
-  "linesDeprecated": [
-    {
-      "name": "Lutz-Seebergbach-Ill"
-    },
-    {
-      "name": "Faschinajoch"
-    },
-    {
-      "name": "Argenbach-Faschinajoch-BregenzerAche"
-    },
-    {
-      "name": "BregenzerAche-Rehmerbach-Argenbach"
-    },
-    {
-      "name": "BregenzerAche-StoggerSattel-Seebach"
-    },
-    {
-      "name": "Seebach-BregenzerAche-Hochtannbergpass"
-    },
-    {
-      "name": "Krumbach-Hochtannbergpass-Lech"
-    },
-    {
-      "name": "Lech-Krumbach-Zürsbach"
-    },
-    {
-      "name": "Zürsbach-Lech-Flexenbach"
-    },
-    {
-      "name": "Flexenbach-Zürsbach-Rauzbach"
-    },
-    {
-      "name": "Alfenz-Bludenz-Rauzbach"
-    },
-    {
-      "name": "Ill-Bludenz-Lutz"
-    }
+  "properties": {
+    "name": "Lechquellengebirge",
+    "ave": "3a"
+  },
+  "lines": [
+      "Lutz-Seebergbach-Ill",
+      "Faschinajoch",
+      "Argenbach-Faschinajoch-BregenzerAche",
+      "BregenzerAche-Rehmerbach-Argenbach",
+      "BregenzerAche-StoggerSattel-Seebach",
+      "Seebach-BregenzerAche-Hochtannbergpass",
+      "Krumbach-Hochtannbergpass-Lech",
+      "Lech-Krumbach-Zürsbach",
+      "Zürsbach-Lech-Flexenbach",
+      "Flexenbach-Zürsbach-Rauzbach",
+      "Alfenz-Bludenz-Rauzbach",
+      "Ill-Bludenz-Lutz"
   ]
 }

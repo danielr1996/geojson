@@ -1,5 +1,8 @@
 {
-  "name": "Karwendel",
+  "properties": {
+    "name": "Karwendel",
+    "ave": "5"
+  },
   "lines": [
     "MiemingerKette-Ostgrenze",
     "Drahnbach-Gießenbach-Bodenbach",

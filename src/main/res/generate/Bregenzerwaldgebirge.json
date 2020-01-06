@@ -1,5 +1,8 @@
 {
-  "name": "Bregenzerwaldgebirge",
+  "properties": {
+    "name": "Bregenzerwaldgebirge",
+    "ave": "1"
+  },
   "lines": [
     "Bodensee-AlterRhein-BregenzerAche",
     "AlterRhein-Rhein-Bodensee",

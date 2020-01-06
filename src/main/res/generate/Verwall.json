@@ -1,38 +1,19 @@
 {
-  "name": "Verwall",
-  "linesDeprecated": [
-    {
-      "name": "Alfenz-Bludenz-Rauzbach"
-    },
-    {
-      "name": "Rauzbach-Alfenz-Arlberg"
-    },
-    {
-      "name": "Arlenbach-Arlberg-Rosanna"
-    },
-    {
-      "name": "Rosanna-Arlenbach-Wiesberg"
-    },
-    {
-      "name": "Trisanna-Wiesberg-Ischgl"
-    },
-    {
-      "name": "Trisanna-Zeinisbach-Ischgl"
-    },
-    {
-      "name": "Zeinisbach-Zeinisjoch-Trisana"
-    },
-    {
-      "name": "Zeinisbach-Verbellabach-Zeinisjoch"
-    },
-    {
-      "name": "Verbellabach-Partenen-Zeinisbach"
-    },
-    {
-      "name": "Ill-Galgenul-Partenen"
-    },
-    {
-      "name": "Ill-Galgenul-Bludenz"
-    }
+  "properties": {
+    "name": "Verwall",
+    "ave": "28"
+  },
+  "lines": [
+      "Alfenz-Bludenz-Rauzbach",    
+      "Rauzbach-Alfenz-Arlberg",    
+      "Arlenbach-Arlberg-Rosanna",    
+      "Rosanna-Arlenbach-Wiesberg",    
+      "Trisanna-Wiesberg-Ischgl",    
+      "Trisanna-Zeinisbach-Ischgl",    
+      "Zeinisbach-Zeinisjoch-Trisana",    
+      "Zeinisbach-Verbellabach-Zeinisjoch",    
+      "Verbellabach-Partenen-Zeinisbach",    
+      "Ill-Galgenul-Partenen",    
+      "Ill-Galgenul-Bludenz"
   ]
 }

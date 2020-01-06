@@ -1,5 +1,8 @@
 {
-  "name": "Kitzbüheler Alpen",
+  "properties": {
+    "name": "Kitzbüheler Alpen",
+    "ave": "34"
+  },
   "lines": [
     "Inn-Weißache-Ziller",
     "WeißAche-Aubach-Inn",

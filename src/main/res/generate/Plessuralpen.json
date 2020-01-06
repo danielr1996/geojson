@@ -1,29 +1,16 @@
 {
-  "name": "Plessuralpen",
-  "linesDeprecated": [
-    {
-      "name": "Landquart-Rhein-Schlappinbach"
-    },
-    {
-      "name": "Landquart-KlostersPlatz-KlostersDorf"
-    },
-    {
-      "name": "Davos-KlostersPlatz"
-    },
-    {
-      "name": "Landwasser"
-    },
-    {
-      "name": "Albula-Landwasser-Julia"
-    },
-    {
-      "name": "Albula-Julia-Hinterrhein"
-    },
-    {
-      "name": "Hinterrhein"
-    },
-    {
-      "name": "Rhein-Albula-Landquart"
-    }
+  "properties": {
+    "name": "Plessuralpen",
+    "ave": "63"
+  },
+  "lines": [
+      "Landquart-Rhein-Schlappinbach",    
+      "Landquart-KlostersPlatz-KlostersDorf",    
+      "Davos-KlostersPlatz",    
+      "Landwasser",    
+      "Albula-Landwasser-Julia",    
+      "Albula-Julia-Hinterrhein",    
+      "Hinterrhein",    
+      "Rhein-Albula-Landquart"
   ]
 }

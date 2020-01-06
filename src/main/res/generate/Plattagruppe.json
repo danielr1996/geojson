@@ -1,32 +1,17 @@
 {
-  "name": "Plattagruppe",
-  "linesDeprecated": [
-    {
-      "name": "Albula-Julia-Hinterrhein"
-    },
-    {
-      "name": "Julia-Albula-Marmorerasee"
-    },
-    {
-      "name": "Julia-AuaDaSett-Marmorerasee"
-    },
-    {
-      "name": "AuaDaSett-Maira-Julia"
-    },
-    {
-      "name": "Maira-Orlegna-AuaDaSett"
-    },
-    {
-      "name": "Maira-Orlegna-Liro"
-    },
-    {
-      "name": "Liro-Maira-Splügenpass"
-    },
-    {
-      "name": "Huescherenbach-Splügen-Hinterrhein"
-    },
-    {
-      "name": "Hinterrhein-Huescherenbach-Albula"
-    }
+  "properties": {
+    "name": "Plattagruppe",
+    "ave": 64
+  },
+  "lines": [
+      "Albula-Julia-Hinterrhein",    
+      "Julia-Albula-Marmorerasee",    
+      "Julia-AuaDaSett-Marmorerasee",    
+      "AuaDaSett-Maira-Julia",    
+      "Maira-Orlegna-AuaDaSett",    
+      "Maira-Orlegna-Liro",    
+      "Liro-Maira-Splügenpass",    
+      "Huescherenbach-Splügen-Hinterrhein",    
+      "Hinterrhein-Huescherenbach-Albula"
   ]
 }

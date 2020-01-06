@@ -1,41 +1,20 @@
 {
-  "name": "Berninaalpen",
-  "linesDeprecated": [
-    {
-      "name": "Maira-Liro-LagoDiComo"
-    },
-    {
-      "name": "Maira-Orlegna-Liro"
-    },
-    {
-      "name": "Orlegna-Majola-Maira"
-    },
-    {
-      "name": "Sela-StMoritzerSee-Maloja"
-    },
-    {
-      "name": "Inn-Samedan-StMoritzerSee"
-    },
-    {
-      "name": "Flaz-Samedan-Bernina"
-    },
-    {
-      "name": "Bernina-Flaz-Berninapass"
-    },
-    {
-      "name": "Berninapass"
-    },
-    {
-      "name": "Poschiavino-Berninapass-Adda"
-    },
-    {
-      "name": "Adda-Belviso-Poschiavino"
-    },
-    {
-      "name": "Adda-Belviso-LagoDiComo"
-    },
-    {
-      "name": "LagoDiComo-Adda-Maira"
-    }
+  "properties": {
+    "name": "Berninaalpen",
+    "ave": "66"
+  },
+  "lines": [
+    "Maira-Liro-LagoDiComo",
+    "Maira-Orlegna-Liro",
+    "Orlegna-Majola-Maira",
+    "Sela-StMoritzerSee-Maloja",
+    "Inn-Samedan-StMoritzerSee",
+    "Flaz-Samedan-Bernina",
+    "Bernina-Flaz-Berninapass",
+    "Berninapass",
+    "Poschiavino-Berninapass-Adda",
+    "Adda-Belviso-Poschiavino",
+    "Adda-Belviso-LagoDiComo",
+    "LagoDiComo-Adda-Maira"
   ]
 }

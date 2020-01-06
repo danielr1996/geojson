@@ -1,32 +1,17 @@
 {
-  "name": "RätikonTest",
-  "linesDeprecated": [
-    {
-      "name": "Ill-Lutz-Rhein"
-    },
-    {
-      "name": "Rhein-Ill-Landquart"
-    },
-    {
-      "name": "Landquart-Rhein-Schlappinbach"
-    },
-    {
-      "name": "SchlapppinerBach-KlostersDorf-SchlappinerJoch"
-    },
-    {
-      "name": "ValzifenzerBach-SchlappinerJoch-Gargellen"
-    },
-    {
-      "name": "Suggadinbach-Gargallen-Galgenul"
-    },
-    {
-      "name": "Gweilbach-Galgenul-Ill"
-    },
-    {
-      "name": "Ill-Galgenul-Bludenz"
-    },
-    {
-      "name": "Ill-Bludenz-Lutz"
-    }
+  "properties": {
+    "name": "Rätikon",
+    "ave": "25"
+  },
+  "lines": [
+      "Ill-Lutz-Rhein",    
+      "Rhein-Ill-Landquart",    
+      "Landquart-Rhein-Schlappinbach",    
+      "SchlapppinerBach-KlostersDorf-SchlappinerJoch",    
+      "ValzifenzerBach-SchlappinerJoch-Gargellen",    
+      "Suggadinbach-Gargallen-Galgenul",    
+      "Gweilbach-Galgenul-Ill",    
+      "Ill-Galgenul-Bludenz",    
+      "Ill-Bludenz-Lutz"
   ]
 }

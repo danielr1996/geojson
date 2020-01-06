@@ -1,5 +1,8 @@
 {
-  "name": "ZillertalerAlpen",
+  "properties": {
+    "name": "ZillertalerAlpen",
+    "ave": "35"
+  },
   "lines": [
     "Ziller-Gerlosbach-Zemmbach",
     "Zemmbach-Ziller-Tuxerbach",

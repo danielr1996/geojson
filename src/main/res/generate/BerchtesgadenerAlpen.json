@@ -1,5 +1,8 @@
 {
-  "name": "Berchtesgadener Alpen",
+  "properties": {
+    "name": "Berchtesgadener Alpen",
+    "ave": "10"
+  },
   "lines": [
     "BerchtesgadenerAlpen-Nordgrenze",
     "Saalach-Staufensteg-A8",

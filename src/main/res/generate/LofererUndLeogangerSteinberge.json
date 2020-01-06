@@ -1,5 +1,8 @@
 {
-  "name": "Loferer und Leoganger Steinberge",
+  "properties": {
+    "name": "Loferer und Leoganger Steinberge",
+    "ave": "9"
+  },
   "lines": [
     "Großache-Fieberbrunnerache-Grießbach",
     "Grießbach-Großache-Waldbach",

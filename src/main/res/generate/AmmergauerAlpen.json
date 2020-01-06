@@ -1,22 +1,14 @@
 {
-  "name": "Ammgergauer Alpen",
-  "linesDeprecated": [
-    {
-      "name": "Zwischentoren-Reutte-Loisach"
-    },
-    {
-      "name": "Loisach-Zwischentoren-Partnach"
-    },{
-      "name": "Loisach-Partnach-Eschenlohe"
-    },
-    {
-      "name": "AmmergauerAlpen-Nordgrenze"
-    },
-    {
-      "name": "Lech-Vils-Füssen"
-    },
-    {
-      "name": "Lech-Reutte-Vils"
-    }
+  "properties": {
+    "name": "Ammergauer Alpen",
+    "ave": "7a"
+  },
+  "lines": [
+    "Zwischentoren-Reutte-Loisach",
+    "Loisach-Zwischentoren-Partnach",
+    "Loisach-Partnach-Eschenlohe",
+    "AmmergauerAlpen-Nordgrenze",
+    "Lech-Vils-Füssen",
+    "Lech-Reutte-Vils"
   ]
 }

@@ -1,5 +1,8 @@
 {
-  "name": "Hochschwabgruppe",
+  "properties": {
+    "name": "Hochschwabgruppe",
+    "ave": "18"
+  },
   "lines": [
     "Ybbstaleralpen-Suedgrenze",
     "Enns-Salza-Erzbach",

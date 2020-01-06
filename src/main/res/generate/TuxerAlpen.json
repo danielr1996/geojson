@@ -1,5 +1,8 @@
 {
-  "name": "TuxerAlpen",
+  "properties": {
+    "name": "TuxerAlpen",
+    "ave": "33"
+  },
   "lines": [
     "Ziller-Gerlosbach-Zemmbach",
     "Zemmbach-Ziller-Tuxerbach",

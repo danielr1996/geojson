@@ -1,5 +1,8 @@
 {
-  "name": "Kaisergebirge",
+  "properties": {
+    "name": "Kaisergebirge",
+    "ave": "8"
+  },
   "lines": [
     "Großache-Walchseebach-Grießbach",
     "Weißenbach-Walchseebach-Großache",

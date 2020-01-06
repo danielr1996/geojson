@@ -1,5 +1,8 @@
 {
-  "name": "Stubair Alpen",
+  "properties": {
+    "name": "Stubair Alpen",
+    "ave": "31"
+  },
   "lines": [
     "Sill-Valserbach-Inn",
     "Sill-Valserbach-Brennerpass",

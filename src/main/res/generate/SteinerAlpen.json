@@ -1,5 +1,8 @@
 {
-  "name": "Steiner Alpen",
+  "properties": {
+    "name": "Steiner Alpen",
+    "ave": "60"
+  },
   "lines": [
     "SteinerAlpen-Suedgrenze",
     "SteinerAlpen-Nordgrenze"

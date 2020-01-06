@@ -1,5 +1,8 @@
 {
-  "name": "Dachsteingebirge",
+  "properties": {
+    "name": "Dachsteingebirge",
+    "ave": "14"
+  },
   "lines": [
     "Dachsteingebirge-Nordgrenze-West",
     "Dachsteingebirge-Nordgrenze-Ost",

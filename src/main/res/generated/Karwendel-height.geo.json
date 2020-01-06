@@ -1,1 +1,1 @@
-{"type":"Feature","properties":{"stroke-opacity":"1.0","name":"Karwendel","stroke-width":"1.0","fill":"#40ff00","stroke":"#000000","fill-opacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}
+{"type":"Feature","properties":{"name":"Karwendel","ave":"5","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fill":"#40ff00","fillOpacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}
