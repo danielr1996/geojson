@@ -1,0 +1,17 @@
+properties:
+  name: Berninaalpen
+  ave: 66
+  lage: WESTLICHE_OSTALPEN
+lines:
+  - Maira-Liro-LagoDiComo
+  - Maira-Orlegna-Liro
+  - Orlegna-Majola-Maira
+  - Sela-StMoritzerSee-Maloja
+  - Inn-Samedan-StMoritzerSee
+  - Flaz-Samedan-Bernina
+  - Bernina-Flaz-Berninapass
+  - Berninapass
+  - Poschiavino-Berninapass-Adda
+  - Adda-Belviso-Poschiavino
+  - Adda-Belviso-LagoDiComo
+  - LagoDiComo-Adda-Maira

@@ -1,0 +1,13 @@
+properties:
+  name: Livigno Alpen,
+  ave: 67,
+  lage: WESTLICHE_OSTALPEN
+lines:
+  - Adda-Poschiavano-Frodolfo
+  - Spöl
+  - Spöl-Zernez-OvaSpin
+  - Inn-Zernez-Samedan
+  - Flaz-Samedan-Bernina
+  - Bernina-Flaz-Berninapass
+  - Berninapass
+  - Poschiavino-Berninapass-Adda

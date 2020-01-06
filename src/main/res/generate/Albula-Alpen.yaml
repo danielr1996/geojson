@@ -1,0 +1,18 @@
+properties:
+  name: Albulaalpen
+  ave: 65
+  lage: WESTLICHE_OSTALPEN
+lines:
+  - Julia-AuaDaSett-Marmorerasee
+  - AuaDaSett-Maira-Julia
+  - Maira-Orlegna-AuaDaSett
+  - Orlegna-Majola-Maira
+  - Sela-StMoritzerSee-Maloja
+  - Inn-Samedan-StMoritzerSee
+  - Inn-Zernez-Samedan
+  - Inn-Susch-Zernez
+  - Susaca-Susch-Flüelapass
+  - Flüela-Flüelaüpass-Davos
+  - Landwasser
+  - Albula-Landwasser-Julia
+  - Julia-Albula-Marmorerasee

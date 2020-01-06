@@ -1,0 +1,13 @@
+properties:
+  name: Sesvenna
+  ave: 29
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Inn-Susch-Zernez
+  - Spöl-Zernez-OvaSpin
+  - OvaDalFourm-OvaSpin-Ofenpass
+  - Rambach-Ofenpass-Etsch
+  - Etsch-Rambach-Reschensee
+  - Stillerbach-Reschensee-Inn
+  - Inn-Stillerbach-Ramosch
+  - Inn-Ramosch-Susch

@@ -101,7 +101,7 @@ public class Main {
                 "Silvretta.json", //26
                 "Samnaun.json", //27
                 "Verwall.json", //28
-                "Sesvenna.json", //29
+                "Sesvenna", //29
                 "OetztalerAlpen.json", //30
                 "Stubaieralpen.json", //31
 //                "SarntalerAlpen", //32
@@ -146,26 +146,18 @@ public class Main {
         );
 
         Stream<String> westlicheostalpen = Stream.of(
-                "Plessuralpen.json", //63
-                "Plattagruppe.json", //64
-                "Albulaalpen", //65
-                "Berninaalpen.json", //66
-//                "Livignoalpen", //67
-                "Bergamaskeralpen.json" //68
+                "Plessur-Alpen", //63
+                "Plattagruppe", //64
+                "Albula-Alpen", //65
+                "Bernina-Alpen", //66
+                "Livigno-Alpen", //67
+                "Bergamasker-Alpen" //68
         );
 
         Stream<String> doing = Stream.of(
-                "SalzburgerSchieferAlpen.json", //12
-                "Dachsteingebirge.json", //14
-                "TotesGebirge.json", //15
-                "Ennstaler-Alpen.json", //16
-                "Seckauer-Tauern.json",//45d
-                "KarawankenUndBacherGebirge.json",//59
-                "Rottenmanner-und-Woelzener-Tauern.json",//45c
-                "Gurktaler-Alpen",//46a
-                "GutensteinerAlpen.json",//46a
-                "Radstätter-Tauern.json",//45a
-                "Schladminger-Tauern.json"//45b
+                "Livigno-Alpen",
+//                "Bernina-Alpen"
+                "Sesvenna" //29
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(

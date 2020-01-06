@@ -1,0 +1,14 @@
+properties:
+  name: Plattagruppe
+  ave: 64
+  lage: WESTLICHE_OSTALPEN
+lines:
+  - Albula-Julia-Hinterrhein
+  - Julia-Albula-Marmorerasee
+  - Julia-AuaDaSett-Marmorerasee
+  - AuaDaSett-Maira-Julia
+  - Maira-Orlegna-AuaDaSett
+  - Maira-Orlegna-Liro
+  - Liro-Maira-Splügenpass
+  - Huescherenbach-Splügen-Hinterrhein
+  - Hinterrhein-Huescherenbach-Albula
