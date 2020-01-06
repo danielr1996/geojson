@@ -117,8 +117,8 @@ public class Main {
 //                "Goldberggruppe",//42
 //                "Kreuzeckgruppe",//43
 //                "Ankogelgruppe",//44
-//                "RadstaetterTauern",//45a
-//                "SchladmingerTauern",//45b
+                "Radstätter-Tauern",//45a
+                "Schladminger-Tauern",//45b
                 "Rottenmanner-und-Woelzener-Tauern",//45c
                 "Seckauer-Tauern",//45d
                 "Gurktaler-Alpen",//46a
@@ -155,14 +155,16 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
-//                "SalzburgerSchieferAlpen", //12
-                "Dachsteingebirge", //14
+                "SalzburgerSchieferAlpen", //12
+//                "Dachsteingebirge", //14
 //                "TotesGebirge", //15
 //                "Ennstaler-Alpen", //16
 //                "Seckauer-Tauern",//45d
 //                "KarawankenUndBacherGebirge",//59
-                "Rottenmanner-und-Woelzener-Tauern",//45c
-                "Gurktaler-Alpen"//46a
+//                "Rottenmanner-und-Woelzener-Tauern",//45c
+                "Gurktaler-Alpen",//46a
+                "Radstätter-Tauern",//45a
+                "Schladminger-Tauern"//45b
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(

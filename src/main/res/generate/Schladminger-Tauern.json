@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "name": "Schladminger Tauern",
+    "ave": "47",
+    "lage": "ZENTRALE_OSTALPEN"
+  },
+  "lines": [
+    "Taurach",
+    "Enns-Weißenbach-Taurach",
+    "Enns-Weißenbach-Sölkbach",
+    "Sölktal",
+    "Mur-Leißnitz-Katschbach"
+  ]
+}
