@@ -1,1 +1,1 @@
-{"type":"Feature","properties":{"name":"Albulaalpen","ave":"65","lage":"WESTLICHE_OSTALPEN","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fill":"red","fillOpacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}
+{"type":"Feature","properties":{"name":"Albulaalpen","ave":"65","lage":"WESTLICHE_OSTALPEN","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fillOpacity":"0.4","fill":"red"},"geometry":{"type":"MultiPoint","coordinates":[]}}

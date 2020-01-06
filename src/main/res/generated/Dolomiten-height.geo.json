@@ -1,1 +1,1 @@
-{"type":"Feature","properties":{"name":"Dolomiten","ave":"52","lage":"SUEDLICHE_OSTALPEN","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fill":"green","fillOpacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}
+{"type":"Feature","properties":{"name":"Dolomiten","ave":"52","lage":"SUEDLICHE_OSTALPEN","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fillOpacity":"0.4","fill":"green"},"geometry":{"type":"MultiPoint","coordinates":[]}}

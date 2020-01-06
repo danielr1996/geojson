@@ -67,47 +67,47 @@ public class Main {
     // https://de.wikipedia.org/wiki/Liste_der_Gebirgsgruppen_in_den_Ostalpen_(nach_AVE)
     public static Stream<Definition> readDefinitions() {
         Stream<String> noerdlicheostalpen = Stream.of(
-                "Bregenzerwaldgebirge", //1
-                "AllgäuerAlpen", //2
-                "Lechquellengebirge", //3a
-                "LechtalerAlpen", //3b
-                "Wettersteingebirge", //4
-                "MiemingerKette", //4
-                "Karwendel", //5
-                "BrandenbergerAlpen", //6
-                "AmmergauerAlpen", //7a
-                "BayrischeVoralpen", //7b
-                "Kaisergebirge", //8
-                "LofererUndLeogangerSteinberge", //9
-                "BerchtesgadenerAlpen", //10
-                "ChiemgauerAlpen", //11
-                "SalzburgerSchieferAlpen", //12
-                "Tennengebirge", //13
-                "Dachsteingebirge", //14
-                "TotesGebirge", //15
-                "Ennstaler-Alpen", //16
-                "Salzkammergutberge", //17a
-                "OberoesterreichischeVoralpen", //17b
-                "HochschwabGruppe", //18
-                "MürzstegerAlpen", //19
-                "RaxSchneeberggruppe", //20
-                "YbbstalerAlpen", //21
-                "TuernitzerAlpen", //22
-                "GutensteinerAlpen", //23
+                "Bregenzerwaldgebirge.json", //1
+                "AllgäuerAlpen.json", //2
+                "Lechquellengebirge.json", //3a
+                "LechtalerAlpen.json", //3b
+                "Wettersteingebirge.json", //4
+                "MiemingerKette.json", //4
+                "Karwendel.json", //5
+                "BrandenbergerAlpen.json", //6
+                "AmmergauerAlpen.json", //7a
+                "BayrischeVoralpen.json", //7b
+                "Kaisergebirge.json", //8
+                "LofererUndLeogangerSteinberge.json", //9
+                "BerchtesgadenerAlpen.json", //10
+                "ChiemgauerAlpen.json", //11
+                "SalzburgerSchieferAlpen.json", //12
+                "Tennengebirge.json", //13
+                "Dachsteingebirge.json", //14
+                "TotesGebirge.json", //15
+                "Ennstaler-Alpen.json", //16
+                "Salzkammergutberge.json", //17a
+                "OberoesterreichischeVoralpen.json", //17b
+                "HochschwabGruppe.json", //18
+                "MürzstegerAlpen.json", //19
+                "RaxSchneeberggruppe.json", //20
+                "YbbstalerAlpen.json", //21
+                "TuernitzerAlpen.json", //22
+                "GutensteinerAlpen.json", //23
                 "Wienerwald" //24
         );
         Stream<String> zentraleostalpen = Stream.of(
-                "Raetikon", //25
-                "Silvretta", //26
-                "Samnaun", //27
-                "Verwall", //28
-                "Sesvenna", //29
-                "OetztalerAlpen", //30
-                "Stubaieralpen", //31
+                "Raetikon.json", //25
+                "Silvretta.json", //26
+                "Samnaun.json", //27
+                "Verwall.json", //28
+                "Sesvenna.json", //29
+                "OetztalerAlpen.json", //30
+                "Stubaieralpen.json", //31
 //                "SarntalerAlpen", //32
                 "Tuxeralpen", //33
-                "KitzbühelerAlpen", //34
-                "ZillertalerAlpen", //35
+                "KitzbühelerAlpen.json", //34
+                "ZillertalerAlpen.json", //35
 //                "Venedigergruppe", //36
 //                "Rieserfernergruppe", //37
 //                "VillgratnerBerge",//38
@@ -117,13 +117,13 @@ public class Main {
 //                "Goldberggruppe",//42
 //                "Kreuzeckgruppe",//43
 //                "Ankogelgruppe",//44
-                "Radstätter-Tauern",//45a
-                "Schladminger-Tauern",//45b
-                "Rottenmanner-und-Woelzener-Tauern",//45c
-                "Seckauer-Tauern",//45d
+                "Radstätter-Tauern.json",//45a
+                "Schladminger-Tauern.json",//45b
+                "Rottenmanner-und-Woelzener-Tauern.json",//45c
+                "Seckauer-Tauern.json",//45d
                 "Gurktaler-Alpen",//46a
-                "LavanttalerAlpen",//46b
-                "RandgebirgeOestlichDerMur" //47
+                "LavanttalerAlpen.json",//46b
+                "RandgebirgeOestlichDerMur.json" //47
         );
 
         Stream<String> suedlicheostalpen = Stream.of(
@@ -131,40 +131,41 @@ public class Main {
 //                "Sobretta-Gravia-Gruppe",//48b
 //                "Nonsberggruppe",//48c
 //                "Adamello-Presanella-Alpen",//49
-                "GardaseeBerge", // 50
+                "GardaseeBerge.json", // 50
 //                "Brenta-Gruppe", // 51
-                "Dolomiten", // 52
+                "Dolomiten.json", // 52
 //                "Fleimstaler-Alpen", // 53
-                "VizentinerAlpen", // 54
+                "VizentinerAlpen.json", // 54
 //                "Gailtaler-Alpen", // 56
 //                "Karnischer-Hauptkamm", // 57
-                "SuedlicheKarnischeAlpen", //57b
-                "JulischeAlpen", //58
-                "KarawankenUndBacherGebirge", //59
-                "SteinerAlpen" // 60
+                "SuedlicheKarnischeAlpen.json", //57b
+                "JulischeAlpen.json", //58
+                "KarawankenUndBacherGebirge.json", //59
+                "SteinerAlpen.json" // 60
 
         );
 
         Stream<String> westlicheostalpen = Stream.of(
-                "Plessuralpen", //63
-                "Plattagruppe", //64
+                "Plessuralpen.json", //63
+                "Plattagruppe.json", //64
                 "Albulaalpen", //65
-                "Berninaalpen", //66
+                "Berninaalpen.json", //66
 //                "Livignoalpen", //67
-                "Bergamaskeralpen" //68
+                "Bergamaskeralpen.json" //68
         );
 
         Stream<String> doing = Stream.of(
-                "SalzburgerSchieferAlpen", //12
-//                "Dachsteingebirge", //14
-//                "TotesGebirge", //15
-//                "Ennstaler-Alpen", //16
-//                "Seckauer-Tauern",//45d
-//                "KarawankenUndBacherGebirge",//59
-//                "Rottenmanner-und-Woelzener-Tauern",//45c
+                "SalzburgerSchieferAlpen.json", //12
+                "Dachsteingebirge.json", //14
+                "TotesGebirge.json", //15
+                "Ennstaler-Alpen.json", //16
+                "Seckauer-Tauern.json",//45d
+                "KarawankenUndBacherGebirge.json",//59
+                "Rottenmanner-und-Woelzener-Tauern.json",//45c
                 "Gurktaler-Alpen",//46a
-                "Radstätter-Tauern",//45a
-                "Schladminger-Tauern"//45b
+                "GutensteinerAlpen.json",//46a
+                "Radstätter-Tauern.json",//45a
+                "Schladminger-Tauern.json"//45b
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
@@ -174,27 +175,30 @@ public class Main {
         ).reduce(Stream::concat).orElseGet(Stream::empty);
 
         Stream<Definition> definitions = alle
-                .map(name -> Definitions.read(Generator.class.getResourceAsStream(String.format("/generate/%s.json", name)), String.format("/generate/%s.json", name)));
+                .map(name -> Definitions.readDefinintionFromClassPath(String.format("/generate/%s", name.endsWith(".json") ? name : name + ".yaml")));
         return StreamUtils.zip(definitions, DistinctColors.distinctColors(), (Definition def, String color) -> {
             def.properties.put("stroke", "#000000");
             def.properties.put("strokeWidth", "1.0");
             def.properties.put("strokeOpacity", "1.0");
-            switch ((String) def.properties.get("lage")) {
-                case "NOERDLICHE_OSTALPEN":
-                    def.properties.put("fill", "blue");
-                    break;
-                case "SUEDLICHE_OSTALPEN":
-                    def.properties.put("fill", "green");
-                    break;
-                case "WESTLICHE_OSTALPEN":
-                    def.properties.put("fill", "red");
-                    break;
-                case "ZENTRALE_OSTALPEN":
-                    def.properties.put("fill", "orange");
-                    break;
-            }
             def.properties.put("fillOpacity", "0.4");
-
+            if (def.properties.get("lage") != null) {
+                switch ((String) def.properties.get("lage")) {
+                    case "NOERDLICHE_OSTALPEN":
+                        def.properties.put("fill", "blue");
+                        break;
+                    case "SUEDLICHE_OSTALPEN":
+                        def.properties.put("fill", "green");
+                        break;
+                    case "WESTLICHE_OSTALPEN":
+                        def.properties.put("fill", "red");
+                        break;
+                    case "ZENTRALE_OSTALPEN":
+                        def.properties.put("fill", "orange");
+                        break;
+                }
+            } else {
+                def.properties.put("fill", color);
+            }
             return def;
         });
     }
