@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "name": "Rottenmanner und Woelzener Tauern",
+    "ave": "47",
+    "lage": "ZENTRALE_OSTALPEN"
+  },
+  "lines": [
+    "Sölktal",
+    "Enns-Sölkbach-Grimming",
+    "Enns-Grimming-Phyrnbach",
+    "Palten-Enns-Triebenbach",
+    "Pöls-Triebenbach",
+    "Mur-Gurk-Pöls",
+    "Mur-Katschbach-Gurk"
+  ]
+}

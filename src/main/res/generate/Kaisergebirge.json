@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Kaisergebirge",
-    "ave": "8"
+    "ave": "8",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Großache-Walchseebach-Grießbach",

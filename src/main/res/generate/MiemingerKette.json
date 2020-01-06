@@ -1,7 +1,8 @@
 {
   "properties":{
     "name": "Mieminger Kette",
-    "ave": 4
+    "ave": "4",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Inn-OetztalerAche-Schlossbach",

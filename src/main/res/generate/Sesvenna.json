@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Sesvenna",
-    "ave": "29"
+    "ave": "29",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
       "Inn-Susch-Zernez",    

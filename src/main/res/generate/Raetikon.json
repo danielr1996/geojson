@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Rätikon",
-    "ave": "25"
+    "ave": "25",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
       "Ill-Lutz-Rhein",    

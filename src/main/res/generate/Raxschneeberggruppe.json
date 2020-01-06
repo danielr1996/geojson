@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Rax Schneeberg Gruppe",
-    "ave": "20"
+    "ave": "20",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Altenberg-Naßwald",

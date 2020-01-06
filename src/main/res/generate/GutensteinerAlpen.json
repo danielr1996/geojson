@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "GutensteinerAlpen",
-    "ave": "23"
+    "ave": "23",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Tuernitzeralpen-Mittelgrenze",

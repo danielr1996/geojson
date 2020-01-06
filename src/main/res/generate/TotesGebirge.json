@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Totes Gebirge",
-    "ave": "15"
+    "ave": "15",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Dachsteingebirge-Nordgrenze-Ost",

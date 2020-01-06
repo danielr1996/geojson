@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Samnaun",
-    "ave": "27"
+    "ave": "27",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
     "Sanna-Wiesberg-Landeck",

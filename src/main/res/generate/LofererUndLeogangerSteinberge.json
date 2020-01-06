@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Loferer und Leoganger Steinberge",
-    "ave": "9"
+    "ave": "9",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Großache-Fieberbrunnerache-Grießbach",

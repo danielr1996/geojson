@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Bregenzerwaldgebirge",
-    "ave": "1"
+    "ave": "1",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Bodensee-AlterRhein-BregenzerAche",

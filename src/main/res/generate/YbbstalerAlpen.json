@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Ybbstaler Alpen",
-    "ave": "21"
+    "ave": "21",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Ybbstaleralpen-Nordgrenze",

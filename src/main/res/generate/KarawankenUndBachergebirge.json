@@ -1,14 +1,16 @@
 {
   "properties": {
     "name": "Karawanken & Bachergebirge",
-    "ave": "59"
+    "ave": "59",
+    "lage": "SUEDLICHE_OSTALPEN"
   },
   "lines": [
     "SteinerAlpen-Nordgrenze",
     "Sava-Slizza",
     "Slizza-Gail",
     "Gail-Slizza-Drau",
-    "Drau-Gail-Maribor",
+    "Drau-Gail-Gurk",
+    "Drau-Gurk-Maribor",
     "Savinja",
     "KarawankenUndBachergebirge-Ostgrenze"
   ]

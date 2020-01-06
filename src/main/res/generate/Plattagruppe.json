@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Plattagruppe",
-    "ave": 64
+    "ave": "64",
+    "lage": "WESTLICHE_OSTALPEN"
   },
   "lines": [
       "Albula-Julia-Hinterrhein",    

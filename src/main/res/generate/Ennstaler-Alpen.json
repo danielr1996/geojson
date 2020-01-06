@@ -1,14 +1,19 @@
 {
   "properties": {
     "name": "Ennstaler Alpen",
-    "ave": "16"
+    "ave": "16",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "PhyrnbachTeichl-Enns-Dambach",
     "Oberoestereischevoralpen-Suedgrenze",
     "Enns-Lausabach-Salza",
     "Enns-Salza-Erzbach",
-    "EnnstalerAlpen-Südgrenze",
+    "Palten-Enns-Triebenbach",
+    "Palten-Triebenbach-Liesling",
+    "Liesling-Palten-Mur",
+    "Mur-Erzbach-Liesing",
     "Erzbach"
+
   ]
 }

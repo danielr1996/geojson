@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "ZillertalerAlpen",
-    "ave": "35"
+    "ave": "35",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
     "Ziller-Gerlosbach-Zemmbach",

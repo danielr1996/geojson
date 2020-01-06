@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Tennengebirge",
-    "ave": "13"
+    "ave": "13",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Lammer-Rußbach-Salzach",

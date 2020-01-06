@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Berninaalpen",
-    "ave": "66"
+    "ave": "66",
+    "lage": "WESTLICHE_OSTALPEN"
   },
   "lines": [
     "Maira-Liro-LagoDiComo",

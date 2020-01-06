@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "TuxerAlpen",
-    "ave": "33"
+    "ave": "33",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
     "Ziller-Gerlosbach-Zemmbach",

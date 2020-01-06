@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "name": "Gurktaler Alpen",
+    "ave": "47",
+    "lage": "ZENTRALE_OSTALPEN"
+  },
+  "lines": [
+    "Gurk-Mur-Drau",
+    "Drau-Gail-Gurk",
+    "Drau-Lieser-Gail",
+    "Lieser-Drau-Katschberg",
+    "Katschberg",
+    "Mur-Zedernhausbach-Leißnitz",
+    "Mur-Leißnitz-Katschbach",
+    "Mur-Katschbach-Gurk"
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Randgebirge östlich der Mur",
-    "ave": "47"
+    "ave": "47",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
     "Ternitz-Mürzzuschlag",

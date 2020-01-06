@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Bergamasker Alpen",
-    "ave": "68"
+    "ave": "68",
+    "lage": "WESTLICHE_OSTALPEN"
   },
   "lines": [
     "Adda-Belviso-LagoDiComo",

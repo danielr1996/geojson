@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Mürzsteger Alpen",
-    "ave": "19"
+    "ave": "19",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Altenberg-Naßwald",

@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Gardasee Berge",
-    "ave": "50"
+    "ave": "50",
+    "lage": "SUEDLICHE_OSTALPEN"
   },
   "lines": [
     "Etsch-Pergine",

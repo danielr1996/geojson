@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Steiner Alpen",
-    "ave": "60"
+    "ave": "60",
+    "lage": "SUEDLICHE_OSTALPEN"
   },
   "lines": [
     "SteinerAlpen-Suedgrenze",

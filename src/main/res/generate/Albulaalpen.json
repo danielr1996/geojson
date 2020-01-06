@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Albulaalpen",
-    "ave": "65"
+    "ave": "65",
+    "lage": "WESTLICHE_OSTALPEN"
   },
   "lines": [
     "Julia-AuaDaSett-Marmorerasee",

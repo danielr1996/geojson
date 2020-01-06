@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Brandenberger Alpen",
-    "ave": "6"
+    "ave": "6",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Inn-Jenbach-Ziller",

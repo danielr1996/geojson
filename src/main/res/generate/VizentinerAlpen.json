@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Vizentiner Alpen",
-    "ave": "54"
+    "ave": "54",
+    "lage": "SUEDLICHE_OSTALPEN"
   },
   "lines": [
     "Brenta-Cismon",

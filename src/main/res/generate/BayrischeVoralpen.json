@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Bayrische Voralpen",
-    "ave": "7b"
+    "ave": "7b",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Loisach-Partnach-Eschenlohe",

@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Salzkammergutberge",
-    "ave":"17a"
+    "ave":"17a",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Dachsteingebirge-Nordgrenze-West",

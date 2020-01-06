@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Wettersteingebirge",
-    "ave": "4"
+    "ave": "4",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Gaisbach-Verbindung-Loisach",

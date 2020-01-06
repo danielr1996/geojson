@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Verwall",
-    "ave": "28"
+    "ave": "28",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
       "Alfenz-Bludenz-Rauzbach",    

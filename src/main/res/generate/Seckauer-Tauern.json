@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "name": "Seckauer Tauern",
+    "ave": "16",
+    "lage": "ZENTRALE_OSTALPEN"
+  },
+  "lines": [
+    "Pöls-Triebenbach",
+    "Palten-Triebenbach-Liesling",
+    "Liesling-Palten-Mur",
+    "Mur-Liesling-Pöls"
+  ]
+}

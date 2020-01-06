@@ -1,13 +1,15 @@
 {
   "properties": {
     "name": "Dachsteingebirge",
-    "ave": "14"
+    "ave": "14",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Dachsteingebirge-Nordgrenze-West",
     "Dachsteingebirge-Nordgrenze-Ost",
     "Grimming-Enns-B145",
-    "Enns-Weißenbach-Grimming",
+    "Enns-Sölkbach-Grimming",
+    "Enns-Weißenbach-Sölkbach",
     "Weißenbach-Enns-Ramsaubach",
     "Ramsaubach-Weißenbach-L711",
     "L711-Ramsaubach-Schildlehenbach",

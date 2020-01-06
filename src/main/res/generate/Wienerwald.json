@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Wienerwald",
-    "ave": "24"
+    "ave": "24",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Traisen-Spratzern-Traisen",

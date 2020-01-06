@@ -1,1 +1,1 @@
-{"type":"Feature","properties":{"name":"Samnaun","ave":"27","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fill":"#ff7500","fillOpacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}
+{"type":"Feature","properties":{"name":"Samnaun","ave":"27","lage":"ZENTRALE_OSTALPEN","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fill":"orange","fillOpacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}

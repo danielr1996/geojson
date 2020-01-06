@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Silvretta",
-    "ave": "26"
+    "ave": "26",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
       "Inn-Ramosch-Susch",    

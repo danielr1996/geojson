@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "SalzburgerSchieferAlpen",
-    "ave": "12"
+    "ave": "12",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "UrslauAche-Saalach-Urslaubach",

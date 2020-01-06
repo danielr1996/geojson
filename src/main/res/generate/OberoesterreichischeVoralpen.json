@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Oberösterreichische Voralpen",
-    "ave": "17b"
+    "ave": "17b",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "Teichl-Dambach-Steyr",

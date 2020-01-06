@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Julische Alpen",
-    "ave": 58
+    "ave": 58,
+    "lage": "SUEDLICHE_OSTALPEN"
   },
   "lines": [
     "Tagliamento",

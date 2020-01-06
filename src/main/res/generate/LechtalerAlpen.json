@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Lechtaler Alpen",
-    "ave": "3b"
+    "ave": "3b",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
       "Lech-Krumbach-Reutte",    

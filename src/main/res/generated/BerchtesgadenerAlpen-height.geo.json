@@ -1,1 +1,1 @@
-{"type":"Feature","properties":{"name":"Berchtesgadener Alpen","ave":"10","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fill":"#0080ff","fillOpacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}
+{"type":"Feature","properties":{"name":"Berchtesgadener Alpen","ave":"10","lage":"NOERDLICHE_OSTALPEN","stroke":"#000000","strokeWidth":"1.0","strokeOpacity":"1.0","fill":"blue","fillOpacity":"0.4"},"geometry":{"type":"MultiPoint","coordinates":[]}}

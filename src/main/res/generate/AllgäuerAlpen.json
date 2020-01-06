@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Allgäueralpen",
-    "ave": "2"
+    "ave": "2",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
       "AllgäuerAlpen-Nordgrenze",

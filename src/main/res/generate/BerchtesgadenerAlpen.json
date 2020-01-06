@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Berchtesgadener Alpen",
-    "ave": "10"
+    "ave": "10",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
     "BerchtesgadenerAlpen-Nordgrenze",

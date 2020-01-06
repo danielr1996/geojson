@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "name": "Lavanttaler Alpen",
+    "ave": "47",
+    "lage": "ZENTRALE_OSTALPEN"
+  },
+  "lines": [
+    "Gurk-Mur-Drau",
+    "Mur-Gurk-Pöls",
+    "Mur-Liesling-Pöls",
+    "Mur-Erzbach-Liesing",
+    "Mur-Mürz-Erzbach",
+    "Mur-Mürz-Slowenien",
+    "Slowenien-Maribor",
+    "Drau-Gurk-Maribor"
+  ]
+}

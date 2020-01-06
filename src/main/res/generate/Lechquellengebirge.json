@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Lechquellengebirge",
-    "ave": "3a"
+    "ave": "3a",
+    "lage": "NOERDLICHE_OSTALPEN"
   },
   "lines": [
       "Lutz-Seebergbach-Ill",

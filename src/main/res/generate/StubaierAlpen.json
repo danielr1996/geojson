@@ -1,7 +1,8 @@
 {
   "properties": {
     "name": "Stubair Alpen",
-    "ave": "31"
+    "ave": "31",
+    "lage": "ZENTRALE_OSTALPEN"
   },
   "lines": [
     "Sill-Valserbach-Inn",
