@@ -112,24 +112,29 @@ public class Main {
                 "Stubaieralpen"
         );
         Stream<String> suedlicheostalpen = Stream.of(
-                "Bergamaskeralpen"
+                "Bergamaskeralpen",
+                "Dolomiten",
+                "VizentinerAlpen"
 
         );
 
         Stream<String> doing = Stream.of(
-                "MürzstegerAlpen",
-                "GutensteinerAlpen",
-                "RaxSchneeberggruppe",
-                "TuernitzerAlpen",
-                "HochschwabGruppe",
-                "EnnstalerAlpen",
-                "OberoesterreichischeVoralpen",
-                "Salzkammergutberge",
-                "Dachsteingebirge",
-                "YbbstalerAlpen",
-                "TotesGebirge",
-                "Wienerwald"
-
+//                "MürzstegerAlpen",
+//                "GutensteinerAlpen",
+//                "RaxSchneeberggruppe",
+//                "TuernitzerAlpen",
+//                "HochschwabGruppe",
+//                "EnnstalerAlpen",
+//                "OberoesterreichischeVoralpen",
+//                "Salzkammergutberge",
+//                "Dachsteingebirge",
+//                "YbbstalerAlpen",
+//                "TotesGebirge",
+//                "Wienerwald"
+//            "Dachsteingebirge",
+//                "Bergamaskeralpen",
+                "Dolomiten",
+                "VizentinerAlpen"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
@@ -138,9 +143,10 @@ public class Main {
                 Stream.<String>empty()
         ).reduce(Stream::concat).orElseGet(Stream::empty);
 
+//        System.out.println(alle.collect(Collectors.toList()).size());
         Stream<Definition> definitions = alle
-                .map(name -> Definitions.read(Generator.class.getResourceAsStream(String.format("/generate/%s.json", name))));
-
+                .map(name -> Definitions.read(Generator.class.getResourceAsStream(String.format("/generate/%s.json", name)),String.format("/generate/%s.json", name)));
+//        definitions.forEach(System.out::println);
         return StreamUtils.zip(definitions, DistinctColors.distinctColors(), (Definition def, String color) -> {
             if (def.properties == null) {
                 def.properties = new Properties();
