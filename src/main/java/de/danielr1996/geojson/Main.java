@@ -119,14 +119,19 @@ public class Main {
         Stream<String> suedlicheostalpen = Stream.of(
                 "Dolomiten",
                 "VizentinerAlpen",
-                "GardaseeBerge"
+                "GardaseeBerge",
+                "SuedlicheKarnischeAlpen",
+                "JulischeAlpen"
 
         );
 
         Stream<String> doing = Stream.of(
-                "Bergamaskeralpen",
-                "VizentinerAlpen",
-                "GardaseeBerge"
+//                "Bergamaskeralpen",
+//                "VizentinerAlpen",
+//                "GardaseeBerge",
+                "Dolomiten",
+                "SuedlicheKarnischeAlpen",
+                "JulischeAlpen"
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
