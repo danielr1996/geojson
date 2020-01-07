@@ -1,0 +1,9 @@
+properties:
+  name: Schobergruppe
+  ave: 41
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Salzach-GasteinerAche-RauriserAche
+  - GasteinerAche
+  - RauriserAche-Tauernbach
+  - Möll-Tauernbach-Mallnitzbach

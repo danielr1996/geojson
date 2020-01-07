@@ -1,0 +1,9 @@
+properties:
+  name: Goldberggruppe
+  ave: 42
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Salzach-GasteinerAche-RauriserAche
+  - GasteinerAche
+  - RauriserAche-Tauernbach
+  - Möll-Tauernbach-Mallnitzbach
