@@ -127,10 +127,10 @@ public class Main {
         );
 
         Stream<String> suedlicheostalpen = Stream.of(
-//                "OrtlerAlpen",//48a
+                "Ortler-Alpen",//48a
                 "Sobretta-Gavia-Gruppe",//48b
                 "Nonsberggruppe",//48c
-//                "Adamello-Presanella-Alpen",//49
+                "Adamello-Presanella-Alpen",//49
                 "Gardasee-Berge", // 50
                 "Brenta-Gruppe", // 51
                 "Dolomiten", // 52

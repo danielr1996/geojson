@@ -1,6 +1,6 @@
 properties:
-  name: Livigno Alpen,
-  ave: 67,
+  name: Livigno Alpen
+  ave: 67
   lage: WESTLICHE_OSTALPEN
 lines:
   - Adda-Poschiavano-Frodolfo

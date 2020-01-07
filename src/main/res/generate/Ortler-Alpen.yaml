@@ -1,0 +1,14 @@
+properties:
+  name: Ortler Alpen
+  ave: 48a
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Frodolfo-Frigidolfo
+  - Noce-Oglio
+  - Noce-Meledrio-Pescara
+  - Pescara-Valsura
+  - Etsch-Meran-Valsura
+  - Etsch-Meran-Rambach
+  - Rambach-Ofenpass-Etsch
+  - OvaDalFourm-OvaSpin-Ofenpass
+  - Spöl
