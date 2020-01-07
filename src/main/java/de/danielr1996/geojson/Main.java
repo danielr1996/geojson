@@ -81,7 +81,7 @@ public class Main {
                 "LofererUndLeogangerSteinberge.json", //9
                 "BerchtesgadenerAlpen.json", //10
                 "ChiemgauerAlpen.json", //11
-                "SalzburgerSchieferAlpen.json", //12
+                "Salzburger-Schiefer-Alpen", //12
                 "Tennengebirge.json", //13
                 "Dachsteingebirge.json", //14
                 "TotesGebirge.json", //15
@@ -116,8 +116,8 @@ public class Main {
 //                "Schobergruppe",//41
 //                "Goldberggruppe",//42
 //                "Kreuzeckgruppe",//43
-//                "Ankogelgruppe",//44
-                "Radstätter-Tauern.json",//45a
+                "Ankogelgruppe",//44
+                "Radstätter-Tauern",//45a
                 "Schladminger-Tauern.json",//45b
                 "Rottenmanner-und-Woelzener-Tauern.json",//45c
                 "Seckauer-Tauern.json",//45d

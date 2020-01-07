@@ -1,0 +1,12 @@
+properties:
+  name: Radstätter Tauern
+  ave: 45a
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Großarlbach-Muhr
+  - Salzach-WagrainerAche-Großarlbach
+  - WagrainerAche-WagrainerHöhe-Salzach
+  - WagrainerHöhe-Enns-WagrainerAche
+  - Enns-Taurach-Litzling
+  - Taurach
+  - Mur-Zedernhausbach-Leißnitz

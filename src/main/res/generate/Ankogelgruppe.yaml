@@ -1,0 +1,12 @@
+properties:
+  name: Ankogelgruppe
+  ave: 44
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Möll-Mallnitzbach
+  - GasteinerAche
+  - Salzach-Großarlbach-GasteinerAche
+  - Großarlbach-Muhr
+  - Katschberg
+  - Lieser-Drau-Katschberg
+  - Drau-Lieser-Möll
