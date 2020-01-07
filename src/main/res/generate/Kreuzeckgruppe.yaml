@@ -1,0 +1,9 @@
+properties:
+  name: Kreuzeckgruppe
+  ave: 43
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Dölsacherbach
+  - Drau-Möll-Debantbach
+  - Möll-Drau-Mallnitzbach
+  - Möll-Winklern-Mallnitzbach
