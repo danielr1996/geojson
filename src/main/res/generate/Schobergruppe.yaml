@@ -3,7 +3,13 @@ properties:
   ave: 41
   lage: ZENTRALE_OSTALPEN
 lines:
-  - Salzach-GasteinerAche-RauriserAche
-  - GasteinerAche
-  - RauriserAche-Tauernbach
-  - Möll-Tauernbach-Mallnitzbach
+  - Möll-Tauernbach-Winklern
+  - Dölsacherbach
+  - Drau-Debantbach-Isel
+  - Isel-Drau-Kalserbach
+  - Kalserbach-Ködnitzbach-Isel
+  - Ködnitzbach-Peischlachbach-Kalserbach
+  - Peischlachbach
+  - Moosbach-Peischlachtörl-Leiterbach
+  - Leiterbach-Peischlachbach-Möll
+  - Möll-Leiterbach-Tauernbach
