@@ -1,0 +1,11 @@
+properties:
+  name: Karnischer Hauptkamm
+  ave: 57
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Fella-Slizza
+  - Piave-Fella
+  - Kreuzbergpass-Drau-Piave
+  - Slizza-Gail
+  - Gailbach-Gail-Drau-Slizza
+  - Drau-Sextnerbach-Gailbach

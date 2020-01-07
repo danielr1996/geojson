@@ -136,11 +136,11 @@ public class Main {
                 "Dolomiten", // 52
                 "Fleimstaler-Alpen", // 53
                 "Vizentiner-Alpen", // 54
-//                "Gailtaler-Alpen", // 56
-//                "Karnischer-Hauptkamm", // 57
-                "SuedlicheKarnischeAlpen.json", //57b
-                "JulischeAlpen.json", //58
-                "KarawankenUndBacherGebirge.json", //59
+                "Gailtaler-Alpen", // 56
+                "Karnischer-Hauptkamm", // 57
+                "Suedliche-Karnische-Alpen", //57b
+                "Julische-Alpen", //58
+                "Karawanken-und-BacherGebirge", //59
                 "SteinerAlpen.json" // 60
 
         );
@@ -156,6 +156,12 @@ public class Main {
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
                 ostalpen,
+//                Stream.of("Julische-Alpen", //58
+//                        "Suedliche-Karnische-Alpen", //57b
+//                        "Dolomiten", // 52
+//                        "Gurktaler-Alpen",//46a
+//                        "Karawanken-und-BacherGebirge" //59
+//                ),
                 Stream.<String>empty()
         ).reduce(Stream::concat).orElseGet(Stream::empty);
 
@@ -163,9 +169,9 @@ public class Main {
                 .map(name -> Definitions.readDefinintionFromClassPath(String.format("/generate/%s", name.endsWith(".json") ? name : name + ".yaml")));
         return StreamUtils.zip(definitions, DistinctColors.distinctColors(), (Definition def, String color) -> {
             def.properties.put("stroke", "#000000");
-            def.properties.put("strokeWidth", "1.0");
-            def.properties.put("strokeOpacity", "1.0");
-            def.properties.put("fillOpacity", "0.4");
+            def.properties.put("stroke-width", "1.0");
+            def.properties.put("stroke-opacity", "1.0");
+            def.properties.put("fill-opacity", "0.4");
             if (def.properties.get("lage") != null) {
                 switch ((String) def.properties.get("lage")) {
                     case "NOERDLICHE_OSTALPEN":

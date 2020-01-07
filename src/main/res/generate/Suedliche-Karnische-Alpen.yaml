@@ -1,0 +1,9 @@
+properties:
+  name: Südliche Karnische Alpen
+  ave: 57b
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Piave-Kreuzbergpass-Pederobba
+  - Piave-Fella
+  - Tagliamento
+  - SuedlicheKarnischeAlpenSuedgrenze

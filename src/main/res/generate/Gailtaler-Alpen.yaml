@@ -1,0 +1,12 @@
+properties:
+  name: Gailtaler Alpen
+  ave: 56
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Gailbach-Gail-Drau-Slizza
+  - Gail-Slizza-Drau
+  - Drau-Lieser-Gail
+  - Drau-Lieser-Möll
+  - Drau-Möll-Debantbach
+  - Drau-Debantbach-Isel
+  - Drau-Gailbach-Isel

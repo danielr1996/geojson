@@ -1,0 +1,9 @@
+properties:
+  name: Julische Alpen
+  ave: 58
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Tagliamento
+  - JulischeAlpen-Suedgrenze
+  - Sava-Slizza
+  - Fella-Slizza
