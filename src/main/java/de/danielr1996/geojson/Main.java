@@ -132,7 +132,7 @@ public class Main {
                 "Nonsberggruppe",//48c
 //                "Adamello-Presanella-Alpen",//49
                 "Gardasee-Berge", // 50
-//                "Brenta-Gruppe", // 51
+                "Brenta-Gruppe", // 51
                 "Dolomiten", // 52
                 "Fleimstaler-Alpen", // 53
                 "Vizentiner-Alpen", // 54
@@ -155,6 +155,8 @@ public class Main {
         );
 
         Stream<String> doing = Stream.of(
+                "Gardasee-Berge", // 50
+                "Brenta-Gruppe", // 51
                 "Fleimstaler-Alpen", // 53
                 "Dolomiten", // 53
 //                "Gardasee-Berge", // 50
@@ -166,8 +168,8 @@ public class Main {
         );
         Stream<String> ostalpen = Stream.of(noerdlicheostalpen, zentraleostalpen, suedlicheostalpen, westlicheostalpen).reduce(Stream::concat).orElseGet(Stream::empty);
         Stream<String> alle = Stream.of(
-//                ostalpen,
-                doing,
+                ostalpen,
+//                doing,
                 Stream.<String>empty()
         ).reduce(Stream::concat).orElseGet(Stream::empty);
 
