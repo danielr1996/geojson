@@ -1,0 +1,10 @@
+properties:
+  name: Nonsberggruppe
+  ave: 48c
+  lage: SUEDLICHE_OSTALPEN
+
+lines:
+  - Etsch-Valsura-Eisack
+  - Etsch-Gardasee-Eisack
+  - Pescara-Valsura
+  - Noce-Pescara-Etsch

@@ -1,0 +1,17 @@
+properties:
+  name: Sarntaler Alpen
+  ave: 32
+  lage: ZENTRALE_OSTALPEN
+
+lines:
+  - Passer-StLeonhard-Meran
+  - Etsch-Meran-Valsura
+  - Etsch-Valsura-Eisack
+  - Eisack-Etsch-Eggentalerbach
+  - Eisack-Rienza-Eggentalerbach
+  - Eisack-Ridnaunbach-Rienza
+  - Ridnaunbach-Eisack-Jaufentalbach
+  - Jaufentalbach-Ridnaunbach-Schluppesbach
+  - Schluppesbach-Jaufenpass-Jaufentalbach
+  - Jaufenpass
+  - Waltenbach
