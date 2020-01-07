@@ -1,0 +1,13 @@
+properties:
+  name: Sobretta Gavia Gruppe
+  ave: 48b
+  lage: SUEDLICHE_OSTALPEN
+lines:
+  - Adda-Poschiavano-Frodolfo
+  - Adda-Belviso-Poschiavino
+  - Belviso-Adda-Aprica
+  - Aprica-Belviso-PassoAprica
+  - PassoAprica
+  - Edolo-PassoAprica-Oglio
+  - Oglio-Edolo-Frigidolfo
+  - Frodolfo-Frigidolfo
