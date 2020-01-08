@@ -1,6 +1,6 @@
 properties:
-  name: Wienerwald,
-  ave: 24,
+  name: Wienerwald
+  ave: 24
   lage: NOERDLICHE_OSTALPEN
 lines:
   - Traisen-Spratzern-Traisen

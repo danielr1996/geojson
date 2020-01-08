@@ -1,0 +1,12 @@
+properties:
+  name: Granatspitzgruppe
+  ave: 39
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Granatspitzgruppe-Westgrenze
+  - Isel-Kalserbach-Schwarzach
+  - Kalserbach-Ködnitzbach-Isel
+  - Kalserbach
+  - Stubach-Kalserbach
+  - Stubach
+  - Salzach-Felberbach-Stubach
