@@ -3,7 +3,8 @@ properties:
   ave: 40
   lage: ZENTRALE_OSTALPEN
 lines:
-  - Salzach-Stubach-RauriserAche
+  - Salzach-Stubach-Seekanal
+  - Salzach-Seekanal-RauriserAche
   - RauriserAche-Tauernbach
   - Möll-Leiterbach-Tauernbach
   - Leiterbach-Peischlachbach-Möll
