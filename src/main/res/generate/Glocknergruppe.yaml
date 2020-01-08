@@ -1,0 +1,15 @@
+properties:
+  name: Glocknergruppe
+  ave: 40
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Salzach-Stubach-RauriserAche
+  - RauriserAche-Tauernbach
+  - Möll-Leiterbach-Tauernbach
+  - Leiterbach-Peischlachbach-Möll
+  - Moosbach-Peischlachtörl-Leiterbach
+  - Peischlachbach
+  - Ködnitzbach-Peischlachbach-Kalserbach
+  - Kalserbach
+  - Stubach-Kalserbach
+  - Stubach

@@ -112,7 +112,7 @@ public class Main {
 //                "Rieserfernergruppe", //37
 //                "VillgratnerBerge",//38
 //                "Granatspitzgruppe",//39
-//                "Glocknergruppe",//40
+                "Glocknergruppe",//40
                 "Schobergruppe",//41
                 "Goldberggruppe",//42
                 "Kreuzeckgruppe",//43
