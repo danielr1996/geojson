@@ -1,0 +1,9 @@
+properties:
+  name: Rieserfernergruppe
+  ave: 37
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Riva-Schwarzach
+  - Ahr-Rienza-Riva
+  - Rienza-Ahr-AntholzerBach
+  - Rieserfernergruppe

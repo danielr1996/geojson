@@ -1,0 +1,11 @@
+properties:
+  name: Villgratner Berge
+  ave: 37
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Rieserfernergruppe
+  - Schwarzach-StallerAlmbach-Isel
+  - Isel-Kalserbach-Schwarzach
+  - Isel-Drau-Kalserbach
+  - Rienza-Antholzerbach-Drau
+  - Drau-Sextnerbach-Gailbach

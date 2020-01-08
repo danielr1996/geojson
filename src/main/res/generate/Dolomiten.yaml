@@ -4,7 +4,8 @@ properties:
   lage: SUEDLICHE_OSTALPEN
 lines:
   - Rienza-Eisack-Ahr
-  - Rienza-Ahr-Drau
+  - Rienza-Ahr-AntholzerBach
+  - Rienza-AntholzerBach-Drau
   - Kreuzbergpass-Drau-Piave
   - Piave-Kreuzbergpass-Pederobba
   - Dolomiten-Suedgrenze

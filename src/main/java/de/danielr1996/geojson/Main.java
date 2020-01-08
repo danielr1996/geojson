@@ -108,9 +108,9 @@ public class Main {
                 "Tuxeralpen", //33
                 "KitzbühelerAlpen.json", //34
                 "Zillertaler-Alpen", //35
-//                "Venedigergruppe", //36
-//                "Rieserfernergruppe", //37
-//                "VillgratnerBerge",//38
+                "Venedigergruppe", //36
+                "Rieserfernergruppe", //37
+                "Villgratner-Berge",//38
                 "Granatspitzgruppe",//39
                 "Glocknergruppe",//40
                 "Schobergruppe",//41

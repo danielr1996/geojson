@@ -1,0 +1,12 @@
+properties:
+  name: Venedigergruppe
+  ave: 36
+  lage: ZENTRALE_OSTALPEN
+lines:
+  - Granatspitzgruppe-Westgrenze
+  - Salzach-KrimmlerAche-FelberBach
+  - KrimmlerAche-Birnlücke-Salzach
+  - Birnlücke-Ahr-KrimmlerAche
+  - Ahr-Riva-Birnlücke
+  - Riva-Schwarzach
+  - Schwarzach-StallerAlmbach-Isel
